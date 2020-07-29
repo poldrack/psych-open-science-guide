@@ -2,6 +2,8 @@
 
 This guide was prepared by researchers in the Stanford Department of Psychology, under the guidance of the department's Open Science Committee.
 
+*THIS IS CURRENTLY A WORK IN PROGRESS*
+
 ## What is "open science"?
 
 At its core, the term “open science” embodies a fundamental set of values regarding how scientific research should be pursued:
