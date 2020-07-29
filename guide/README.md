@@ -36,3 +36,10 @@ We also include some more general suggestions:
 - Joining the culture of open science
 - Basic computing skills for open science
 
+## Contributors
+
+Contributors to this guide include:
+
+- Russell Poldrack
+- Erik Santoro
+- Catherine Thomas
