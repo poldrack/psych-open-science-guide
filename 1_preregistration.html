@@ -159,7 +159,6 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="pre-registration">Pre-registration</h1>
-<h2 id="getting-started">Getting Started</h2>
 <h3 id="what-is-pre-registration">What is pre-registration?</h3>
 <p>Pre-registration is the process of documenting one&apos;s plans for a study and depositing those plans in a place where they are time-stamped and immutable (i.e. cannot be changed).  There are <a href="https://www.psychologicalscience.org/observer/research-preregistration-101#types" target="_blank">various types of pre-registration</a>:</p>
 <ul>
@@ -182,24 +181,39 @@
 <li>After a reviewer has requested additional data collection or analyses on a manuscript</li>
 <li>Prior to analysis of an existing or openly available dataset</li>
 </ul>
-<h3 id="how-can-one-pre-register-a-study">How can one pre-register a study?</h3>
+<h2 id="getting-started">Getting Started</h2>
 <p>The paper <a href="https://www.collabra.org/articles/10.1525/collabra.158/" target="_blank">A Practical Guide for Transparency in Psychological Science</a> by Klein and colleagues provides a good overview for the process of how to go about pre-registering a study:</p>
 <p><img src="https://www.collabra.org/articles/10.1525/collabra.158/collabra-4-158-g1.png"></p>
-<h3 id="where-should-one-pre-register-a-study">Where should one pre-register a study?</h3>
+<h3 id="determine-which-repository-to-use">Determine which repository to use</h3>
 <p>It&apos;s best to use the repository that is most common in one&apos;s particular field of study.  Some options include:</p>
 <ul>
 <li><a href="https://osf.io/" target="_blank">Open Science Framework</a> - the most broadly applicable across social sciences</li>
 <li><a href="https://aspredicted.org/" target="_blank">AsPredicted.org</a> - Primarily used within psychology, provides a simple form to ease registration</li>
 <li><a href="http://www.socialscienceregistry.org" target="_blank">AEA Registry</a> - Primarily used within economics</li>
 <li>EGAP (Political Science mainly) </li>
-<li>Clinicaltrials.gov (Medicine / Public Health mainly)  </li>
+<li><a href="https://clinicaltrials.gov/ct2/home" target="_blank">ClinicalTrials.gov</a> (Medicine / Public Health mainly)  </li>
+</ul>
+<h3 id="create-your-pre-registration-document">Create your pre-registration document</h3>
+<p>In general, the more detailed the preregistration the better, but don&apos;t let the perfect be the enemy of the good: Registering something is better than not registering anything.</p>
+<p>For a psychological study, the Gold Standard would be to register:</p>
+<ul>
+<li>sample size and inclusion/exclusion criteria</li>
+<li>measures or stimuli to be used and their construction</li>
+<li>specific predictions / hypotheses to be tested</li>
+<li>description of preprocessing to be applied to the data</li>
+<li>analyses to be performed, including description of statistical models and variables that will be included and the criteria for statistical decisions</li>
+</ul>
+<p>In addition, one might rpre-egister all of the acquisition and analysis code to be used, and validate the analysis code on simulated data.  This might be considered the &quot;Platinum Standard&quot;.</p>
+<h3 id="submit-the-pre-registration">Submit the pre-registration</h3>
+<p>Submission often requires specifying an embargo period, during which time the pre-registration is private until the set expiration date.
+Reasons to embargo include:</p>
+<ul>
+<li>Prevent others from copying your idea (if your study will take some time to carry out)</li>
+<li><p>Prevent participants from seeing the purpose of the study (particularly relevant in field studies).</p>
+<p>The maximum embargo period is generally at most 3 years after initial submission.</p>
+</li>
 </ul>
 <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
-<h3 id="what-do-i-pre-register">What do I pre-register?</h3>
-<p>In general, the more the better, but don&apos;t let the perfect be the enemy of the good: Registering something is better than not registering anything.</p>
-<p>The Gold Standard is to register your predictions / hypotheses,
-analyses, measures and their construction, stimuli / IV, sample and exclusion criteria, methods.</p>
-<p>The Platinum Standard: Gold standard + Register all of the acquisition and analysis code and validate the analysis code on simulated data</p>
 <h3 id="whats-the-difference-between-a-study-registry-and-a-pre-registration">What&#x2019;s the difference between a study registry and a pre-registration?</h3>
 <p>A study registry is similar to a pre-registration registry, but with a slightly different goal.
 The goal of a study registry is to keep a record of all studies that are run, in order to address the <em>file drawer problem</em>, in which studies with null results (or results that contradict the researcher&apos;s predictions) may go unreported.
@@ -226,16 +240,6 @@ templates (example
 As you get more comfortable, you can move towards templates that may
 require more detail (see many different template examples
 <a href="https://www.google.com/url?q=https://osf.io/zab38/wiki/home/&amp;sa=D&amp;ust=1596058130933000&amp;usg=AOvVaw0thbPpsDzbo8W0ZqCxW0yI" target="_blank">here</a>).</p>
-<h3 id="why-embargo--how-long-do-i-embargo-for">Why embargo / How long do I embargo for?</h3>
-<p>Embargo: Your pre-registration is private until your set expiration, at
-most 3 years.</p>
-<p>Reasons to embargo include:</p>
-<ul>
-<li>Prevent others from copying your idea (if your study will take some
-time to carry out)</li>
-<li>Prevent participants from seeing the purpose of the study
-(particularly relevant in field studies)</li>
-</ul>
 <h3 id="what-kind-of-studies-can-i-pre-register">What kind of studies can I pre-register?</h3>
 <p>Every study can (and should) be pre-registered! This includes
 observational studies, meta-analyses, and secondary data analyses!</p>
@@ -415,7 +419,7 @@ science</a></li>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Pre-registration","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"1_preregistration.md","mtime":"2020-07-29T21:46:48.958Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-29T21:47:16.702Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Pre-registration","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"1_preregistration.md","mtime":"2020-07-30T19:34:25.781Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-30T19:34:55.645Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
