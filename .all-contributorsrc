@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "poldrack",
+      "name": "Russ Poldrack",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/871056?v=4",
+      "profile": "http://www.poldracklab.org",
+      "contributions": [
+        "design",
+        "content",
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "psych-open-science-guide",
+  "projectOwner": "poldrack",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
