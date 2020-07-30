@@ -1,6 +1,5 @@
 # Pre-registration
 
-## Getting Started
 
 ### What is pre-registration?
 
@@ -26,14 +25,14 @@ A planned research activity can be pre-registered at any point, as long as the p
 - After a reviewer has requested additional data collection or analyses on a manuscript
 - Prior to analysis of an existing or openly available dataset
 
-### How can one pre-register a study?
+## Getting Started
 
 The paper [A Practical Guide for Transparency in Psychological Science](https://www.collabra.org/articles/10.1525/collabra.158/) by Klein and colleagues provides a good overview for the process of how to go about pre-registering a study:
 
 <img src="https://www.collabra.org/articles/10.1525/collabra.158/collabra-4-158-g1.png">
 
 
-### Where should one pre-register a study?
+### Determine which repository to use
 
 It's best to use the repository that is most common in one's particular field of study.  Some options include:
 
@@ -41,19 +40,34 @@ It's best to use the repository that is most common in one's particular field of
 - [AsPredicted.org](https://aspredicted.org/) - Primarily used within psychology, provides a simple form to ease registration
 - [AEA Registry](http://www.socialscienceregistry.org) - Primarily used within economics
 - EGAP (Political Science mainly) 
-- Clinicaltrials.gov (Medicine / Public Health mainly)  
+- [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/home) (Medicine / Public Health mainly)  
+
+### Create your pre-registration document
+
+In general, the more detailed the preregistration the better, but don't let the perfect be the enemy of the good: Registering something is better than not registering anything.
+
+For a psychological study, the Gold Standard would be to register:
+
+- sample size and inclusion/exclusion criteria
+- measures or stimuli to be used and their construction
+- specific predictions / hypotheses to be tested
+- description of preprocessing to be applied to the data
+- analyses to be performed, including description of statistical models and variables that will be included and the criteria for statistical decisions
+
+In addition, one might rpre-egister all of the acquisition and analysis code to be used, and validate the analysis code on simulated data.  This might be considered the "Platinum Standard".
+
+### Submit the pre-registration
+
+Submission often requires specifying an embargo period, during which time the pre-registration is private until the set expiration date.
+Reasons to embargo include:
+
+-   Prevent others from copying your idea (if your study will take some time to carry out)
+-   Prevent participants from seeing the purpose of the study (particularly relevant in field studies).
+
+ The maximum embargo period is generally at most 3 years after initial submission.
 
 
 ## Frequently Asked Questions
-
-### What do I pre-register?
-
-In general, the more the better, but don't let the perfect be the enemy of the good: Registering something is better than not registering anything.
-
-The Gold Standard is to register your predictions / hypotheses,
-analyses, measures and their construction, stimuli / IV, sample and exclusion criteria, methods.
-
-The Platinum Standard: Gold standard + Register all of the acquisition and analysis code and validate the analysis code on simulated data
 
 ### What’s the difference between a study registry and a pre-registration?
 
@@ -88,17 +102,6 @@ As you get more comfortable, you can move towards templates that may
 require more detail (see many different template examples
 [here](https://www.google.com/url?q=https://osf.io/zab38/wiki/home/&sa=D&ust=1596058130933000&usg=AOvVaw0thbPpsDzbo8W0ZqCxW0yI)).
 
-### Why embargo / How long do I embargo for?
-
-Embargo: Your pre-registration is private until your set expiration, at
-most 3 years.
-
-Reasons to embargo include:
-
--   Prevent others from copying your idea (if your study will take some
-    time to carry out)
--   Prevent participants from seeing the purpose of the study
-    (particularly relevant in field studies)
 
 ### What kind of studies can I pre-register?
 
