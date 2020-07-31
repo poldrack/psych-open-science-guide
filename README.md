@@ -1,6 +1,6 @@
 # psych-open-science-guide
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This is a work in progress!
@@ -19,6 +19,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/eriksantoro"><img src="https://avatars0.githubusercontent.com/u/5883689?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Erik Santoro</b></sub></a><br /><a href="#content-eriksantoro" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/henrymj"><img src="https://avatars3.githubusercontent.com/u/55153240?v=4?s=100" width="100px;" alt=""/><br /><sub><b>henrymj</b></sub></a><br /><a href="#content-henrymj" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/oesteban"><img src="https://avatars2.githubusercontent.com/u/598470?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oscar Esteban</b></sub></a><br /><a href="#content-oesteban" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/bissettp"><img src="https://avatars0.githubusercontent.com/u/9681335?v=4?s=100" width="100px;" alt=""/><br /><sub><b>bissettp</b></sub></a><br /><a href="#content-bissettp" title="Content">🖋</a></td>
   </tr>
 </table>
 
