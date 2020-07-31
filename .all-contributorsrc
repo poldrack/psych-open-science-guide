@@ -46,8 +46,8 @@
   ],
   "contributorsPerLine": 7,
   "files": [
-    'README.md',
-    'guide/README.md'
+    "README.md",
+    "guide/README.md"
     ],
   "projectName": "psych-open-science-guide",
   "projectOwner": "poldrack",
