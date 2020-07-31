@@ -1,2 +1,2 @@
 convert:
-	pandoc -f html -t markdown_github-raw_html -o gdoc.md 	
+	pandoc --wrap preserve -f html -t markdown_github-raw_html -o gdoc.md 	
