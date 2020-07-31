@@ -1,4 +1,4 @@
-# Code Sharing - Beginner’s Guide
+# Code Sharing
 
 ## Why share code?
 
@@ -178,13 +178,13 @@ When developing, it is frequently useful to make commits before they are ready t
     - ``git switch -C fix-bugXYZ origin/master``
 1.  Create a new test, and verify that the tests fail. This is a bit more free-form.
 2.  Commit the changes and push to the server. This announces to collaborators what you’re working on. If your server has continuous integration tests, it will simplify evaluation. This is also when to open a pull request (see next section). The -u flag ensures that future calls to git push/git pull will associate the local fix-bugXYZ branch and the remote origin/fix-bugXYZ:
-- ``git add path/to/test``
-- ``git commit -m “TEST: Reproduce bug XYZ; tests fail”``
-- ``git push -u origin fix-bugXYZ``
+    - ``git add path/to/test``
+    - ``git commit -m “TEST: Reproduce bug XYZ; tests fail”``
+    - ``git push -u origin fix-bugXYZ``
 1.  Resolve the bug, and verify that the tests pass.
 2.  Commit and push the changes. Since we used the -u flag above, we can simply use git push here:
-- ``git commit -m “FIX: Make ABC change to fix bug XYZ; tests pass”``
-- ``git push``
+    - ``git commit -m “FIX: Make ABC change to fix bug XYZ; tests pass”``
+    - ``git push``
 
 Pushing to a remote branch allows collaborators to inspect the changes. If you’re using automatic testing on the remote, the test failure and resolution become easily verifiable prior to inclusion in the master branch.
 
@@ -197,14 +197,14 @@ A pull request is a way to request that code from a particular branch or fork b
 
 1.  Researcher B would create a fork of this project, which is basically a copy of the project that lives separately in Researcher B’s github account, and clone this fork onto their local computer.
 2.  In order to be able to keep the fork up to date with the original repository, Researcher B would create a new remote in their local version of the fork, usually called “upstream”:
-- ``git remote add upstream \<link to original repo\>``
+    - ``git remote add upstream \<link to original repo\>``
 1.  Researcher B would modify the code in their fork to add the new feature, commit the changes.
 2.  Prior to making any changes, the upstream remote should be fetched to ensure that changes are made to the latest state, reducing the chance for conflict:
-- ``git fetch upstream``
+    - ``git fetch upstream``
 1.  Changes should almost always be made on a new branch, diverging from the master branch on the upstream remote. Working on the master branch is strongly discouraged. It is good practice to use a short but descriptive branch names, for example, fix-bugXYZ.
-- ``git switch -C fix-bugXYZ upstream/master``
+    - ``git switch -C fix-bugXYZ upstream/master``
 1.  Researcher B pushes their changes back to the github repository of their fork (remote origin), specifying the branch (for example, fix-bugXYZ):
-- ``git push -u origin fix-bugXYZ``
+    - ``git push -u origin fix-bugXYZ``
 1.  Researcher B goes to the github page for their fork, selects the pull requests tab, and creates a new pull request, which will encompass all of the changes that have been committed.  The pull request description should be as detailed as possible.
 2.  Researcher A reviews the pull request, and makes suggestions for changes.  Once they are satisfied with the request, they merge the request, which integrates the changes into the master branch on the original repo.
 
@@ -214,13 +214,10 @@ How can I push an existing repository on my computer to github?
 Your github repository is treated as a remote repository by your local computer.  When you clone a repository from github, the remote is automatically generated and given the name origin.  Sometimes you might wish to add a remote for an existing repository on your computer, as when you have an existing local git repo and you wish to link it to a new repository on github.
 
 -   Within your code directory, add a remote repository, which we will call origin:
+    -   ```git remote add origin \<link to your repo\>```
+-   You can obtain the link to the repo from the green button marked “Clone or download” on your Github repository page. Be sure that is says “Clone with SSH”; if not, then first click the “Use SSH” button in the window.  The link should look like ``“<git@github.com>:\<your name\>/\<repository name\>.git”``
 
-
-
--   git remote add origin \<link to your repo\>
--   You can obtain the link to the repo from the green button marked “Clone or download” on your Github repository page. Be sure that is says “Clone with SSH”; if not, then first click the “Use SSH” button in the window.  The link should look like “<git@github.com>:\<your name\>/\<repository name\>.git”
-
-Should I share my data along with my code?
+Should I share my data in the same repository with my code?
 ------------------------------------------
 
 If one’s data are relatively small it is common to share them along with the code within the same repository.  However, if the data are relatively large (say tens of megabytes or larger) then one would usually store and share them separately from the code.  See the section on Data Sharing for more details on how to share data.
@@ -238,19 +235,12 @@ How can I use git within my code editor?
 ----------------------------------------
 
 -   RStudio:
-
-
-
--   create a new Project from an existing git repository [https://cfss.uchicago.edu/setup/git-with-rstudio/ or](https://www.google.com/url?q=https://cfss.uchicago.edu/setup/git-with-rstudio/&sa=D&ust=1596213792973000&usg=AOvVaw19lhFjAiXFMHffQY9bDr9N) [https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN](https://www.google.com/url?q=https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN&sa=D&ust=1596213792973000&usg=AOvVaw2pB9Jh7kYWq6lpTN2qCyAK)
--   connecting a git repo to an R project: [https://cfss.uchicago.edu/setup/git-with-rstudio/](https://www.google.com/url?q=https://cfss.uchicago.edu/setup/git-with-rstudio/&sa=D&ust=1596213792973000&usg=AOvVaw19lhFjAiXFMHffQY9bDr9N) 
-
+    -   [Using Git within RStudio](https://cfss.uchicago.edu/setup/git-with-rstudio/)
+    - [Using Version Control with RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
 
 
 -   Visual Studio Code
-
-
-
--   [Using git with VS Code](https://www.google.com/url?q=https://code.visualstudio.com/docs/editor/versioncontrol%23_git-support&sa=D&ust=1596213792974000&usg=AOvVaw2TrWvt30hje4NKru8gCY45)
+    -   [Using git with VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 
 Background Resources:
 =====================
@@ -286,16 +276,7 @@ Guides and templates for project organization
 ---------------------------------------------
 
 -   Python
-
-
-
--   [Shablona](https://www.google.com/url?q=https://github.com/uwescience/shablona&sa=D&ust=1596213792979000&usg=AOvVaw0ybYY5n-u3HVW9d97D1719) - A template for scientific Python projects
--   [Packaging Python Projects](https://www.google.com/url?q=https://packaging.python.org/tutorials/packaging-projects/&sa=D&ust=1596213792979000&usg=AOvVaw3-52TX6yTrUNRuPS9H5Fs-)
-
-
-
+    -   [Shablona](https://www.google.com/url?q=https://github.com/uwescience/shablona&sa=D&ust=1596213792979000&usg=AOvVaw0ybYY5n-u3HVW9d97D1719) - A template for scientific Python projects
+    -   [Packaging Python Projects](https://www.google.com/url?q=https://packaging.python.org/tutorials/packaging-projects/&sa=D&ust=1596213792979000&usg=AOvVaw3-52TX6yTrUNRuPS9H5Fs-)
 -   R
-
-
-
--   [Software Carpentry: Making Packages with R](https://www.google.com/url?q=http://swcarpentry.github.io/r-novice-inflammation/08-making-packages-R/index.html&sa=D&ust=1596213792980000&usg=AOvVaw2_BtmKPnLyIa5phsPKQLcV)
+    -   [Software Carpentry: Making Packages with R](https://www.google.com/url?q=http://swcarpentry.github.io/r-novice-inflammation/08-making-packages-R/index.html&sa=D&ust=1596213792980000&usg=AOvVaw2_BtmKPnLyIa5phsPKQLcV)
