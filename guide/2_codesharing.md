@@ -43,8 +43,7 @@ Git is currently the most popular version control system, and it allows one to e
 Step 2: Choose a license for your code
 --------------------------------------
 
--   Specifying a license for your code allows you to stipulate how others can re-use the code.
--   In general, you should select the most permissive license possible --- that is, the license that gives the greatest possible freedom for others to reuse the code.
+Specifying a license for your code allows you to stipulate how others can re-use the code. In general, you should select the most permissive license possible --- that is, the license that gives the greatest possible freedom for others to reuse the code.
 
 
 
@@ -60,10 +59,18 @@ Step 3: Create a new repository on Github, and clone it to your computers
 -------------------------------------------------------------------------
 
 -   Create a new repository from your Github page (using the menu at the top right with the + sign)
--   Select your license
--   Select the option to create a README file
+
+<p align="center"><img width=30% src="images/new_repo.png"></p>
+
+-   Complete the form to create the new repo, including selecting your license and creating a README file
+
+<p align="center"><img width=60% src="images/create_new_repo.png"></p>
+
 -   Once you create the repository, you will be taken to the main page for the repository.  Obtain the link to your repository under the Code tab, and copy it.
--   On your local computer, clone the github repository using:  git clone \<link copied from github page\>
+
+<p align="center"><img width=60% src="images/clone_repo.png"></p>
+
+-   On your local computer, clone the github repository using:  ``git clone \<link copied from github page\>``
 -   This will create a new directory on your computer with the same name as your github project.
 -   Note: Some editors, such as RStudio and Visual Studio Code, allow one to directly connect to github within the editor; see below for more details.
 
@@ -72,58 +79,25 @@ Step 4: Organize your code
 
 The main goal of organizing your code is to make it clear to you and to others where to find the different parts of your project.  See the additional guidance in the section on Reproducible Analysis for how to write code that is clear and readable.
 
-You should use the same directory structure and naming scheme for all of your projects.  Different languages have different conventions about how to structure the code; the most important thing is that you follow common conventions when they exist, and that you are consistent in your own work.
+Regardless of the particular scheme that you use to organize and name your files, you should use the same scheme for all of your projects.  This will make it easier for you to find things and remember what you've done in the future.  Different languages have different conventions about how to structure the code; the most important thing is that you follow common conventions when they exist, and that you are consistent in your own work.
 
 Some researchers include data within their code directory; see the section on Data Sharing for more on the issue of how to organize and share data.
 
 For example, if you were creating a new project called study-1 and decided to include the data in the same directory as the code, you might structure the directory as follows, following to the [Psych-DS](https://www.google.com/url?q=https://docs.google.com/document/d/1u8o5jnWk0Iqp_J06PTu5NjBfVsdoPbBhstht6W0fFp0/edit%23heading%3Dh.1f1h1ilgqcg&sa=D&ust=1596213792955000&usg=AOvVaw3JK-wAbCxGN_foxsPOKgqf) and [Project Tier](https://www.google.com/url?q=https://www.projecttier.org/tier-protocol/specifications/%23overview-of-the-documentation&sa=D&ust=1596213792955000&usg=AOvVaw2iNQ9eY88GzwLnu989lNKx) frameworks:
 
-└── study-1
+<p align="center"><img width=60% src="images/tree.png"></p>
 
-    ├── CHANGES.md
-
-    ├── README.md
-
-    ├── code
-
-    │   ├── analyze_study1.py
-
-    │   ├── preprocess_study-1.py
-
-    │   └── utils.py
-
-    ├── data
-
-    │   ├── primary_data
-
-    │   │   ├── study-1_subject-1_task-mytask_data.tsv
-
-    │   │   └── study-1_subject-2_task-mytask_data.tsv
-
-    │   └── study-1_task-mytask_data.tsv
-
-    ├── documentation
-
-    ├── materials
-
-    ├── products
-
-    ├── results
-
-    └── tests
-
-        └── tests.py
 
 Step 5: Commit your code to the local repository
 ------------------------------------------------
 
 As you write your code, commit it to the repository. First, you need to add it to the staging area:
 
--   git add \<filename\>
+-   ``git add \<filename\>``
 
 Then you commit it, providing a message that describes the changes you have made.
 
--   git commit -m ”\<a message describing the commit\>”
+-   ``git commit -m ”\<a message describing the commit\>”``
 
 You should commit your code regularly.  For example, any time you add a new function or a new section to your code, you should commit. The commit history allows you to look back and see what you have done, and also allows you to reverse changes that you have made.
 
@@ -132,7 +106,7 @@ Step 6: Push your changes to Github
 
 To push your changes back to the repository on Github, use the following command:
 
--   git push origin master
+-   ``git push origin master``
 
 This tells git to push the changes that you have committed to the repository on github (which by default is labeled as origin), into the branch called master (don’t worry about branches just yet).  
 
@@ -141,17 +115,11 @@ Step 7: Push your code to the repository
 
 -   You will first need to pull the files that were created when the repository was created, such as the License file:
 
-
-
--   git pull origin master
-
-
+    -   ``git pull origin master``
 
 -   You can then push your files to the remote repository:
 
-
-
--   git push origin master
+    -   ``git push origin master``
 
 When you are ready to publish your work:
 ========================================
@@ -159,16 +127,12 @@ When you are ready to publish your work:
 Step 1: Create a release
 ------------------------
 
--   When you are ready to save a fixed version of the code (for example, when you submit a paper), you can create a release.
--   See [https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository\#creating-a-release](https://www.google.com/url?q=https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository%23creating-a-release&sa=D&ust=1596213792960000&usg=AOvVaw1CLSaqV2NCg7JPLbOUazYD) for more on this
+When you are ready to save a fixed version of the code (for example, when you submit a paper), you can create a release.  See [the github guide to creating a release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository\#creating-a-release) for instructions on how to do this.
 
 Step 2: Create a citable identifier for your release
 ----------------------------------------------------
 
--   In order to make your code citable, it is useful to have a digital object identifier (DOI) for your code.
--   You can create these easily by linking your github repository to Zenodo.org.
--   Then, any time a release is created on github, it will be deposited to Zenodo and a new DOI will be created.
--   See [https://guides.github.com/activities/citable-code/](https://www.google.com/url?q=https://guides.github.com/activities/citable-code/&sa=D&ust=1596213792961000&usg=AOvVaw2NE2b5EsqVPdpKjp7r-rOD) for more on this
+In order to make your code citable, it is useful to have a digital object identifier (DOI) for your code. You can create these easily by linking your github repository to Zenodo.org. Then, any time a release is created on github, it will be deposited to Zenodo and a new DOI will be created. See [the github guide to citeable code](https://guides.github.com/activities/citable-code/) for instructions on how to set this up.  This has the benefit of allowing one to cite a specific version of the code used at a particular point in the project (e.g. upon submission of the manuscript), which enhances reproducibility.
 
 Frequently Asked Questions
 ==========================
@@ -201,10 +165,6 @@ It is, however, unclear whether a non-commercial license prevents a for-profit c
 
 The use of these licenses can thus reduce the adoption of a particular tool within a significant segment of the scientific community, working against goals of standardization, and thus reproducibility.
 
-How can I cite my shared code?
-------------------------------
-
-[Zenodo](https://www.google.com/url?q=https://about.zenodo.org/&sa=D&ust=1596213792966000&usg=AOvVaw2XnbWEp2xOVozQHHVTe25L) provides a free service that will assign a [digital object identifier (DOI)](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Digital_object_identifier&sa=D&ust=1596213792966000&usg=AOvVaw1RvDnRoZ_CkZ19oXzpLBev) to a code archive. At its simplest, uploading a directory of code allows you to have a permanent record of the code with as much metadata as you care to add, including authorship and funding information or associated publications. GitHub integration is available to automatically archive the state of a repository at every [release](https://www.google.com/url?q=https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository&sa=D&ust=1596213792966000&usg=AOvVaw1dQdnoq0oHPqi54ebMUuH8), permitting users to cite a specific version of the code that they used.
 
 What is a “branch” and how can I use them?
 ------------------------------------------
@@ -214,26 +174,17 @@ A branch is a chain of git commits, which represents the evolution of a reposito
 When developing, it is frequently useful to make commits before they are ready to be included in the “official history”. For example, when fixing a bug, a common pattern is to create a new branch, write a test that demonstrates the bug, and then fix the bug:
 
 1.  Retrieve the latest state of the repository from the server and create a branch based on the latest commit on master. The “origin” remote is used here, but if contributing to somebody else’s repository, consider using “upstream” (see the next section to set up upstream).
-
-git fetch origin
-
-git switch -C fix-bugXYZ origin/master
-
+    - ``git fetch origin``
+    - ``git switch -C fix-bugXYZ origin/master``
 1.  Create a new test, and verify that the tests fail. This is a bit more free-form.
 2.  Commit the changes and push to the server. This announces to collaborators what you’re working on. If your server has continuous integration tests, it will simplify evaluation. This is also when to open a pull request (see next section). The -u flag ensures that future calls to git push/git pull will associate the local fix-bugXYZ branch and the remote origin/fix-bugXYZ:
-
-git add path/to/test
-
-git commit -m “TEST: Reproduce bug XYZ; tests fail”
-
-git push -u origin fix-bugXYZ
-
+- ``git add path/to/test``
+- ``git commit -m “TEST: Reproduce bug XYZ; tests fail”``
+- ``git push -u origin fix-bugXYZ``
 1.  Resolve the bug, and verify that the tests pass.
 2.  Commit and push the changes. Since we used the -u flag above, we can simply use git push here:
-
-git commit -m “FIX: Make ABC change to fix bug XYZ; tests pass”
-
-git push
+- ``git commit -m “FIX: Make ABC change to fix bug XYZ; tests pass”``
+- ``git push``
 
 Pushing to a remote branch allows collaborators to inspect the changes. If you’re using automatic testing on the remote, the test failure and resolution become easily verifiable prior to inclusion in the master branch.
 
@@ -246,22 +197,14 @@ A pull request is a way to request that code from a particular branch or fork b
 
 1.  Researcher B would create a fork of this project, which is basically a copy of the project that lives separately in Researcher B’s github account, and clone this fork onto their local computer.
 2.  In order to be able to keep the fork up to date with the original repository, Researcher B would create a new remote in their local version of the fork, usually called “upstream”:
-
-git remote add upstream \<link to original repo\>
-
+- ``git remote add upstream \<link to original repo\>``
 1.  Researcher B would modify the code in their fork to add the new feature, commit the changes.
 2.  Prior to making any changes, the upstream remote should be fetched to ensure that changes are made to the latest state, reducing the chance for conflict:
-
-        git fetch upstream
-
+- ``git fetch upstream``
 1.  Changes should almost always be made on a new branch, diverging from the master branch on the upstream remote. Working on the master branch is strongly discouraged. It is good practice to use a short but descriptive branch names, for example, fix-bugXYZ.
-
-        git switch -C fix-bugXYZ upstream/master
-
+- ``git switch -C fix-bugXYZ upstream/master``
 1.  Researcher B pushes their changes back to the github repository of their fork (remote origin), specifying the branch (for example, fix-bugXYZ):
-
-git push -u origin fix-bugXYZ
-
+- ``git push -u origin fix-bugXYZ``
 1.  Researcher B goes to the github page for their fork, selects the pull requests tab, and creates a new pull request, which will encompass all of the changes that have been committed.  The pull request description should be as detailed as possible.
 2.  Researcher A reviews the pull request, and makes suggestions for changes.  Once they are satisfied with the request, they merge the request, which integrates the changes into the master branch on the original repo.
 
