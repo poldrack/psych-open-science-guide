@@ -1,6 +1,7 @@
 {
   "files": [
-    "README.md"
+    "README.md",
+    "guide/README.md"
   ],
   "imageSize": 100,
   "commit": false,
@@ -39,16 +40,21 @@
       "name": "Erik Santoro",
       "avatar_url": "https://avatars0.githubusercontent.com/u/5883689?v=4",
       "profile": "https://github.com/eriksantoro",
-     "contributions": [
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "henrymj",
+      "name": "henrymj",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55153240?v=4",
+      "profile": "https://github.com/henrymj",
+      "contributions": [
         "content"
       ]
     }
   ],
   "contributorsPerLine": 7,
-  "files": [
-    "README.md",
-    "guide/README.md"
-    ],
   "projectName": "psych-open-science-guide",
   "projectOwner": "poldrack",
   "repoType": "github",
