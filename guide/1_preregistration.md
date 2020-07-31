@@ -39,7 +39,7 @@ It's best to use the repository that is most common in one's particular field of
 - [Open Science Framework](https://osf.io/) - the most broadly applicable across social sciences
 - [AsPredicted.org](https://aspredicted.org/) - Primarily used within psychology, provides a simple form to ease registration
 - [AEA Registry](http://www.socialscienceregistry.org) - Primarily used within economics
-- EGAP (Political Science mainly) 
+- [EGAP](https://egap.org/registry/) (Political Science mainly) 
 - [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/home) (Medicine / Public Health mainly)  
 
 ### Create your pre-registration document
@@ -71,144 +71,69 @@ Reasons to embargo include:
 
 ### What’s the difference between a study registry and a pre-registration?
 
-A study registry is similar to a pre-registration registry, but with a slightly different goal.
-The goal of a study registry is to keep a record of all studies that are run, in order to address the *file drawer problem*, in which studies with null results (or results that contradict the researcher's predictions) may go unreported.
-All clinical trials funded by the NIH are [expected to register](https://grants.nih.gov/policy/clinical-trials/reporting/index.htm) their study and report their results using the [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/home) registry.
-Study registries generally include the same information that is included in a pre-registration, and thus can be used for the same purpose as pre-registration in some cases.
+A study registry is similar to a pre-registration registry, but with a slightly different goal. The goal of a study registry is to keep a record of all studies that are run, in order to address the *file drawer problem*, in which studies with null results (or results that contradict the researcher's predictions) may go unreported. All clinical trials funded by the NIH are [expected to register](https://grants.nih.gov/policy/clinical-trials/reporting/index.htm) their study and report their results using the [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/home) registry. Study registries generally include the same information that is included in a pre-registration, and thus can be used for the same purpose as pre-registration in some cases.
 
 ### What’s the difference between a pre-registration and a pre-analysis plan?
 
-A pre-registration lists your study design, measures, hypotheses,
-exclusion criteria, planned analyses, etc. A “pre-analysis plan” is a
-term more often used in economics and includes these features of a
-pre-registration but also often provides mathematical specifications of
-all models and adjustments that will be run.
+A pre-registration lists your study design, measures, hypotheses, exclusion criteria, planned analyses, etc. A “pre-analysis plan” is a term more often used in economics and includes these features of a pre-registration but also often provides mathematical specifications of all models and adjustments that will be run.
 
 ### How detailed should your pre-registration be? 
 
-Depends on the research stage. Earlier stage projects could be simpler
-pre-registrations and later stage projects could include more details.
-Recently scholars have argued
-([here](https://www.google.com/url?q=https://blogs.worldbank.org/impactevaluations/pre-analysis-plans-and-registered-reports-what-new-opinion-piece-does-and-doesnt?CID%3DWBW_AL_BlogNotification_EN_EXT&sa=D&ust=1596058130931000&usg=AOvVaw353GYSGcRY4vPToK6rBkSt),
-[here](https://www.google.com/url?q=https://blogs.worldbank.org/impactevaluations/saner-approach-pre-analysis-plans&sa=D&ust=1596058130932000&usg=AOvVaw3piUyVyTCRsrSV0sDioUec))
-that pre-regs should highlight the basic study design and primary
-outcomes, rather than all contingencies, for more early stage research
-projects.
+Depends on the research stage. Earlier stage projects could be simpler pre-registrations and later stage projects could include more details. Recently scholars have argued ([here](https://www.google.com/url?q=https://blogs.worldbank.org/impactevaluations/pre-analysis-plans-and-registered-reports-what-new-opinion-piece-does-and-doesnt?CID%3DWBW_AL_BlogNotification_EN_EXT&sa=D&ust=1596058130931000&usg=AOvVaw353GYSGcRY4vPToK6rBkSt), [here](https://www.google.com/url?q=https://blogs.worldbank.org/impactevaluations/saner-approach-pre-analysis-plans&sa=D&ust=1596058130932000&usg=AOvVaw3piUyVyTCRsrSV0sDioUec)) that pre-regs should highlight the basic study design and primary outcomes, rather than all contingencies, for more early stage research projects.
 
-If you’re just getting started, it may be helpful to start with simpler
-templates (example
-[here](https://www.google.com/url?q=https://docs.google.com/document/d/13FFwD_UNUyA4O0iOGyy66_EViN1LkkM4QT_iiUiOwEE/edit&sa=D&ust=1596058130932000&usg=AOvVaw0F7YwNXb8Oham_NE1XToUn)).
-As you get more comfortable, you can move towards templates that may
-require more detail (see many different template examples
-[here](https://www.google.com/url?q=https://osf.io/zab38/wiki/home/&sa=D&ust=1596058130933000&usg=AOvVaw0thbPpsDzbo8W0ZqCxW0yI)).
+If you’re just getting started, it may be helpful to start with simpler templates (example [here](https://www.google.com/url?q=https://docs.google.com/document/d/13FFwD_UNUyA4O0iOGyy66_EViN1LkkM4QT_iiUiOwEE/edit&sa=D&ust=1596058130932000&usg=AOvVaw0F7YwNXb8Oham_NE1XToUn)). As you get more comfortable, you can move towards templates that may require more detail (see many different template examples [here](https://www.google.com/url?q=https://osf.io/zab38/wiki/home/&sa=D&ust=1596058130933000&usg=AOvVaw0thbPpsDzbo8W0ZqCxW0yI)).
 
 
 ### What kind of studies can I pre-register?
 
-Every study can (and should) be pre-registered! This includes
-observational studies, meta-analyses, and secondary data analyses!
+Every study can (and should) be pre-registered! This includes observational studies, meta-analyses, and secondary data analyses!
 
 ### Do you pre-register projects that use secondary data? 
 
-Ideally, you will want to pre-register your project before you conduct
-any analyses, but this is not always possible. If you are working on a
-secondary data analysis, it’s possible that some or all parts of the
-data you are working on have already been published. Or, it is possible
-that different parts of the data are a part of studies in-progress and
-you are aware of certain patterns (e.g., they are discussed in lab
-meetings). What is important is that you are able to draw some
-boundaries at a particular point in time so that you are aware of what
-is a part of confirmatory versus exploratory research. In your
-pre-registration, you can be transparent about what you know when you
-prepare your analyses. It is important to consider that maybe a
-particular project may not be well-suited to a pre-registration, if you
-know you are already aware of too much. However, we encourage you to
-still draw up an analysis plan that can still be an internal guide for
-analyses and keep all project members aligned for primary versus
-exploratory analyses.
+Ideally, you will want to pre-register your project before you conduct any analyses, but this is not always possible. If you are working on a secondary data analysis, it’s possible that some or all parts of the data you are working on have already been published. Or, it is possible that different parts of the data are a part of studies in-progress and you are aware of certain patterns (e.g., they are discussed in lab meetings). What is important is that you are able to draw some boundaries at a particular point in time so that you are aware of what is a part of confirmatory versus exploratory research. In your pre-registration, you can be transparent about what you know when you prepare your analyses. It is important to consider that maybe a particular project may not be well-suited to a pre-registration, if you know you are already aware of too much. However, we encourage you to still draw up an analysis plan that can still be an internal guide for analyses and keep all project members aligned for primary versus exploratory analyses.
 
 ### Do you pre-register pilots? 
 
-You can still pre-register a pilot: “If setting out on purely
-exploratory research or pilot studies, preregistration can still help
-you remember that intention at the end of that project, improve the
-transparency of your research”
-[link](https://www.google.com/url?q=https://help.osf.io/hc/en-us/articles/360021390833-Preregistration&sa=D&ust=1596058130934000&usg=AOvVaw18uyKg5TErjRAOCmmBDRaA)
+You can still pre-register a pilot: “If setting out on purely exploratory research or pilot studies, preregistration can still help you remember that intention at the end of that project, improve the transparency of your research” [link](https://www.google.com/url?q=https://help.osf.io/hc/en-us/articles/360021390833-Preregistration&sa=D&ust=1596058130934000&usg=AOvVaw18uyKg5TErjRAOCmmBDRaA)
 
 ### Do you pre-register exploratory analyses?
 
-One primary goal of pre-registration is to distinguish confirmatory from
-exploratory analyses. Confirmatory analyses should be described in
-detail. Note that sometimes people distinguish between primary and
-secondary confirmatory analyses, although the term “secondary” also can
-be used to refer to “exploratory” analyses.
+One primary goal of pre-registration is to distinguish confirmatory from exploratory analyses. Confirmatory analyses should be described in detail. Note that sometimes people distinguish between primary and secondary confirmatory analyses, although the term “secondary” also can be used to refer to “exploratory” analyses.
 
 There are different approaches to registering exploratory analyses.
 
-1.  Some people register non-confirmatory analyses as exploratory in
-    their pre-registration. Sometimes people will specify the analyses
-    and hypotheses, although this is not necessary.
-2.  Some people don’t register exploratory analyses and then choose to
-    report them as exploratory in their manuscript, if relevant.
-3.  You can also carry out a split-sample strategy where you
-    pre-register the fact that you will carry out a split-sample
-    strategy and how the split will be done, then you draw your initial
-    random subselection of your data to conduct exploratory analyses on,
-    then you register your confirmatory hypotheses and analyses online
-    that you will carry out on your held-out validation set, and,
-    finally, you run those confirmatory analyses (see papers below).
+1.  Some people register non-confirmatory analyses as exploratory in their pre-registration. Sometimes people will specify the analyses and hypotheses, although this is not necessary.
+2.  Some people don’t register exploratory analyses and then choose to report them as exploratory in their manuscript, if relevant.
+3.  You can also carry out a split-sample strategy where you pre-register the fact that you will carry out a split-sample strategy and how the split will be done, then you draw your initial random subselection of your data to conduct exploratory analyses on, then you register your confirmatory hypotheses and analyses online that you will carry out on your held-out validation set, and, finally, you run those confirmatory analyses (see papers below).
 
-Regardless of approach, in writing up exploratory analyses, it should be
-made clear which analyses are confirmatory and which are exploratory.
+Regardless of approach, in writing up exploratory analyses, it should be made clear which analyses are confirmatory and which are exploratory.
 
 ### How to have flexibility where you need it? 
 
-1.  You could give contingency plans (“if-then” statements). For
-    example, if you are assessing a scale based on a Western population
-    in a new population in a different country, you could note “For all
-    composite variables of 3 or more items, we will remove variables
-    that have loading values below 0.3 on the first factor.”
-2.  If you are conducting research in a new population or otherwise have
-    lots of uncertainty, you can conduct exploratory analyses on a
-    portion of the sample and then register confirmatory analyses on the
-    remaining data. These papers below detail this “split-sample”
-    strategy:
-    - “[Split-Sample Strategies for Avoiding False
-Discoveries](https://www.google.com/url?q=http://www.nber.org/papers/w23544&sa=D&ust=1596058130936000&usg=AOvVaw3-zh9JgjnbjxGfSrD1OpEp),” by Michael L. Anderson and Jeremy Magruder ([ungated
-here](https://www.google.com/url?q=https://are.berkeley.edu/~jmagruder/split-sample.pdf&sa=D&ust=1596058130936000&usg=AOvVaw1-u4Cam1c1k0eejOGDFPZF))
-    - “[Using Split Samples to Improve Inference on Causal
-Effects](https://www.google.com/url?q=http://www.nber.org/papers/w21842&sa=D&ust=1596058130936000&usg=AOvVaw1jRRYL-5ydwEwEZHqj5IE6),” by Marcel Fafchamps and Julien Labonne ([ungated and updated
-here](https://www.google.com/url?q=https://julienlabonne.files.wordpress.com/2017/06/sample_split_simulations_web.pdf&sa=D&ust=1596058130936000&usg=AOvVaw3QtO7NJRNcc1WFuE0UwXyh))
+1.  You could give contingency plans (“if-then” statements). For example, if you are assessing a scale based on a Western population in a new population in a different country, you could note “For all composite variables of 3 or more items, we will remove variables that have loading values below 0.3 on the first factor.”
+2.  If you are conducting research in a new population or otherwise have lots of uncertainty, you can conduct exploratory analyses on a  portion of the sample and then register confirmatory analyses on the remaining data. These papers below detail this “split-sample” strategy:
+    - “[Split-Sample Strategies for Avoiding False Discoveries](https://www.google.com/url?q=http://www.nber.org/papers/w23544&sa=D&ust=1596058130936000&usg=AOvVaw3-zh9JgjnbjxGfSrD1OpEp),” by Michael L. Anderson and Jeremy Magruder ([ungated here](https://www.google.com/url?q=https://are.berkeley.edu/~jmagruder/split-sample.pdf&sa=D&ust=1596058130936000&usg=AOvVaw1-u4Cam1c1k0eejOGDFPZF))
+    - “[Using Split Samples to Improve Inference on Causal Effects](https://www.google.com/url?q=http://www.nber.org/papers/w21842&sa=D&ust=1596058130936000&usg=AOvVaw1jRRYL-5ydwEwEZHqj5IE6),” by Marcel Fafchamps and Julien Labonne ([ungated and updated here](https://www.google.com/url?q=https://julienlabonne.files.wordpress.com/2017/06/sample_split_simulations_web.pdf&sa=D&ust=1596058130936000&usg=AOvVaw3QtO7NJRNcc1WFuE0UwXyh))
 
-1.  As discussed above, it is common for studies to end up deviating in
-    some way from their pre-registration. Your job as a researcher is to
-    be as transparent as possible about these deviations. (see below)
+1.  As discussed above, it is common for studies to end up deviating in  some way from their pre-registration. Your job as a researcher is to be as transparent as possible about these deviations. (see below)
 
 ### How do you change / revise your registration? 
 
 Once you publish your pre-registration you cannot make changes to the document. However, you can create a new pre-registration and include a link to your older one, outlining the changes you’ve made.
 
 -   “…you are free and encouraged to make a new pre-registration up to the point of data analysis. We recommend that you preserve the original preregistration, include a link to it in the new preregistration, and specify the changes that you are making and why.” - from [Preregistration: A plan, not a prison](https://www.google.com/url?q=https://cos.io/blog/preregistration-plan-not-prison/&sa=D&ust=1596058130937000&usg=AOvVaw1hE9iY_J6Q43wcVSj0bei2)
-- “The preregistration for an exploratory study might be brief, but it
-would nonetheless have value as an explicit record of which if any
-aspects of the study were specified a priori. That information is
-especially helpful in research that emphasizes null hypothesis
-significance testing. A thorough preregistration promotes transparency and openness and protects researchers from suspicions of p-hacking.” - from [APS](https://www.google.com/url?q=https://www.psychologicalscience.org/publications/psychological_science/preregistration&sa=D&ust=1596058130938000&usg=AOvVaw0kTKoGsycNiAx6hDqVzH1g)
+- “The preregistration for an exploratory study might be brief, but it would nonetheless have value as an explicit record of which if any aspects of the study were specified a priori. That information is especially helpful in research that emphasizes null hypothesis significance testing. A thorough preregistration promotes transparency and openness and protects researchers from suspicions of p-hacking.” - from [APS](https://www.google.com/url?q=https://www.psychologicalscience.org/publications/psychological_science/preregistration&sa=D&ust=1596058130938000&usg=AOvVaw0kTKoGsycNiAx6hDqVzH1g)
 
 ### How to report deviations of the pre-registered plan after data collection?
 
-Note that deviations of the pre-registered data are common. You should
-report clearly why you deviated in the manuscript. You can also post a
-list of deviations on your pre-registration or project page.
-[https://www.psychologicalscience.org/observer/research-preregistration-101](https://www.google.com/url?q=https://www.psychologicalscience.org/observer/research-preregistration-101&sa=D&ust=1596058130939000&usg=AOvVaw1KGyQbaMHp9695Ht3tAJKu)
+Note that deviations of the pre-registered data are common. You should report clearly why you deviated in the manuscript. You can also post a list of deviations on your pre-registration or project page. [https://www.psychologicalscience.org/observer/research-preregistration-101](https://www.google.com/url?q=https://www.psychologicalscience.org/observer/research-preregistration-101&sa=D&ust=1596058130939000&usg=AOvVaw1KGyQbaMHp9695Ht3tAJKu)
 
 
 ### How to organize your OSF page?
 
 On OSF, should I create separate components per pre-registration?  
 
--   It’s up to you. You could create a separate project per study. Or
-    you could create one project for an entire study. See our [Data Sharing](datasharing.md) and [Code Sharing](codesharing.md) resources for more on project organization.
+-   It’s up to you. You could create a separate project per study. Or you could create one project for an entire study. See our [Data Sharing](datasharing.md) and [Code Sharing](codesharing.md) resources for more on project organization.
 
 ## Resources
 
@@ -219,26 +144,22 @@ On OSF, should I create separate components per pre-registration?  
 ### Psychology
 -   [A practical guide for transparency in psychological science (Klein et al. 2018)](https://www.google.com/url?q=https://www.collabra.org/articles/10.1525/collabra.158/&sa=D&ust=1596058130942000&usg=AOvVaw1q8oTwv5RBl1GWKwL1rp5v)
 -   [Pre-registration in social psychology - A discussion and suggested
-    template (van’t Veer &
-    Giner-Sorolla, 2016)](https://www.google.com/url?q=https://www.sciencedirect.com/science/article/abs/pii/S0022103116301925&sa=D&ust=1596058130943000&usg=AOvVaw2rtVr_LmMc3eHT6vaXFjpb)
+    template (van’t Veer & Giner-Sorolla, 2016)](https://www.google.com/url?q=https://www.sciencedirect.com/science/article/abs/pii/S0022103116301925&sa=D&ust=1596058130943000&usg=AOvVaw2rtVr_LmMc3eHT6vaXFjpb)
 
 ### Observational studies
 
--   [Improving transparency in observational social science research: A
-    pre-analysis plan approach
+-   [Improving transparency in observational social science research: A pre-analysis plan approach
     (Burlig, 2018)](https://www.google.com/url?q=https://www.sciencedirect.com/science/article/abs/pii/S0165176518301277&sa=D&ust=1596058130943000&usg=AOvVaw2wIo8DSrza_PnYcvp2THNd)
 
 ### Meta-analyses
 
 -   [Pre-registration protocol for prospective meta-analyses](https://www.google.com/url?q=https://osf.io/zbr5u&sa=D&ust=1596058130944000&usg=AOvVaw1nqYlPX1348aK6OvWiEyC-)
--   [From pre-registration to publication: a non-technical primer for
-    conducting a meta-analysis to synthesize correlational
+-   [From pre-registration to publication: a non-technical primer for conducting a meta-analysis to synthesize correlational
     data](https://www.google.com/url?q=https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01549/full&sa=D&ust=1596058130945000&usg=AOvVaw1kqgsxNlinXtQpfDmI7_ni)
 
 ### Secondary data analyses
 
--   [Pre-registration of secondary data analysis: A template and
-    tutorial (](https://www.google.com/url?q=https://psyarxiv.com/hvfmr&sa=D&ust=1596058130945000&usg=AOvVaw0iCfwWe68kgc8Jzyk39TIP)[Vanden Akker et al., 2019)](https://www.google.com/url?q=https://psyarxiv.com/hvfmr&sa=D&ust=1596058130946000&usg=AOvVaw3LEM7ofEc6Ws67MlYa3480)
+-   [Pre-registration of secondary data analysis: A template and tutorial (](https://www.google.com/url?q=https://psyarxiv.com/hvfmr&sa=D&ust=1596058130945000&usg=AOvVaw0iCfwWe68kgc8Jzyk39TIP)[Vanden Akker et al., 2019)](https://www.google.com/url?q=https://psyarxiv.com/hvfmr&sa=D&ust=1596058130946000&usg=AOvVaw3LEM7ofEc6Ws67MlYa3480)
 -   OSF has an extensive [pre-registration template](https://www.google.com/url?q=https://docs.google.com/document/d/1DaNmJEtBy04bq1l5OxS4JAscdZEkUGATURWwnBKLYxk/edit?pli%3D1&sa=D&ust=1596058130946000&usg=AOvVaw0tw0pn_GbJL0v8zcxqidzR) that includes questions to consider for secondary data analysis.
 
 
