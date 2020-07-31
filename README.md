@@ -1,6 +1,6 @@
 # psych-open-science-guide
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This is a work in progress!
@@ -15,8 +15,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://www.poldracklab.org"><img src="https://avatars3.githubusercontent.com/u/871056?v=4" width="100px;" alt=""/><br /><sub><b>Russ Poldrack</b></sub></a><br /><a href="#design-poldrack" title="Design">🎨</a> <a href="#content-poldrack" title="Content">🖋</a> <a href="#projectManagement-poldrack" title="Project Management">📆</a></td>
     <td align="center"><a href="https://github.com/effigies"><img src="https://avatars0.githubusercontent.com/u/83442?v=4" width="100px;" alt=""/><br /><sub><b>Chris Markiewicz</b></sub></a><br /><a href="#content-effigies" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/eriksantoro"><img src="https://avatars0.githubusercontent.com/u/5883689?v=4" width="100px;" alt=""/><br /><sub><b>Erik Santoro</b></sub></a><br /><a href="#content-eriksantoro" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/catherinecthomas"><img src="https://avatars0.githubusercontent.com/u/18266412?v=4" width="100px;" alt=""/><br /><sub><b>Catherine Thomas</b></sub></a><br /><a href="#content-catherinecthomas" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/eriksantoro"><img src="https://avatars0.githubusercontent.com/u/5883689?v=4" width="100px;" alt=""/><br /><sub><b>Erik Santoro</b></sub></a><br /><a href="#content-eriksantoro" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/henrymj"><img src="https://avatars3.githubusercontent.com/u/55153240?v=4" width="100px;" alt=""/><br /><sub><b>henrymj</b></sub></a><br /><a href="#content-henrymj" title="Content">🖋</a></td>
   </tr>
 </table>
 
