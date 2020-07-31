@@ -38,6 +38,30 @@ We also include some more general suggestions:
 - Joining the culture of open science
 - Basic computing skills for open science
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people who contributed to the development of this guide ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://www.poldracklab.org"><img src="https://avatars3.githubusercontent.com/u/871056?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Russ Poldrack</b></sub></a><br /><a href="#design-poldrack" title="Design">🎨</a> <a href="#content-poldrack" title="Content">🖋</a> <a href="#projectManagement-poldrack" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://github.com/effigies"><img src="https://avatars0.githubusercontent.com/u/83442?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Markiewicz</b></sub></a><br /><a href="#content-effigies" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/catherinecthomas"><img src="https://avatars0.githubusercontent.com/u/18266412?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Catherine Thomas</b></sub></a><br /><a href="#content-catherinecthomas" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/eriksantoro"><img src="https://avatars0.githubusercontent.com/u/5883689?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Erik Santoro</b></sub></a><br /><a href="#content-eriksantoro" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/henrymj"><img src="https://avatars3.githubusercontent.com/u/55153240?v=4?s=100" width="100px;" alt=""/><br /><sub><b>henrymj</b></sub></a><br /><a href="#content-henrymj" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/oesteban"><img src="https://avatars2.githubusercontent.com/u/598470?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oscar Esteban</b></sub></a><br /><a href="#content-oesteban" title="Content">🖋</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
