@@ -246,17 +246,10 @@ Resources
 
 ### Standards
 
-
-
 -   [BIDS](https://www.google.com/url?q=https://bids-specification.readthedocs.io/en/stable/&sa=D&ust=1596301437018000&usg=AOvVaw1MMpSxslF0NfWjPSWcCbKT)
 -   [Neurodata Without Borders](https://www.google.com/url?q=https://www.nwb.org/&sa=D&ust=1596301437019000&usg=AOvVaw19daL8PApH4gMemI8C0chu)
 
-
-
 -   Examples
-
-
-
     -   [BIDS Dataset](https://www.google.com/url?q=https://github.com/bids-standard/bids-examples/tree/master/ds001&sa=D&ust=1596301437019000&usg=AOvVaw1bvSJXq6Mhi3cOBRl7HE4H)
     -   [OpenNeuro](https://www.google.com/url?q=https://openneuro.org/&sa=D&ust=1596301437019000&usg=AOvVaw1sM-MV9_jSIHnEQHvVL3GU) - datasets are BIDS validated prior to upload
     -   [Neurodata without borders tutorial](https://www.google.com/url?q=https://www.nwb.org/how-to-use/&sa=D&ust=1596301437019000&usg=AOvVaw0drUqE-EvYHaVgNKwwCpzg)
