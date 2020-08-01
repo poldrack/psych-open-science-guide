@@ -60,6 +60,7 @@ Thanks goes to these wonderful people who contributed to the development of this
     <td align="center"><a href="https://github.com/bissettp"><img src="https://avatars0.githubusercontent.com/u/9681335?v=4?s=100" width="100px;" alt=""/><br /><sub><b>bissettp</b></sub></a><br /><a href="#content-bissettp" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/MatildeVaghi"><img src="https://avatars3.githubusercontent.com/u/26165236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MatildeVaghi</b></sub></a><br /><a href="#content-MatildeVaghi" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/franklin-feingold"><img src="https://avatars1.githubusercontent.com/u/35307458?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Franklin Feingold</b></sub></a><br /><a href="#content-franklin-feingold" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ghuckins"><img src="https://avatars1.githubusercontent.com/u/14180467?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ghuckins</b></sub></a><br /><a href="#content-ghuckins" title="Content">🖋</a></td>
   </tr>
 </table>
 
