@@ -162,6 +162,13 @@ Frequently Asked Questions
     -   This ensures that the alphabetical and numerical listing orders are identical
     -   Pad to one order of magnitude more than you expect
         -   E.g. if you expect to collect data from 125 subjects, then use four digits (e.g. sub-0125).
+-   Avoid using spaces in file names
+    - These can make parsing of file names more difficult on some systems.
+-   Stick with lower-case letters
+    - Computer systems differ in whether they are case-sensitive or case-insensitive (even within the same operating system; for example, there are both case-sensitive and case-insensitive versions of the Mac OS file system).
+    - Using upper case letters can cause confusion, e.g. whereby one system would treat "Data" and "data" as the same while another would not.
+    - For these reasons, snake case (e.g. "my_large_data_file") is preferable to camel case  ("myLargeDataFile").
+
 
 ### What does “deidentification” mean and how can I do it?
 
