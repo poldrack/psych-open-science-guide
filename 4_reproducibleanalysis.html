@@ -1,0 +1,545 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Reproducible analysis · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="3_datasharing.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1_preregistration.html">
+            
+                <a href="1_preregistration.html">
+            
+                    
+                    Pre-registration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="2_codesharing.html">
+            
+                <a href="2_codesharing.html">
+            
+                    
+                    Code sharing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="3_datasharing.html">
+            
+                <a href="3_datasharing.html">
+            
+                    
+                    Data sharing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="4_reproducibleanalysis.html">
+            
+                <a href="4_reproducibleanalysis.html">
+            
+                    
+                    Reproducible analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Reproducible analysis</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="reproducible-data-analysis">Reproducible data analysis</h1>
+<p>The primary goal of reproducible data analysis is to ensure computational reproducibility --- that is, the ability of another researcher to use one&#x2019;s code and data to independently obtain identical results. However, the fact that a particular analysis is reproducible does not mean that it is correct.  This is related to the oft-noted distinction in statistics between reliability (which refers to the consistency or precision of the results) and validity (which refers to the accuracy of the results).  Thus, a second goal of reproducible data analysis is to ensure that the results generated by the code are correct. An important aspect of this is to validate the code using software development practices that prevent errors and software testing methods that can help detect them when they occur.</p>
+<p>An additional goal is to allow tracking of the provenance of any particular result (figure, table, or other result), which refers to the process through which that result was obtained.  One way to think of this is to imagine the path from a particular result described in a manuscript back to the original data, describing all of the code as well as any intermediate results that are used in generating the published result.  If you have ever struggled to reconstruct exactly how a figure was generated after publishing a paper, then you understand the importance and challenge of provenance tracking.</p>
+<h2 id="committing-to-reproducibility">Committing to reproducibility</h2>
+<p>There are a number of coding practices that will help enhance reproducibility. While it takes a bit of time to learn and implement these practices, they will pay off in the long run. As the Sofware Carpentry authors say:</p>
+<blockquote>
+<p>The good news is, doing these things will speed up our programming, not slow it down. As in real carpentry &#x2014; the kind done with lumber &#x2014; the time saved by measuring carefully before cutting a piece of wood is much greater than the time that measuring takes. <a href="https://www.google.com/url?q=https://swcarpentry.github.io/python-novice-inflammation/10-defensive/index.html&amp;sa=D&amp;ust=1596473422932000&amp;usg=AOvVaw2axw38UL82HSfcsmIHXXQf" target="_blank">https://swcarpentry.github.io/python-novice-inflammation/10-defensive/index.html</a></p>
+</blockquote>
+<p>There are several global decisions that one can make that will make it easier to work in a reproducible way.  These are admittedly opinionated views that may be differently applicable in different research domains.</p>
+<ul>
+<li><em>Use only free/open-source software whenever possible.</em> This makes it easier for anyone else to reproduce your work without needing to buy particular software.<ul>
+<li>In some fields, commercial software platforms are standard.  When free/open source alternatives are available (e.g. Octave for MATLAB), try to ensure that code is compatible with those alternatives whenever possible.</li>
+</ul>
+</li>
+<li><em>Minimize manual analysis steps.</em>  Any analysis operation that can be automated should be automated, using some form of script.  Never perform manual data reorganization or file renaming operations.</li>
+<li>C<em>ommit to a standard organization scheme.</em>  Using a standard scheme may sometimes require a bit more work in the short term, but will have significant payoffs in the longer term.</li>
+<li><em>Commit to improving your skills as a software developer.</em>  Software development is a set of skills that must be learned, just like a new spoken language or musical instrument.  The best way to advance one&#x2019;s skills is through consistent and deliberate practice.  Commit to reading the materials on software engineering that are outlined in the Resource section below, and working to implement those techniques in your coding practices.<ul>
+<li>It can be particularly useful to learn about &#x201C;anti-patterns&#x201D; (i.e. commonly used worst practices) for one&#x2019;s language<ul>
+<li>Python: <a href="https://www.google.com/url?q=https://docs.quantifiedcode.com/python-anti-patterns/&amp;sa=D&amp;ust=1596473422933000&amp;usg=AOvVaw16bmucSjPSfBJ0gSePd9D8" target="_blank">https://docs.quantifiedcode.com/python-anti-patterns/</a></li>
+<li>R: <a href="https://www.google.com/url?q=https://www.burns-stat.com/pages/Tutor/R_inferno.pdf&amp;sa=D&amp;ust=1596473422933000&amp;usg=AOvVaw0e59DtIXgcOgEgMSET4SZr" target="_blank">The R Inferno</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="prerequisites">Prerequisites</h1>
+<p>In order to get started with reproducible data analysis, you will need to understand several topics:</p>
+<ul>
+<li>Version control (described in the section on Code Sharing)</li>
+<li>Using the command line (described in the section on Basic Skills)</li>
+</ul>
+<h1 id="getting-started">Getting started</h1>
+<h2 id="step-1-create-a-reproducible-environment">Step 1: Create a reproducible environment</h2>
+<p>The environment comprises all of the software components that are necessary to perform a particular operation.  This includes the code and data as well as any dependencies (such as software libraries) that are necessary to run the code.  </p>
+<p>There are two levels of reproducibility that one might shoot for in their software environment.  First is the ability to reproduce the environment on one&#x2019;s own system.  This can be achieved by generating a virtual environment, which is a configuration of one&#x2019;s system that can be loaded or unloaded as needed. For both Python, one can use the <a href="https://www.google.com/url?q=https://www.anaconda.com/products/individual&amp;sa=D&amp;ust=1596473422934000&amp;usg=AOvVaw1GCFjp2DSrTcSy6BsRjtwO" target="_blank">Anaconda</a> software distribution to create and manage virtual environments; one can also use Anaconda to install and manage virtual environments for R, but this can cause problems for RStudio users.  For Rstudio users, a better solution is the<a href="https://www.google.com/url?q=https://rviews.rstudio.com/2019/04/22/reproducible-environments/&amp;sa=D&amp;ust=1596473422935000&amp;usg=AOvVaw0fKnvYBXti-JTFD9M7XHGr" target="_blank"> </a><a href="https://www.google.com/url?q=https://rviews.rstudio.com/2019/04/22/reproducible-environments/&amp;sa=D&amp;ust=1596473422935000&amp;usg=AOvVaw0fKnvYBXti-JTFD9M7XHGr" target="_blank">renv</a><a href="https://www.google.com/url?q=https://rviews.rstudio.com/2019/04/22/reproducible-environments/&amp;sa=D&amp;ust=1596473422935000&amp;usg=AOvVaw0fKnvYBXti-JTFD9M7XHGr" target="_blank"> package,</a> which allows one to snapshot and restore packages.</p>
+<p>The second level of reproducibility is to allow someone else to implement the same environment on a different computer.  There are two ways to potentially address this.</p>
+<ol>
+<li><p>One can simply record all of the dependencies that are installed on their system. This will allow someone else with exactly the same operating system to reproduce the development environment, but will not ensure that operating system libraries are the same across the systems.  This is important because there is <a href="https://www.google.com/url?q=https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/25964757/&amp;sa=D&amp;ust=1596473422937000&amp;usg=AOvVaw20NZjpmZwny9qjYK5hMydV" target="_blank">evidence</a> that analytic results can vary across operating systems.</p>
+<ul>
+<li>Anaconda: conda list prints all installed packages and versions.</li>
+<li>Python: pip freeze prints all installed packages and versions.</li>
+<li>R: Use <a href="https://www.google.com/url?q=https://www.r-bloggers.com/list-of-user-installed-r-packages-and-their-versions/&amp;sa=D&amp;ust=1596473422936000&amp;usg=AOvVaw0fvgPOzCUIwOvHTj_ttPgH" target="_blank">installed.packages</a>, devtools::package_info or <a href="https://www.google.com/url?q=https://rviews.rstudio.com/2019/04/22/reproducible-environments/&amp;sa=D&amp;ust=1596473422936000&amp;usg=AOvVaw2r0oI5Q7yoKjy6ahAAYkKg" target="_blank">renv</a> to create a snapshot of current package versions</li>
+</ul>
+</li>
+<li><p>A generally more effective way to allow someone else to reproduce one&#x2019;s environment is to use <em>containers</em>.  A container is a system that emulates a virtual computer within one&#x2019;s own computer, which is fully configurable and allows one to almost exactly reproduce an environment across different computers.  The most commonly used system for containerization is Docker; a related system called Singularity is used on shared computer systems such as clusters.  See the FAQ below for more on how to set up and use Docker and Singularity.</p>
+</li>
+</ol>
+<h2 id="step-2-use-version-control-for-everything">Step 2: Use version control for everything</h2>
+<ul>
+<li>All work done on a computer for a project should be tracked using a version control system, including file name changes and reorganization.  This allows the history of all code and operations to be tracked.</li>
+<li>Develop a strategy for committing your changes, and stick to it.</li>
+<li>One good strategy from <a href="https://www.google.com/url?q=https://jasonmccreary.me/articles/when-to-make-git-commit/&amp;sa=D&amp;ust=1596473422938000&amp;usg=AOvVaw2PBOz8F8QybOtakmGvO8El" target="_blank">this blog post</a> to commit:<ul>
+<li>When you complete a unit of work.</li>
+<li>When you have changes you may want to undo.</li>
+</ul>
+</li>
+</ul>
+<h2 id="step-3-code-understandably">Step 3: Code Understandably</h2>
+<p>Your code should be understandable to a reader who is familiar with the language, preferably without the need for many comments in the code.  This isn&#x2019;t just for other people -- it&#x2019;s also for you when you look back at your code in the future.</p>
+<ul>
+<li><em>Practice literate programming whenever possible.</em> Literate programming is an approach to coding in which the logic of the program is explained in natural language alongside the code.  See the section on Reproducible Manuscripts for more on this.</li>
+<li>Use the <a href="https://www.google.com/url?q=https://davidzych.com/writing-code-using-the-pseudocode-programming-process/%23:~:text%3DThe%2520Pseudocode%2520Programming%2520Process%2520defines,This%2520eliminates%2520most%2520commenting%2520effort.&amp;sa=D&amp;ust=1596473422939000&amp;usg=AOvVaw3Ep6chH6xv1lBx_pHdiDjK" target="_blank">Pseudocode Programming Procedure</a> to plan your code. Before you start writing code for a project, first plan out the structure of the code using natural language descriptions of its structure (such as the various functions and classes).  The pseudocode can then be retained as comments, or as a first step towards a literate program.</li>
+<li><em>Use understandable variable names.</em>  </li>
+<li><em>Don&#x2019;t embed &#x201C;magic numbers&#x201D; in your code.</em>  Inserting numbers into the code can cause problems if those values need to change in the future.  Always define clearly named variables to contain any specific value.</li>
+<li><em>Use comments sparingly.</em>  <ul>
+<li>See the article <a href="https://www.google.com/url?q=https://www.todaysoftmag.com/article/1120/clean-code-comments-and-formatting&amp;sa=D&amp;ust=1596473422939000&amp;usg=AOvVaw0eOsqsMGdC-SXLDHc6eHnE" target="_blank">Clean Code: Comments and Formatting</a> for an overview of Robert Martin&#x2019;s suggestions on good and bad uses of comments. </li>
+</ul>
+</li>
+<li><em>Document functions and classes.</em> Describe all arguments and return values.<ul>
+<li>Add <a href="https://www.google.com/url?q=https://docs.python.org/3/library/doctest.html&amp;sa=D&amp;ust=1596473422940000&amp;usg=AOvVaw1jZAxlVPt6EgbHDminvNMP" target="_blank">doctests (Python) or equivalent</a> when possible, which allow the embedding of runnable examples in the documentation, which can then be used as tests</li>
+</ul>
+</li>
+<li><em>Follow language-specific code conventions when available.</em> This will make it much easier for readers to parse your code.<ul>
+<li>Python: <a href="https://www.google.com/url?q=https://realpython.com/python-pep8/&amp;sa=D&amp;ust=1596473422940000&amp;usg=AOvVaw1bAbT8SgQUDJ_yJp8yMdgs" target="_blank">https://realpython.com/python-pep8/</a></li>
+<li>R: <a href="https://www.google.com/url?q=http://adv-r.had.co.nz/Style.html&amp;sa=D&amp;ust=1596473422940000&amp;usg=AOvVaw0PpZCc1zZ3fIc5ArhJmcYk" target="_blank">Hadley Wickham&#x2019;s R style guide</a>, <a href="https://www.google.com/url?q=https://google.github.io/styleguide/Rguide.html&amp;sa=D&amp;ust=1596473422941000&amp;usg=AOvVaw16cxZimbH76p1BY56UvESF" target="_blank">Google R style guide</a></li>
+<li>Javascript: <a href="https://www.google.com/url?q=https://google.github.io/styleguide/jsguide.html&amp;sa=D&amp;ust=1596473422941000&amp;usg=AOvVaw0ZbB6MKC3RX2KdTUi4dKvt" target="_blank">Google&#x2019;s javascript style guide</a></li>
+</ul>
+</li>
+<li><em>Use a code analyzer.</em>  If available, a code analyzer can identify errors or potential problems in one&#x2019;s code, in addition to identifying compliance with style conventions.<ul>
+<li>Python: <a href="https://www.google.com/url?q=https://flake8.pycqa.org/en/latest/&amp;sa=D&amp;ust=1596473422941000&amp;usg=AOvVaw3vqUMbf4ERmU8miOjrfURL" target="_blank">flake8</a></li>
+<li>R: <a href="https://www.google.com/url?q=https://cran.r-project.org/web/packages/lintr/readme/README.html&amp;sa=D&amp;ust=1596473422942000&amp;usg=AOvVaw2-Dm2zekpcYPo_telfiMrN" target="_blank">lintr</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="step-4-code-defensively">Step 4: Code defensively</h2>
+<p>Assume that errors will occur, and create code that will be robust to those errors and/or will call attention to them when they exist.</p>
+<ul>
+<li><em>Use assertions.</em> Assertions are statements that will cause a program to signal an error if a particular condition is false. These should be used to detect problematic conditions.<ul>
+<li>Example: If a number is meant to be a probability, then its value must be within the range [0, 1]:</li>
+<li>Python: <code>assert p \&gt;= 0 and p \&lt;= 1</code></li>
+</ul>
+</li>
+<li><em>Write tests for important functions.</em>  Tests can ensure that a function performs properly, and can test for its ability to handle potential errors.<ul>
+<li>For data analysis functions, it can be useful to generate dummy data and assert that your function returns the expected outcome when applied to the dummy data, and that it also loudly fails when given inappropriate inputs</li>
+<li>See the section on Software Testing for more.</li>
+</ul>
+</li>
+<li><em>Be aware of random seeds.</em>  In any code that uses random number generators (RNG), the results may vary depending upon the initialization of the RNG.  By default, the random seed is usually set based on the current time when the RNG is first used in a session, which will give a different set of random numbers each time the program is run.  <ul>
+<li>One can explicitly set the random seed in order to ensure that the same random numbers are used each time the program is run.<ul>
+<li>In some cases this is useful, but it could also be problematic, as it limits the generalizability of the results to that particular random seed.  Any results should be confirmed using multiple random seeds.</li>
+</ul>
+</li>
+<li>A good solution is to obtain a random number using the default (time-based) seed, use this number as the random seed but also store it for later reference. This would allow a user in the future to re-run the program using exactly the same seed, which should allow exact reproducibility even with random numbers..  </li>
+</ul>
+</li>
+</ul>
+<h2 id="step-5-code-portably">Step 5: Code portably</h2>
+<p>Assume that your code will need to run on other computers, so that details about your specific computer should not be stored in the code itself.</p>
+<ul>
+<li><em>Never use absolute paths</em> such as <code>/Users/username/code/projectname</code><pre><code>-   Instead, specify a base path that can be modified in one place, and then use that base path to create all other paths.
+</code></pre></li>
+<li><em>Never store credentials or secrets in code.</em><ul>
+<li>Cybercriminals regularly check github for credentials (such as access keys for cloud computing systems like AWS), and may use those keys to commit crimes</li>
+<li>In addition, these secrets may need to change for portability across different systems.</li>
+</ul>
+</li>
+<li>Use configuration files or environment variables<ul>
+<li>Instead of storing details about the system in code, store them in a configuration file or an environment variable.</li>
+<li>Be sure not to check in the configuration file to your git repository!<ul>
+<li>Add the name of the configuration file to your <a href="https://www.google.com/url?q=https://www.atlassian.com/git/tutorials/saving-changes/gitignore&amp;sa=D&amp;ust=1596473422944000&amp;usg=AOvVaw0o-yxBEqF92GX_BWw8IDuC" target="_blank">.gitignore file</a>, which will prevent it from being seen by git.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="step-6-automate-your-workflow">Step 6: Automate your workflow</h2>
+<ul>
+<li>The goal of automation is to allow one to issue a single command that can execute the entire workflow.</li>
+<li>Workflow automation brings many benefits.  <ul>
+<li>It allows one to easily rerun an entire workflow if there are changes to the input data or preprocessing.</li>
+<li>It saves the researcher time, because they don&#x2019;t have to recreate a complex set of steps to run an analysis.</li>
+<li>It ensures that the entire path of the analysis, from raw data to final results, is documented and the provenance of the final results are clear.</li>
+<li>It makes it much easier to implement analysis approaches (such as multiverse analyses) that require running the workflow many times with different parameters, or resampling methods that rerun the workflow repeatedly on subsamples of the data.</li>
+</ul>
+</li>
+<li>There are many different tools for workflow automation.<ul>
+<li>Some are domain-specific<ul>
+<li>Neuroimaging: <a href="https://www.google.com/url?q=https://nipype.readthedocs.io/en/latest/&amp;sa=D&amp;ust=1596473422945000&amp;usg=AOvVaw1NC6Fb2vFQWuUBPzhgQsMA" target="_blank">nipype</a></li>
+<li>Computational biology: <a href="https://www.google.com/url?q=https://galaxyproject.org/&amp;sa=D&amp;ust=1596473422946000&amp;usg=AOvVaw15N534xQ1UCTeL8exR34wZ" target="_blank">Galaxy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>A simple general-purpose tool for workflow automation is UNIX <code>make</code><ul>
+<li>See the section on Workflow Automation for more.</li>
+</ul>
+</li>
+</ul>
+<h1 id="advanced-steps">Advanced steps</h1>
+<h2 id="step-7-containerize-your-workflow-using-docker">Step 7: Containerize your workflow using Docker</h2>
+<p>Docker allows one to generate a system with a single environment that can be reused by anyone, which contains specific versions all the dependencies that an analysis, or other code, needs to run.  In essence, Docker creates a virtual Linux-based computer running inside your computer.</p>
+<ol>
+<li>Install the <a href="https://www.google.com/url?q=https://www.docker.com/products/docker-desktop&amp;sa=D&amp;ust=1596473422946000&amp;usg=AOvVaw0Itos6MDXbc8kN49A6keuu" target="_blank">Docker Desktop</a> software for Mac and most recent Windows<ul>
+<li>If you are working on a shared system such as a cluster, you will still need to use Docker on your local machine to generate the container, since creating a Docker container requires administrative privileges which are not available on a shared system.</li>
+</ul>
+</li>
+<li>If you are not familiar with Docker, complete the first three sections of <a href="https://www.google.com/url?q=https://docker-curriculum.com/&amp;sa=D&amp;ust=1596473422947000&amp;usg=AOvVaw2pfYEzIMbunV07ROYcaJ_Q" target="_blank">A Docker Tutorial for Beginners</a> (through the &#x201C;Hello World&#x201D; section)<ul>
+<li>For more information, also see the video <a href="https://www.google.com/url?q=https://youtu.be/iqqDU2crIEQ?t%3D30&amp;sa=D&amp;ust=1596473422947000&amp;usg=AOvVaw3B0bnT0qb_c3nM0gMGdmQf" target="_blank">How to get started with Docker</a> and the <a href="https://www.google.com/url?q=https://docs.docker.com/get-started/&amp;sa=D&amp;ust=1596473422947000&amp;usg=AOvVaw0TXnGFoxm_3R27nP2yRtnS" target="_blank">Docker Quickstart</a> guide</li>
+</ul>
+</li>
+<li>Create a Dockerfile that contains all of your necessary dependencies<ul>
+<li>This often requires trial and error, as it may not be immediately obvious which libraries are necessary and/or how to find them for Linux<ul>
+<li>Note: creating a Dockerfile requires one to understand how to install packages on a Linux system.  If you are not comfortable with installing packages from the command line using apt-get, <a href="https://www.google.com/url?q=https://itsfoss.com/apt-get-linux-guide/&amp;sa=D&amp;ust=1596473422948000&amp;usg=AOvVaw1KSKCPZuoaFp0aOKP9WEwv" target="_blank">here is an introduction</a>.</li>
+</ul>
+</li>
+<li><strong>TBD</strong>: find or create a good tutorial on creating a dockerfile, using the ubuntu base image<ul>
+<li>Be sure to specify versions of all packages, as described below.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Build your container<ul>
+<li>It can be useful to set up a Makefile containing your docker commands so that you can build the container using a simple command like make docker-build</li>
+</ul>
+</li>
+<li>Run your analysis within a Docker container</li>
+<li>Push your container to <a href="https://www.google.com/url?q=https://hub.docker.com/&amp;sa=D&amp;ust=1596473422949000&amp;usg=AOvVaw2nCuoFmPKyLzsjzw1TPbom" target="_blank">DockerHub</a><ul>
+<li>This will allow others to use your container without the need to build it themselves. It also allows you to refer to a specific fixed version of the container, so that others can use exactly the same version</li>
+</ul>
+</li>
+</ol>
+<h2 id="step-8-run-your-workflow-automatically-using-continuous-integration">Step 8: Run your workflow automatically using continuous integration</h2>
+<ul>
+<li>Continuous integration systems (such as (Github Actions)[<a href="https://docs.github.com/en/actions" target="_blank">https://docs.github.com/en/actions</a>] or <a href="https://circleci.com/" target="_blank">CircleCI</a>) provide the ability to automatically run a particular code whenever a new commit is pushed to a Github repository.</li>
+<li>These systems generally allow some amount of free testing for public open source projects.</li>
+<li>This is primarily meant to be used for software testing, but can also be leveraged to actually run scientific data analyses in a fully reproducible way.<ul>
+<li>The results of the analysis can be exposed as &#x201C;artifacts&#x201D; and uploaded to a data repository to be shared.</li>
+</ul>
+</li>
+<li>Examples:<ul>
+<li><a href="https://www.google.com/url?q=https://github.com/poldrack/narps&amp;sa=D&amp;ust=1596473422949000&amp;usg=AOvVaw1mK-pwkenzWOZQiz55NbxP" target="_blank">NARPS</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+<h3 id="how-do-i-set-up-a-python-environment">How do I set up a Python environment:</h3>
+<ul>
+<li>Install the latest version of the Anaconda package: <a href="https://www.google.com/url?q=https://www.anaconda.com/distribution/&amp;sa=D&amp;ust=1596473422950000&amp;usg=AOvVaw177TFvOfafsRSySRIJClgz" target="_blank">https://www.anaconda.com/distribution/</a><ul>
+<li>Be sure to download the Python 3.X version, since Python 2.7 is being phased out.</li>
+</ul>
+</li>
+</ul>
+<h3 id="how-do-i-set-up-an-rrstudio-environment">How do I set up an R/RStudio environment?</h3>
+<ul>
+<li>Install latest version of R from one of the R mirrors, such as <a href="https://www.google.com/url?q=http://lib.stat.cmu.edu/R/CRAN/&amp;sa=D&amp;ust=1596473422951000&amp;usg=AOvVaw2xg_m6uuQQo0ZHbJjxOPE5" target="_blank">http://lib.stat.cmu.edu/R/CRAN/</a></li>
+<li>Install latest version of RStudio from <a href="https://www.google.com/url?q=https://rstudio.com/products/rstudio/download/&amp;sa=D&amp;ust=1596473422951000&amp;usg=AOvVaw0idABuYVul51QXFLB3J42I" target="_blank">https://rstudio.com/products/rstudio/download/</a></li>
+<li>Alternatively, if you are going to be using Python and R together, <a href="https://www.google.com/url?q=https://www.guru99.com/download-install-r-rstudio.html&amp;sa=D&amp;ust=1596473422952000&amp;usg=AOvVaw0lsDPzSOiDzG_oZSOJjyM4" target="_blank">install R using Anaconda</a> (after installing Anaconda as listed below)<ul>
+<li>Note that if you use R via anaconda, it&#x2019;s important to install packages via conda rather than via R to avoid inconsistencies.  See <a href="https://www.google.com/url?q=https://community.rstudio.com/t/why-not-r-via-conda/9438&amp;sa=D&amp;ust=1596473422952000&amp;usg=AOvVaw1m10zdQ1S70WBk28r-wQBy" target="_blank">here</a> for further discussion.</li>
+</ul>
+</li>
+</ul>
+<h3 id="how-do-i-create-a-virtual-environment">How do I create a Virtual Environment?</h3>
+<ul>
+<li>Within Anaconda you can create virtual environments for Python and R, in which you install a particular set of dependencies.  This can be useful if you have different projects in which you may need to install different software versions.</li>
+<li>To create a virtual environment with a particular python version:<ul>
+<li><code>conda create -n myprojectenv python=3.8</code></li>
+</ul>
+</li>
+<li>To activate the environment:<ul>
+<li><code>conda activate myprojectenv</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="how-can-i-install-a-specific-set-of-package-versions-in-r">How can I install a specific set of package versions in R?</h3>
+<ul>
+<li>In R it is difficult to  specify the package version being used, especially for package dependencies..</li>
+</ul>
+<ul>
+<li><p>One way to achieve exact version reproducibility is to use the Checkpoint package for R (<a href="https://www.google.com/url?q=https://cran.r-project.org/web/packages/checkpoint/index.html&amp;sa=D&amp;ust=1596473422953000&amp;usg=AOvVaw08C1sWr8DcFXzXwByo9MXG" target="_blank">https://cran.r-project.org/web/packages/checkpoint/index.html</a>).  This package allows you to specify a particular date, and then uses all of the package versions that are current as of that date:</p>
+<pre><code>library(checkpoint)
+checkpointDir \&lt;- &apos;/checkpoint&apos;
+checkpoint(&quot;2019-08-13&quot;, checkpointLocation = checkpointDir)
+</code></pre></li>
+<li><p>It is also important to record the package versions that are used so that they can be reported and/or shared with the results upon publication (now required by some publishers such as Nature).  You can use the package_info() function from devtools to get this information and save it to a text file:</p>
+<pre><code>library(devtools)
+package_info \&lt;- devtools::package_info()
+write.table(package_info, file=paste(&#x2018;R_package_info.txt)
+</code></pre></li>
+</ul>
+<h3 id="how-can-i-install-a-specific-version-of-a-python-package">How can I install a specific version of a Python package?</h3>
+<ul>
+<li>You can install specific versions of python packages using:<ul>
+<li>pip (e.g. <code>pip install MySQL_python==1.2.2</code>)</li>
+<li>conda (e.g. <code>conda install scipy=0.15.0</code>).  </li>
+</ul>
+</li>
+</ul>
+<h3 id="what-is-singularity">What is Singularity?</h3>
+<p><a href="https://www.google.com/url?q=https://singularity.lbl.gov/&amp;sa=D&amp;ust=1596473422955000&amp;usg=AOvVaw2h85M6j18jtIK0_GI7ECNR" target="_blank">Singularity</a> provides the ability to use containers like Docker without requiring adminstrative access, so that it&#x2019;s usable with high performance computing clusters (HPCs). Recent versions of singularity can use images directly from DockerHub, making it very easy to implement once an image has been pushed to DockerHub.</p>
+<h3 id="how-should-i-structure-my-repository">How should I structure my repository?</h3>
+<ul>
+<li>See the section on <a href="guide/2_codesharing.md">Code Sharing</a> for more on how to structure a repository.</li>
+</ul>
+<h1 id="resources">Resources</h1>
+<h3 id="provenance">Provenance</h3>
+<ul>
+<li><a href="https://www.google.com/url?q=https://rrcns.readthedocs.io/en/latest/provenance_tracking.html&amp;sa=D&amp;ust=1596473422958000&amp;usg=AOvVaw2kEZ0x5dGFBzd4FIOfms84" target="_blank">Provenance tracking</a></li>
+</ul>
+<h3 id="reproducible-environments">Reproducible environments</h3>
+<ul>
+<li><a href="https://www.google.com/url?q=https://the-turing-way.com/reproducible_environments/reproducible_environments.html&amp;sa=D&amp;ust=1596473422959000&amp;usg=AOvVaw23EihL5Pe92XmXN4qaevrz" target="_blank">The Turing Way: Reproducible Environments</a></li>
+</ul>
+<h3 id="reproducible-workflows">Reproducible workflows</h3>
+<ul>
+<li><a href="https://www.google.com/url?q=https://www.ihrp.uic.edu/files/Workflow%2520Slides%2520JSLong%2520110410.pdf&amp;sa=D&amp;ust=1596473422959000&amp;usg=AOvVaw2KuwMoO9Z5TPPOKOrrvl5r" target="_blank">https://www.ihrp.uic.edu/files/Workflow%20Slides%20JSLong%20110410.pdf</a></li>
+</ul>
+<h3 id="tools">Tools:</h3>
+<ul>
+<li><a href="https://www.google.com/url?q=https://github.com/ReproNim/neurodocker&amp;sa=D&amp;ust=1596473422959000&amp;usg=AOvVaw0XcWncZZwUYdCi3CZqF8Sj" target="_blank">NeuroDocker</a> simplifies the creation of Docker/Singularity recipes</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="3_datasharing.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Data sharing">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Reproducible analysis","level":"1.5","depth":1,"previous":{"title":"Data sharing","level":"1.4","depth":1,"path":"3_datasharing.md","ref":"3_datasharing.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"4_reproducibleanalysis.md","mtime":"2020-08-03T17:04:04.564Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-03T17:04:39.616Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
