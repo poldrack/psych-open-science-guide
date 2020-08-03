@@ -5,3 +5,4 @@
 * [Data sharing](3_datasharing.md)
 * [Reproducible analysis](4_reproducibleanalysis.md)
 * [Reproducible manuscripts](5_reproduciblemanuscripts.md)
+* [Joining the culture of open science](culture.md)
