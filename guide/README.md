@@ -1,8 +1,10 @@
 # A guide to open science for psychologists
 
-This guide was prepared by researchers in the Stanford Department of Psychology, under the guidance of the department's Open Science Committee.
+This guide was prepared by researchers in the [Stanford Department of Psychology](https://psychology.stanford.edu/), under the guidance of the department's Open Science Committee.  See the [full list of contributors](#contributors) below.
 
 *THIS IS CURRENTLY A WORK IN PROGRESS*
+
+See the [Guide for Contributors](CONTRIBUTING.md) if you wish to contribute to this project.
 
 ## What is "open science"?
 
@@ -27,9 +29,9 @@ This guide aims to provide researchers with the resources necessary to implement
 This guide is organized according to a number of different aspects of open science practices, focusing on those that are common within psychology and neuroscience:
 
 1. [Pre-registration](1_preregistration.md)
-2. Code sharing
-3. Data sharing
-4. Reproducible analyses
+1. [Code sharing](2_codesharing.md)
+1. [Data sharing](3_datasharing.md)
+1. [Reproducible analysis](4_reproducibleanalysis.md)
 5. Reproducible manuscripts
 6. Open access publication
 
@@ -39,7 +41,7 @@ We also include some more general suggestions:
 - Basic computing skills for open science
 
 
-## Contributors ✨
+## Contributors ✨<a name="contributors"></a>
 
 Thanks goes to these wonderful people who contributed to the development of this guide ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
