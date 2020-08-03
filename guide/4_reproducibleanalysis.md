@@ -222,6 +222,9 @@ Frequently Asked Questions
 Resources
 =========
 
+### General
+
+[Ten Simple Rules for Reproducible Computational Research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)
 ### Provenance
 
 -   [Provenance tracking](https://www.google.com/url?q=https://rrcns.readthedocs.io/en/latest/provenance_tracking.html&sa=D&ust=1596473422958000&usg=AOvVaw2kEZ0x5dGFBzd4FIOfms84)
