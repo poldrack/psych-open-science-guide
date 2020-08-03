@@ -4,7 +4,7 @@ This guide was prepared by researchers in the [Stanford Department of Psychology
 
 *THIS IS CURRENTLY A WORK IN PROGRESS*
 
-See the [Guide for Contributors](CONTRIBUTING.md) if you wish to contribute to this project.
+See the [Guide for Contributors](https://github.com/poldrack/psych-open-science-guide/blob/master/CONTRIBUTING.md) if you wish to contribute to this project.
 
 ## What is "open science"?
 
