@@ -137,6 +137,14 @@ In order to make your code citable, it is useful to have a digital object identi
 Frequently Asked Questions
 ==========================
 
+What is a “repository”?
+--------------------------------------------------------------
+By “repository” we mean a folder that is dedicated to a specific project, containing both the data and code for that project, which is under version control (e.g. using git).  
+
+- It’s generally best practice to place all of these within a folder on your filesystem, so that they can be separated out from other kinds of documents and you can easily find them (such as “Dropbox/code”).  
+- It’s also a good idea to place them within a location that will be backed up by whatever cloud service you use (Dropbox, Google Drive, Box, etc), so you have an extra backup in addition to your remote code repository
+
+
 What is a license, and how should I choose one for my project?
 --------------------------------------------------------------
 
