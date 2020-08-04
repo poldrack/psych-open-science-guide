@@ -1,9 +1,8 @@
-Basic Skills for Reproducible Research
-------------------------------------------------------------
+# Basic Skills for Reproducible Research
 
-### Computer literacy
+## Computer literacy
 
-#### File systems
+### File systems
 
 -   Need to understand the concept of how files are organized on a computer file system. Important concepts include:
     -   What is a file path?  What is the difference between a relative and an absolute path?
@@ -11,19 +10,19 @@ Basic Skills for Reproducible Research
     -   Resources:
         -   [https://docs.oracle.com/javase/tutorial/essential/io/path.html](https://www.google.com/url?q=https://docs.oracle.com/javase/tutorial/essential/io/path.html&sa=D&ust=1596565603994000&usg=AOvVaw0Uco6HPQlUwDOohTrzUcE6)
 
-#### Files
+### Files
 
 -   Need to understand the different types of files that can exist on a computer, and how to work with them. Important concepts include:
     -   Text vs. binary files
     -   Different types of text files (e.g. comma-separated vs tab-separated)
 
-#### Command line
+### Command line
 
 -   need to understand how to access the command line interface on one’s computer and how to use it to perform operations. Important concepts include:
     -   Moving around the file system
     -   Working with files and directories (creating, removing, moving)
 
-#### Editing text files
+### Editing text files
 
 -   It is very useful to know how to edit text files from the command line.
 -   All of these require learning of somewhat unintuitive key combinations for various operations, so it’s useful to keep a cheat sheet handy
@@ -33,7 +32,7 @@ Basic Skills for Reproducible Research
     -   [Emacs](https://www.google.com/url?q=https://www.gnu.org/software/emacs/&sa=D&ust=1596565603998000&usg=AOvVaw0ocCNU_0Y1m0N0E4wzB7AK) ([cheat sheet](https://www.google.com/url?q=https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf&sa=D&ust=1596565603999000&usg=AOvVaw1uiBz-fvrRGT_TCXudcqhK))
 -   If you want to see geeks getting into religious wars, Google “vim vs emacs”
 
-### UNIX
+## UNIX
 
 Knowledge of basic UNIX skills can really up your game when it comes to getting things done, if you work on Mac OS (and even on Windows, you can install a [Linux subsystem](https://www.google.com/url?q=https://docs.microsoft.com/en-us/windows/wsl/install-win10&sa=D&ust=1596565603999000&usg=AOvVaw3q0Cjo4sc526TBqRcepwqS) that gives you access to UNIX).
 
@@ -57,7 +56,7 @@ There is also an [additional lesson on more advanced topics](https://www.google.
 -   Aliases and shell customization
 -   Shell variables
 
-#### Makefiles
+### Makefiles
 
 The UNIX make utility is very useful for automating computational workflows.  
 

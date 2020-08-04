@@ -4,8 +4,7 @@ The primary goal of reproducible data analysis is to ensure computational reprod
 
 An additional goal is to allow tracking of the provenance of any particular result (figure, table, or other result), which refers to the process through which that result was obtained.  One way to think of this is to imagine the path from a particular result described in a manuscript back to the original data, describing all of the code as well as any intermediate results that are used in generating the published result.  If you have ever struggled to reconstruct exactly how a figure was generated after publishing a paper, then you understand the importance and challenge of provenance tracking.
 
-Committing to reproducibility
------------------------------
+## Committing to reproducibility
 
 There are a number of coding practices that will help enhance reproducibility. While it takes a bit of time to learn and implement these practices, they will pay off in the long run. As the Sofware Carpentry authors say:
 
@@ -22,19 +21,16 @@ There are several global decisions that one can make that will make it easier to
         -   Python: [https://docs.quantifiedcode.com/python-anti-patterns/](https://www.google.com/url?q=https://docs.quantifiedcode.com/python-anti-patterns/&sa=D&ust=1596473422933000&usg=AOvVaw16bmucSjPSfBJ0gSePd9D8)
         -   R: [The R Inferno](https://www.google.com/url?q=https://www.burns-stat.com/pages/Tutor/R_inferno.pdf&sa=D&ust=1596473422933000&usg=AOvVaw0e59DtIXgcOgEgMSET4SZr)
 
-Prerequisites
-=============
+## Prerequisites
 
 In order to get started with reproducible data analysis, you will need to understand several topics:
 
 -   Version control (described in the section on Code Sharing)
 -   Using the command line (described in the section on Basic Skills)
 
-Getting started
-===============
+## Getting started
 
-Step 1: Create a reproducible environment
---------------------------------------------------------------------------
+### Step 1: Create a reproducible environment
 
 The environment comprises all of the software components that are necessary to perform a particular operation.  This includes the code and data as well as any dependencies (such as software libraries) that are necessary to run the code.  
 
@@ -50,8 +46,7 @@ The second level of reproducibility is to allow someone else to implement the sa
 
 1.  A generally more effective way to allow someone else to reproduce one’s environment is to use *containers*.  A container is a system that emulates a virtual computer within one’s own computer, which is fully configurable and allows one to almost exactly reproduce an environment across different computers.  The most commonly used system for containerization is Docker; a related system called Singularity is used on shared computer systems such as clusters.  See the FAQ below for more on how to set up and use Docker and Singularity.
 
-Step 2: Use version control for everything
-------------------------------------------
+### Step 2: Use version control for everything
 
 -   All work done on a computer for a project should be tracked using a version control system, including file name changes and reorganization.  This allows the history of all code and operations to be tracked.
 -   Develop a strategy for committing your changes, and stick to it.
@@ -59,8 +54,7 @@ Step 2: Use version control for everything
     -   When you complete a unit of work.
     -   When you have changes you may want to undo.
 
-Step 3: Code Understandably
----------------------------
+### Step 3: Code Understandably
 
 Your code should be understandable to a reader who is familiar with the language, preferably without the need for many comments in the code.  This isn’t just for other people -- it’s also for you when you look back at your code in the future.
 
@@ -80,8 +74,7 @@ Your code should be understandable to a reader who is familiar with the language
     -   Python: [flake8](https://www.google.com/url?q=https://flake8.pycqa.org/en/latest/&sa=D&ust=1596473422941000&usg=AOvVaw3vqUMbf4ERmU8miOjrfURL)
     -   R: [lintr](https://www.google.com/url?q=https://cran.r-project.org/web/packages/lintr/readme/README.html&sa=D&ust=1596473422942000&usg=AOvVaw2-Dm2zekpcYPo_telfiMrN)
 
-Step 4: Code defensively
-------------------------
+### Step 4: Code defensively
 
 Assume that errors will occur, and create code that will be robust to those errors and/or will call attention to them when they exist.
 
@@ -96,8 +89,7 @@ Assume that errors will occur, and create code that will be robust to those erro
         -   In some cases this is useful, but it could also be problematic, as it limits the generalizability of the results to that particular random seed.  Any results should be confirmed using multiple random seeds.
     -   A good solution is to obtain a random number using the default (time-based) seed, use this number as the random seed but also store it for later reference. This would allow a user in the future to re-run the program using exactly the same seed, which should allow exact reproducibility even with random numbers..  
 
-Step 5: Code portably
----------------------
+### Step 5: Code portably
 
 Assume that your code will need to run on other computers, so that details about your specific computer should not be stored in the code itself.
 
@@ -111,8 +103,7 @@ Assume that your code will need to run on other computers, so that details about
     -   Be sure not to check in the configuration file to your git repository!
         -   Add the name of the configuration file to your [.gitignore file](https://www.google.com/url?q=https://www.atlassian.com/git/tutorials/saving-changes/gitignore&sa=D&ust=1596473422944000&usg=AOvVaw0o-yxBEqF92GX_BWw8IDuC), which will prevent it from being seen by git.
 
-Step 6: Automate your workflow
-------------------------------
+### Step 6: Automate your workflow
 
 -   The goal of automation is to allow one to issue a single command that can execute the entire workflow.
 -   Workflow automation brings many benefits.  
@@ -127,11 +118,9 @@ Step 6: Automate your workflow
 -   A simple general-purpose tool for workflow automation is UNIX ``make``
     -   See the section on Workflow Automation for more.
 
-Advanced steps
-==============
+## Advanced steps
 
-Step 7: Containerize your workflow using Docker
------------------------------------------------
+### Step 7: Containerize your workflow using Docker
 
 Docker allows one to generate a system with a single environment that can be reused by anyone, which contains specific versions all the dependencies that an analysis, or other code, needs to run.  In essence, Docker creates a virtual Linux-based computer running inside your computer.
 
@@ -150,8 +139,7 @@ Docker allows one to generate a system with a single environment that can be reu
 2.  Push your container to [DockerHub](https://www.google.com/url?q=https://hub.docker.com/&sa=D&ust=1596473422949000&usg=AOvVaw2nCuoFmPKyLzsjzw1TPbom)
     -  This will allow others to use your container without the need to build it themselves. It also allows you to refer to a specific fixed version of the container, so that others can use exactly the same version
 
-Step 8: Run your workflow automatically using continuous integration
---------------------------------------------------------------------
+### Step 8: Run your workflow automatically using continuous integration
 
 -   Continuous integration systems (such as (Github Actions)[https://docs.github.com/en/actions] or [CircleCI](https://circleci.com/)) provide the ability to automatically run a particular code whenever a new commit is pushed to a Github repository.
 - These systems generally allow some amount of free testing for public open source projects.
@@ -162,8 +150,7 @@ Step 8: Run your workflow automatically using continuous integration
 
  
 
-Frequently Asked Questions
-==========================
+## Frequently Asked Questions
 
 ### How do I set up a Python environment:
 
@@ -218,8 +205,7 @@ Frequently Asked Questions
 -   See the section on [Code Sharing](guide/2_codesharing.md) for more on how to structure a repository.
 
 
-Resources
-=========
+## Resources
 
 ### General
 

@@ -1,7 +1,7 @@
 # Pre-registration
 
 
-### What is pre-registration?
+## What is pre-registration?
 
 Pre-registration is the process of documenting one's plans for a study and depositing those plans in a place where they are time-stamped and immutable (i.e. cannot be changed).  There are [various types of pre-registration](https://www.psychologicalscience.org/observer/research-preregistration-101#types):
 
@@ -9,7 +9,7 @@ Pre-registration is the process of documenting one's plans for a study and depos
 - *Registered reports*: An investigator writes a manuscript describing the motivation for a study and a detailed description of the methods, and submits it to a journal for peer review prior to undertaking the research.  The manuscript is reviewed based on the importance of the research question and the quality of the methods. If accepted, the journal agrees to publish the paper regardless of the results, assuming that there are no problems with the implementation of the methods.
 - *Registered replication report*: A type of registered report in which the invesigators wish to attempt to replicate a particular published finding, usually involving multiple research sites.
 
-### Why is pre-registration important?
+## Why is pre-registration important?
 
 - It forces the researcher to plan & think through both why and how they pursuing their research question question
 - It provides the researcher with a way to determine whether a hypothesis was truly held a priori, versus relying upon memory
@@ -17,7 +17,7 @@ Pre-registration is the process of documenting one's plans for a study and depos
 - It helps prevent data-dependent decisions (including "p-hacking") and establish credibility by avoiding the [garden of forking paths](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf): it’s a solution to p-hacking
 - Helps prevent selective reporting of measures
 
-### When can/should one pre-register their research?
+## When can/should one pre-register their research?
 
 A planned research activity can be pre-registered at any point, as long as the particular activity being registered has not started.  However, there are [several points at which registration is most common](https://www.cos.io/our-services/prereg?_ga=2.263330764.1195627208.1585935801-1853960792.1572623623):
 

@@ -16,8 +16,7 @@ Many researchers are worried about sharing their code, for various reasons.  Ho
 
 > That the code is a little raw is one of the main reasons scientists give for not sharing it with others. Yet, software in all trades is written to be good enough for the job intended. So if your code is good enough to do the job, then it is good enough to release — and releasing it will help your research and your field.
 
-Prerequisites
-=============
+## Prerequisites
 
 The steps to getting started below assume some basic skills, which are presented in more detail in the Basic Skills section of the guide:
 
@@ -27,11 +26,9 @@ The steps to getting started below assume some basic skills, which are presented
 
 In addition, see the section on Reproducible Analysis for suggestions on how to write and organize your code and data in a way that enhances reproducibility.
 
-Getting started with code sharing
-=================================
+## Getting started with code sharing
 
-Step 1: Set up git and Github
------------------------------
+### Step 1: Set up git and Github
 
 Git is currently the most popular version control system, and it allows one to easily share code via github.com, which is the most popular online git repository system.
 
@@ -40,23 +37,16 @@ Git is currently the most popular version control system, and it allows one to e
 -   Create an account on Github: [https://github.com/](https://www.google.com/url?q=https://github.com/&sa=D&ust=1596213792951000&usg=AOvVaw24cyY-NlYfJJux3AojI4EP)
 -   It will make your life much easier if you set up an SSH key for your local computer and add it to your Github account: This way, you won’t need to enter your github password every time you push code to the repository.  See [this article](https://www.google.com/url?q=https://dev.to/idrisrampurawala/configuring-ssh-for-git-2of1&sa=D&ust=1596213792951000&usg=AOvVaw3yRSRKoznD6SFs15aqL2VF) for more.
 
-Step 2: Choose a license for your code
---------------------------------------
+### Step 2: Choose a license for your code
 
 Specifying a license for your code allows you to stipulate how others can re-use the code. In general, you should select the most permissive license possible --- that is, the license that gives the greatest possible freedom for others to reuse the code.
 
-
-
 -   MIT License is a good default choice as it allows people to do almost anything with your code, which will maximize its potential reuse
 -   If you are going to be collaborating with an existing code base, then it’s best to select the license that they are already using
-
-
-
 -   If you need help determining which license is most appropriate for your particular situation, see [https://choosealicense.com/](https://www.google.com/url?q=https://choosealicense.com/&sa=D&ust=1596213792952000&usg=AOvVaw0ytGFb6uBLYYJn-FH2u9Ij)
 -   Preventing commercial reuse might sound like a good idea, but in most cases it’s not: [https://freedomdefined.org/Licenses/NC](https://www.google.com/url?q=https://freedomdefined.org/Licenses/NC&sa=D&ust=1596213792952000&usg=AOvVaw019rwVoDeChEpV1BJi4jkK)
 
-Step 3: Create a new repository on Github, and clone it to your computers
--------------------------------------------------------------------------
+### Step 3: Create a new repository on Github, and clone it to your computers
 
 -   Create a new repository from your Github page (using the menu at the top right with the + sign)
 
@@ -74,8 +64,7 @@ Step 3: Create a new repository on Github, and clone it to your computers
 -   This will create a new directory on your computer with the same name as your github project.
 -   Note: Some editors, such as RStudio and Visual Studio Code, allow one to directly connect to github within the editor; see below for more details.
 
-Step 4: Organize your code
---------------------------
+### Step 4: Organize your code
 
 The main goal of organizing your code is to make it clear to you and to others where to find the different parts of your project.  See the additional guidance in the section on Reproducible Analysis for how to write code that is clear and readable.
 
@@ -88,8 +77,7 @@ For example, if you were creating a new project called study-1 and decided to in
 <p align="center"><img width=60% src="images/tree.png"></p>
 
 
-Step 5: Commit your code to the local repository
-------------------------------------------------
+### Step 5: Commit your code to the local repository
 
 As you write your code, commit it to the repository. First, you need to add it to the staging area:
 
@@ -101,8 +89,7 @@ Then you commit it, providing a message that describes the changes you have made
 
 You should commit your code regularly.  For example, any time you add a new function or a new section to your code, you should commit. The commit history allows you to look back and see what you have done, and also allows you to reverse changes that you have made.
 
-Step 6: Push your changes to Github
------------------------------------
+### Step 6: Push your changes to Github
 
 To push your changes back to the repository on Github, use the following command:
 
@@ -110,8 +97,7 @@ To push your changes back to the repository on Github, use the following command
 
 This tells git to push the changes that you have committed to the repository on github (which by default is labeled as origin), into the branch called master (don’t worry about branches just yet).  
 
-Step 7: Push your code to the repository
-----------------------------------------
+#### Step 7: Push your code to the repository
 
 -   You will first need to pull the files that were created when the repository was created, such as the License file:
 
@@ -121,32 +107,27 @@ Step 7: Push your code to the repository
 
     -   ``git push origin master``
 
-When you are ready to publish your work:
-========================================
+## When you are ready to publish your work:
 
-Step 1: Create a release
-------------------------
+### Step 1: Create a release
 
 When you are ready to save a fixed version of the code (for example, when you submit a paper), you can create a release.  See [the github guide to creating a release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository\#creating-a-release) for instructions on how to do this.
 
-Step 2: Create a citable identifier for your release
-----------------------------------------------------
+### Step 2: Create a citable identifier for your release
 
 In order to make your code citable, it is useful to have a digital object identifier (DOI) for your code. You can create these easily by linking your github repository to Zenodo.org. Then, any time a release is created on github, it will be deposited to Zenodo and a new DOI will be created. See [the github guide to citeable code](https://guides.github.com/activities/citable-code/) for instructions on how to set this up.  This has the benefit of allowing one to cite a specific version of the code used at a particular point in the project (e.g. upon submission of the manuscript), which enhances reproducibility.
 
-Frequently Asked Questions
-==========================
+## Frequently Asked Questions
 
-What is a “repository”?
---------------------------------------------------------------
+### What is a “repository”?
+
 By “repository” we mean a folder that is dedicated to a specific project, containing both the data and code for that project, which is under version control (e.g. using git).  
 
 - It’s generally best practice to place all of these within a folder on your filesystem, so that they can be separated out from other kinds of documents and you can easily find them (such as “Dropbox/code”).  
 - It’s also a good idea to place them within a location that will be backed up by whatever cloud service you use (Dropbox, Google Drive, Box, etc), so you have an extra backup in addition to your remote code repository
 
 
-What is a license, and how should I choose one for my project?
---------------------------------------------------------------
+### What is a license, and how should I choose one for my project?
 
 Software licenses describe the rights and responsibilities of users of your code from two perspectives: developers and end-users. An end-user is anybody who uses any software that includes your code. A developer is somebody who writes additional code, either by modifying your code or by including some portion of your code in a larger project.
 
@@ -160,8 +141,7 @@ Less common for software but increasingly common for textual content like docume
 
 Note that there is very little case law on open-source licenses. Licenses are mostly a statement of principles, and all of the baroque behavior around them, such as avoiding mixing “incompatible” licenses, has little to no legal basis.
 
-Should I include a non-commercial limitation in my license?
------------------------------------------------------------
+### Should I include a non-commercial limitation in my license?
 
 Many open licenses include a non-commercial clause, such as that in the Creative Commons [NonCommercial suite of licenses](https://www.google.com/url?q=https://creativecommons.org/licenses/by-nc/4.0/legalcode&sa=D&ust=1596213792964000&usg=AOvVaw332OADBzkD7_6C6jaTV2KU):
 
@@ -174,8 +154,7 @@ It is, however, unclear whether a non-commercial license prevents a for-profit c
 The use of these licenses can thus reduce the adoption of a particular tool within a significant segment of the scientific community, working against goals of standardization, and thus reproducibility.
 
 
-What is a “branch” and how can I use them?
-------------------------------------------
+### What is a “branch” and how can I use them?
 
 A branch is a chain of git commits, which represents the evolution of a repository. Each repository will have a canonical branch, usually called “master”. By looking at “master” at any given time, you can see the current state of the repository and the chain of commits that produced this state. Other branches may be used as an organizational tool by separating chains of commits according to particular tasks.
 
@@ -198,8 +177,7 @@ Pushing to a remote branch allows collaborators to inspect the changes. If you�
 
 The same principle applies for new features or other modifications. This is also useful for more exploratory changes that may never be included in the master branch, and makes explicit the process of resolving conflicts, if two developers are working on different components simultaneously.
 
-What is a “pull request” and how can I use them to collaborate?
----------------------------------------------------------------
+### What is a “pull request” and how can I use them to collaborate?
 
 A pull request is a way to request that code from a particular branch or fork be integrated (“pulled”) into another branch.  A common model for collaborative development would be as follows.  Let’s say that one researcher (A) has developed a project called analysisXYZ, and another researcher (B) wants to add a new feature to that project.  The steps would be:
 
@@ -216,8 +194,7 @@ A pull request is a way to request that code from a particular branch or fork b
 1.  Researcher B goes to the github page for their fork, selects the pull requests tab, and creates a new pull request, which will encompass all of the changes that have been committed.  The pull request description should be as detailed as possible.
 2.  Researcher A reviews the pull request, and makes suggestions for changes.  Once they are satisfied with the request, they merge the request, which integrates the changes into the master branch on the original repo.
 
-How can I push an existing repository on my computer to github?
----------------------------------------------------------------
+### How can I push an existing repository on my computer to github?
 
 Your github repository is treated as a remote repository by your local computer.  When you clone a repository from github, the remote is automatically generated and given the name origin.  Sometimes you might wish to add a remote for an existing repository on your computer, as when you have an existing local git repo and you wish to link it to a new repository on github.
 
@@ -225,51 +202,43 @@ Your github repository is treated as a remote repository by your local computer
     -   ```git remote add origin \<link to your repo\>```
 -   You can obtain the link to the repo from the green button marked “Clone or download” on your Github repository page. Be sure that is says “Clone with SSH”; if not, then first click the “Use SSH” button in the window.  The link should look like ``“<git@github.com>:\<your name\>/\<repository name\>.git”``
 
-Should I share my data in the same repository with my code?
-------------------------------------------
+### Should I share my data in the same repository with my code?
 
 If one’s data are relatively small it is common to share them along with the code within the same repository.  However, if the data are relatively large (say tens of megabytes or larger) then one would usually store and share them separately from the code.  See the section on Data Sharing for more details on how to share data.
 
-How can I share my entire software environment?
------------------------------------------------
+### How can I share my entire software environment?
 
-The environment refers to the full set of software (including libraries and other dependencies, sometimes including the operating system) that are used when the code is executed.  See the section on Reproducible Analysis for more on why sharing environments is important.
+The environment refers to the full set of software (including libraries and other dependencies, sometimes including the operating system) that are used when the code is executed.  See the section on [Reproducible Analysis](4_reproducibleanalysis.md) for more on why sharing environments is important.
 
 [Anaconda](https://www.google.com/url?q=https://www.anaconda.com/&sa=D&ust=1596213792971000&usg=AOvVaw2WYGIMHbe2aV5yrzaFvjRw) is a package management for Python and R that allows one to create multiple “virtual environments” that are easy to switch between. Thus, for example, if you wanted to build a specific project using a particular older version of a software library, you could build a virtual environment including that version, while still being able to use the newer version within a different virtual environment.  The [Anaconda documentation on managing environments](https://www.google.com/url?q=https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html&sa=D&ust=1596213792971000&usg=AOvVaw2IMX9rEtn1vSOX6kNcwJtl) provides detailed information about how to export and share details about a virtual environment.
 
 [Docker](https://www.google.com/url?q=https://docs.docker.com/&sa=D&ust=1596213792972000&usg=AOvVaw3WWtcNOMIQ8PxpYYjmz_aa) is a system for generating a container that defines all of the software dependencies necessary to execute a particular program.  The contents of the container are defined using a Dockerfile, which can be shared to allow others to recreate the container exactly. In addition to sharing the Dockerfile, it is also possible to share the entire container using the [DockerHub](https://www.google.com/url?q=https://hub.docker.com/&sa=D&ust=1596213792972000&usg=AOvVaw1EPG7aecNQhyf1NWTo1_-0) web site. The section on Reproducible Analysis provides much more detail on using Docker.  
 
-How can I use git within my code editor?
-----------------------------------------
+### How can I use git within my code editor?
 
 -   RStudio:
     -   [Using Git within RStudio](https://cfss.uchicago.edu/setup/git-with-rstudio/)
     - [Using Version Control with RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
 
-
 -   Visual Studio Code
     -   [Using git with VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 
-Background Resources:
-=====================
+## Background Resources:
 
-On code sharing:
-----------------
+### On code sharing:
 
 -   [Publish your computer code: It is good enough.](https://www.google.com/url?q=https://www.nature.com/articles/467753a&sa=D&ust=1596213792974000&usg=AOvVaw0u6eAaKegYpbZBS5elRxvr)
 -   [Towards standard practices for sharing computer code and programs in neuroscience](https://www.google.com/url?q=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6386137/&sa=D&ust=1596213792975000&usg=AOvVaw17BU4xS3FqnSicyeR7A52v)
 -   
 
-On licensing and Free/Open Source Software:
--------------------------------------------
+### On licensing and Free/Open Source Software:
 
 -   [History of the Open Source Initiative](https://www.google.com/url?q=https://opensource.org/history&sa=D&ust=1596213792975000&usg=AOvVaw2e69-qFXa2U6PlELxQpkRn). Website.
 -   Morozov, E. 2013. [The Meme Hustler](https://www.google.com/url?q=https://thebaffler.com/salvos/the-meme-hustler&sa=D&ust=1596213792975000&usg=AOvVaw1h6FEyEPX9NmkPaLfFYGyp). The Baffler.
 -   Klabnik, S. 2019. [The Culture War at the Heart of Open Source](https://www.google.com/url?q=https://words.steveklabnik.com/the-culture-war-at-the-heart-of-open-source&sa=D&ust=1596213792976000&usg=AOvVaw3NAQPpOeVt1sY8TbGSDlKy). Blog.
 -   [The case for Free use: reasons not to use a Creative Commons -NC license](https://www.google.com/url?q=https://freedomdefined.org/Licenses/NC&sa=D&ust=1596213792976000&usg=AOvVaw27qMpTlKm88uJu98h1yxcn). FreedomDefined.org (wiki).
 
-On version control:
--------------------
+#### On version control:
 
 -   [What is version control?](https://www.google.com/url?q=https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&sa=D&ust=1596213792976000&usg=AOvVaw3OGJL91wNZ3t7keNiY56HN)
 -   [GitHub’s quickstart guide](https://www.google.com/url?q=https://help.github.com/en/github/getting-started-with-github/quickstart&sa=D&ust=1596213792977000&usg=AOvVaw1eR5C1BS6Vtne6-Wxl-Klq) - a walkthrough of setting up git, creating a repo
@@ -280,8 +249,7 @@ On version control:
 -   [Git large file storage](https://www.google.com/url?q=https://git-lfs.github.com/&sa=D&ust=1596213792978000&usg=AOvVaw29I031PIN_JqXxhOFZ6cZb)
 -   [Top GitHub best practices guide for developers](https://www.google.com/url?q=https://www.datree.io/resources/github-best-practices&sa=D&ust=1596213792978000&usg=AOvVaw0MG8jydq6yyGzjZ14RVrsR)
 
-Guides and templates for project organization
----------------------------------------------
+### Guides and templates for project organization
 
 -   Python
     -   [Shablona](https://www.google.com/url?q=https://github.com/uwescience/shablona&sa=D&ust=1596213792979000&usg=AOvVaw0ybYY5n-u3HVW9d97D1719) - A template for scientific Python projects
