@@ -1,8 +1,6 @@
-Data sharing
-============
+# Data sharing
 
-Why should I share my data?
----------------------------
+## Why should I share my data?
 
 There are many reasons to share one’s data:
 
@@ -13,8 +11,7 @@ There are many reasons to share one’s data:
 5.  *Responsibility to research funders.*  Most research is funded by taxpayers or private foundations, who expect researchers to maximize the potential benefit of that investment.  When researchers fail to share data effectively, they are limiting the potential impact of the funding, by preventing others from using those data to generate additional knowledge or test new hypotheses.  In addition, some funding agencies (such as the [National Institute of Mental Health](https://www.google.com/url?q=https://grants.nih.gov/grants/guide/notice-files/NOT-MH-19-033.html&sa=D&ust=1596301436997000&usg=AOvVaw2kSeI3fStJD5Mn63NVZ5oj) and [Wellcome Trust](https://www.google.com/url?q=https://wellcome.ac.uk/grant-funding/guidance/data-software-materials-management-and-sharing-policy&sa=D&ust=1596301436997000&usg=AOvVaw3K2ME0QR68RhTGeMt8rb8c)) require the sharing of data from research that they fund.
 6.  *Improving power through data aggregation.*  There are many cases in which an individual researcher cannot feasibly obtain enough data to robustly test a particular scientific hypothesis; this is particularly the case for rare diseases, or for finding effects such as genetic associations that require very large samples.  In such cases, the sharing of data across sites can allow a larger consortium of researchers to combine data in order to more robustly ask particular scientific questions.  
 
-Why doesn’t everyone share their data?
---------------------------------------
+## Why doesn’t everyone share their data?
 
 There are a number of reasons why researchers may not wish to share data.
 
@@ -27,13 +24,11 @@ There are a number of reasons why researchers may not wish to share data.
 1.  *Concerns about errors being found. * Researchers sometimes worry that sharing data could open them up to the possibility of others finding errors in their research.
 2.  *Concerns about “[weaponization](https://www.google.com/url?q=https://www.nature.com/news/research-integrity-don-t-let-transparency-damage-science-1.19219&sa=D&ust=1596301436998000&usg=AOvVaw22-xKMVczkP5i3AwabIILX)”.*  In some highly politicized domains of science (such as climate science), politically motivated actors may use shared data in an attempt to discredit published work that contradicts their agenda.
 
-What are “metadata” and why are they important?
------------------------------------------------
+## What are “metadata” and why are they important?
 
 *Metadata* refers to information that describes the content or structure of a dataset, or related information that is needed to properly interpret the data.  This can include information about the provenance of the data (e.g. who created the data, when they were created, and how they were created), the structure of the data (for example, what units are a particular variable specified in), and other annotations (for example, ratings of the quality of the data).  Metadata are important because they allow us to interpret the data properly, and are also important for finding the dataset, as outlined by the FAIR principles.
 
-The FAIR Principles for open data
----------------------------------
+## The FAIR Principles for open data
 
 The [FAIR principles](https://www.google.com/url?q=http://www.nature.com/articles/sdata201618&sa=D&ust=1596301436999000&usg=AOvVaw2EXW1PDfm9hkm7t5RWjx92) describe a set of features that shared data should have in order to be maximally useful. Shared data should be:
 
@@ -44,8 +39,7 @@ The [FAIR principles](https://www.google.com/url?q=http://www.nature.com/article
 
 See [here](https://www.google.com/url?q=https://www.openaire.eu/how-to-make-your-data-fair&sa=D&ust=1596301437000000&usg=AOvVaw0dar8PEPZ8arOs4UA12oNh) for more on how to make one’s data FAIR.
 
-Getting started with data sharing
----------------------------------
+## Getting started with data sharing
 
 ### Step 1: Plan for sharing (prior to data collection):
 
@@ -144,8 +138,7 @@ Getting started with data sharing
     -   The premier outlet for data descriptors is [Scientific Data](https://www.google.com/url?q=https://www.nature.com/sdata/&sa=D&ust=1596301437010000&usg=AOvVaw1cbhoMTEhviNXuPdjJMy_0)
     -   There are many others, both domain-specific and domain-general.  See a list [here](https://www.google.com/url?q=https://mlibrarydata.wordpress.com/2014/05/09/data-journals/&sa=D&ust=1596301437010000&usg=AOvVaw1V-3TWzJSUvG8Km2sWbMpb)
 
-Frequently Asked Questions
---------------------------
+## Frequently Asked Questions
 
 ### How should my files be named?
 
@@ -222,8 +215,7 @@ Frequently Asked Questions
     -   Alternatively, include a CHANGES file that details all changes made to the data for each version.
 -   For repositories that involve manual submission, immediately reach out to the repository hosting the data. describing what the error is and how you would like to proceed with remedying it.
 
-Resources
----------
+## Resources
 
 ### General
 
@@ -241,9 +233,6 @@ Resources
 ### Data organization
 
 -   [Data best practices](https://www.google.com/url?q=https://library.stanford.edu/research/data-management-services/data-best-practices&sa=D&ust=1596301437017000&usg=AOvVaw223Dr4oiKGnMEqAaKvEkuO)
-
-
-
 -   [Data Organization Best Practices](https://www.google.com/url?q=https://researchdatamanagement.harvard.edu/best-practices-organizing-documenting-research-data&sa=D&ust=1596301437017000&usg=AOvVaw2vvFW0pr14kg4UARltjUha)
 -   [Organising your data](https://www.google.com/url?q=https://www.data.cam.ac.uk/data-management-guide/organising-your-data&sa=D&ust=1596301437018000&usg=AOvVaw14dnnnibziMAgiLXrW5sKr)
 
