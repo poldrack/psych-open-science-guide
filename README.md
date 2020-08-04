@@ -1,6 +1,6 @@
 # psych-open-science-guide
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This is a work in progress!
@@ -28,6 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ghuckins"><img src="https://avatars1.githubusercontent.com/u/14180467?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ghuckins</b></sub></a><br /><a href="#content-ghuckins" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/waltersjonathon"><img src="https://avatars2.githubusercontent.com/u/22361402?v=4?s=100" width="100px;" alt=""/><br /><sub><b>waltersjonathon</b></sub></a><br /><a href="#content-waltersjonathon" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/shashankbansal6"><img src="https://avatars1.githubusercontent.com/u/17326877?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shashank</b></sub></a><br /><a href="#content-shashankbansal6" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ihandleyminer"><img src="https://avatars3.githubusercontent.com/u/43686319?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ihandleyminer</b></sub></a><br /><a href="#content-ihandleyminer" title="Content">🖋</a></td>
   </tr>
 </table>
 
