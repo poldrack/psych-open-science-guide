@@ -263,14 +263,14 @@
 </ul>
 </li>
 </ul>
-<h1 id="prerequisites">Prerequisites</h1>
+<h2 id="prerequisites">Prerequisites</h2>
 <p>In order to get started with reproducible data analysis, you will need to understand several topics:</p>
 <ul>
 <li>Version control (described in the section on Code Sharing)</li>
 <li>Using the command line (described in the section on Basic Skills)</li>
 </ul>
-<h1 id="getting-started">Getting started</h1>
-<h2 id="step-1-create-a-reproducible-environment">Step 1: Create a reproducible environment</h2>
+<h2 id="getting-started">Getting started</h2>
+<h3 id="step-1-create-a-reproducible-environment">Step 1: Create a reproducible environment</h3>
 <p>The environment comprises all of the software components that are necessary to perform a particular operation.  This includes the code and data as well as any dependencies (such as software libraries) that are necessary to run the code.  </p>
 <p>There are two levels of reproducibility that one might shoot for in their software environment.  First is the ability to reproduce the environment on one&#x2019;s own system.  This can be achieved by generating a virtual environment, which is a configuration of one&#x2019;s system that can be loaded or unloaded as needed. For both Python, one can use the <a href="https://www.google.com/url?q=https://www.anaconda.com/products/individual&amp;sa=D&amp;ust=1596473422934000&amp;usg=AOvVaw1GCFjp2DSrTcSy6BsRjtwO" target="_blank">Anaconda</a> software distribution to create and manage virtual environments; one can also use Anaconda to install and manage virtual environments for R, but this can cause problems for RStudio users.  For Rstudio users, a better solution is the<a href="https://www.google.com/url?q=https://rviews.rstudio.com/2019/04/22/reproducible-environments/&amp;sa=D&amp;ust=1596473422935000&amp;usg=AOvVaw0fKnvYBXti-JTFD9M7XHGr" target="_blank"> </a><a href="https://www.google.com/url?q=https://rviews.rstudio.com/2019/04/22/reproducible-environments/&amp;sa=D&amp;ust=1596473422935000&amp;usg=AOvVaw0fKnvYBXti-JTFD9M7XHGr" target="_blank">renv</a><a href="https://www.google.com/url?q=https://rviews.rstudio.com/2019/04/22/reproducible-environments/&amp;sa=D&amp;ust=1596473422935000&amp;usg=AOvVaw0fKnvYBXti-JTFD9M7XHGr" target="_blank"> package,</a> which allows one to snapshot and restore packages.</p>
 <p>The second level of reproducibility is to allow someone else to implement the same environment on a different computer.  There are two ways to potentially address this.</p>
@@ -285,7 +285,7 @@
 <li><p>A generally more effective way to allow someone else to reproduce one&#x2019;s environment is to use <em>containers</em>.  A container is a system that emulates a virtual computer within one&#x2019;s own computer, which is fully configurable and allows one to almost exactly reproduce an environment across different computers.  The most commonly used system for containerization is Docker; a related system called Singularity is used on shared computer systems such as clusters.  See the FAQ below for more on how to set up and use Docker and Singularity.</p>
 </li>
 </ol>
-<h2 id="step-2-use-version-control-for-everything">Step 2: Use version control for everything</h2>
+<h3 id="step-2-use-version-control-for-everything">Step 2: Use version control for everything</h3>
 <ul>
 <li>All work done on a computer for a project should be tracked using a version control system, including file name changes and reorganization.  This allows the history of all code and operations to be tracked.</li>
 <li>Develop a strategy for committing your changes, and stick to it.</li>
@@ -295,7 +295,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="step-3-code-understandably">Step 3: Code Understandably</h2>
+<h3 id="step-3-code-understandably">Step 3: Code Understandably</h3>
 <p>Your code should be understandable to a reader who is familiar with the language, preferably without the need for many comments in the code.  This isn&#x2019;t just for other people -- it&#x2019;s also for you when you look back at your code in the future.</p>
 <ul>
 <li><em>Practice literate programming whenever possible.</em> Literate programming is an approach to coding in which the logic of the program is explained in natural language alongside the code.  See the section on Reproducible Manuscripts for more on this.</li>
@@ -322,7 +322,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="step-4-code-defensively">Step 4: Code defensively</h2>
+<h3 id="step-4-code-defensively">Step 4: Code defensively</h3>
 <p>Assume that errors will occur, and create code that will be robust to those errors and/or will call attention to them when they exist.</p>
 <ul>
 <li><em>Use assertions.</em> Assertions are statements that will cause a program to signal an error if a particular condition is false. These should be used to detect problematic conditions.<ul>
@@ -344,7 +344,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="step-5-code-portably">Step 5: Code portably</h2>
+<h3 id="step-5-code-portably">Step 5: Code portably</h3>
 <p>Assume that your code will need to run on other computers, so that details about your specific computer should not be stored in the code itself.</p>
 <ul>
 <li><em>Never use absolute paths</em> such as <code>/Users/username/code/projectname</code><pre><code>-   Instead, specify a base path that can be modified in one place, and then use that base path to create all other paths.
@@ -363,7 +363,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="step-6-automate-your-workflow">Step 6: Automate your workflow</h2>
+<h3 id="step-6-automate-your-workflow">Step 6: Automate your workflow</h3>
 <ul>
 <li>The goal of automation is to allow one to issue a single command that can execute the entire workflow.</li>
 <li>Workflow automation brings many benefits.  <ul>
@@ -386,8 +386,8 @@
 </ul>
 </li>
 </ul>
-<h1 id="advanced-steps">Advanced steps</h1>
-<h2 id="step-7-containerize-your-workflow-using-docker">Step 7: Containerize your workflow using Docker</h2>
+<h2 id="advanced-steps">Advanced steps</h2>
+<h3 id="step-7-containerize-your-workflow-using-docker">Step 7: Containerize your workflow using Docker</h3>
 <p>Docker allows one to generate a system with a single environment that can be reused by anyone, which contains specific versions all the dependencies that an analysis, or other code, needs to run.  In essence, Docker creates a virtual Linux-based computer running inside your computer.</p>
 <ol>
 <li>Install the <a href="https://www.google.com/url?q=https://www.docker.com/products/docker-desktop&amp;sa=D&amp;ust=1596473422946000&amp;usg=AOvVaw0Itos6MDXbc8kN49A6keuu" target="_blank">Docker Desktop</a> software for Mac and most recent Windows<ul>
@@ -419,7 +419,7 @@
 </ul>
 </li>
 </ol>
-<h2 id="step-8-run-your-workflow-automatically-using-continuous-integration">Step 8: Run your workflow automatically using continuous integration</h2>
+<h3 id="step-8-run-your-workflow-automatically-using-continuous-integration">Step 8: Run your workflow automatically using continuous integration</h3>
 <ul>
 <li>Continuous integration systems (such as (Github Actions)[<a href="https://docs.github.com/en/actions" target="_blank">https://docs.github.com/en/actions</a>] or <a href="https://circleci.com/" target="_blank">CircleCI</a>) provide the ability to automatically run a particular code whenever a new commit is pushed to a Github repository.</li>
 <li>These systems generally allow some amount of free testing for public open source projects.</li>
@@ -432,7 +432,7 @@
 </ul>
 </li>
 </ul>
-<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
 <h3 id="how-do-i-set-up-a-python-environment">How do I set up a Python environment:</h3>
 <ul>
 <li>Install the latest version of the Anaconda package: <a href="https://www.google.com/url?q=https://www.anaconda.com/distribution/&amp;sa=D&amp;ust=1596473422950000&amp;usg=AOvVaw177TFvOfafsRSySRIJClgz" target="_blank">https://www.anaconda.com/distribution/</a><ul>
@@ -491,7 +491,7 @@ write.table(package_info, file=paste(&#x2018;R_package_info.txt)
 <ul>
 <li>See the section on <a href="guide/2_codesharing.md">Code Sharing</a> for more on how to structure a repository.</li>
 </ul>
-<h1 id="resources">Resources</h1>
+<h2 id="resources">Resources</h2>
 <h3 id="general">General</h3>
 <p><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285" target="_blank">Ten Simple Rules for Reproducible Computational Research</a></p>
 <h3 id="provenance">Provenance</h3>
@@ -553,7 +553,7 @@ write.table(package_info, file=paste(&#x2018;R_package_info.txt)
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Reproducible analysis","level":"1.5","depth":1,"next":{"title":"Reproducible manuscripts","level":"1.6","depth":1,"path":"5_reproduciblemanuscripts.md","ref":"5_reproduciblemanuscripts.md","articles":[]},"previous":{"title":"Data sharing","level":"1.4","depth":1,"path":"3_datasharing.md","ref":"3_datasharing.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"4_reproducibleanalysis.md","mtime":"2020-08-04T20:25:56.941Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-04T20:26:30.662Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Reproducible analysis","level":"1.5","depth":1,"next":{"title":"Reproducible manuscripts","level":"1.6","depth":1,"path":"5_reproduciblemanuscripts.md","ref":"5_reproduciblemanuscripts.md","articles":[]},"previous":{"title":"Data sharing","level":"1.4","depth":1,"path":"3_datasharing.md","ref":"3_datasharing.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"4_reproducibleanalysis.md","mtime":"2020-08-04T20:31:09.968Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-04T20:31:38.542Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
