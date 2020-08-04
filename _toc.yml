@@ -1,9 +1,0 @@
-file: README
-sections:
-    - file: 1_preregistration
-    - file: 2_codesharing
-    - file: 3_datasharing
-    - file: 4_reproducibleanalysis
-    - file: 5_reproduciblemanuscripts
-    - file: culture
-    - file: basicskills
