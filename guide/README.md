@@ -32,13 +32,13 @@ This guide is organized according to a number of different aspects of open scien
 1. [Code sharing](2_codesharing.md)
 1. [Data sharing](3_datasharing.md)
 1. [Reproducible analysis](4_reproducibleanalysis.md)
-5. Reproducible manuscripts
+5. [Reproducible manuscripts](5_reproduciblemanuscripts.md)
 6. Open access publication
 
 We also include some more general suggestions:
 
-- Joining the culture of open science
-- Basic computing skills for open science
+- [Joining the culture of open science](culture.md)
+- [Basic computing skills for open science](basicskills.md)
 
 
 ## Contributors ✨<a name="contributors"></a>
