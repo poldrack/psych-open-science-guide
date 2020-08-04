@@ -29,9 +29,9 @@ jobs:
     - name: Build book
       run: |
         jb build ./guide
-    - name: Publish generated content to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.5.9
+    # Push the book's HTML to github-pages
+    - name: GitHub Pages action
+      uses: peaceiris/actions-gh-pages@v3.6.1
       with:
-        GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-        BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: guide/_build/html # The folder the action should deploy.
+        github_token: ${{ secrets.PERSONAL_TOKEN }}
+        publish_dir: ./guide/_build/html
