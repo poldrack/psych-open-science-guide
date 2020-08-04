@@ -26,6 +26,13 @@ jobs:
         pip install flake8 pytest
         pip install -U jupyter-book
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Test with pytest
+    - name: Build book
       run: |
         jb build ./guide
+    - name: Publish generated content to GitHub Pages
+        uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
+        with:
+          dir: guide
+          branch: gh-pages
+          token: ${{ secrets.ACCESS_TOKEN }}
+
