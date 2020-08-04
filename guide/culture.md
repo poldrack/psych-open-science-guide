@@ -1,70 +1,14 @@
-Editor: Isaac Handley-Miner
+# Joining the Culture of Open Science
 
-Beginner's Guide:
 
-Culture of Open Science
-
-[What is open science and why do it?](#h.4c0cypi6jjh)        [2](#h.4c0cypi6jjh)
-
-[Learning about open science](#h.o1dxb4dv072t)        [2](#h.o1dxb4dv072t)
-
-[Blogs](#h.9c2afsldb2mm)        [2](#h.9c2afsldb2mm)
-
-[Books](#h.68c99jt5ct7s)        [2](#h.68c99jt5ct7s)
-
-[Courses](#h.deq8kby85exl)        [2](#h.deq8kby85exl)
-
-[People/Twitter Handles](#h.w54ew98g5wil)        [3](#h.w54ew98g5wil)
-
-[Podcasts](#h.ltb4oc5c1hv5)        [3](#h.ltb4oc5c1hv5)
-
-[Relevant papers](#h.5cf0yzkfd4vn)        [4](#h.5cf0yzkfd4vn)
-
-[Talks](#h.1i5zjnijszxc)        [4](#h.1i5zjnijszxc)
-
-[Doing open science](#h.q6pcsu9rk2cv)        [5](#h.q6pcsu9rk2cv)
-
-[Tools/Platforms](#h.d27t7elcj7db)        [5](#h.d27t7elcj7db)
-
-[Initiatives/Collaborations](#h.bysdqwv6748w)        [5](#h.bysdqwv6748w)
-
-[Organizations/Centers/Labs](#h.ie1yd8qaogu)        [5](#h.ie1yd8qaogu)
-
-[Societies/Conferences](#h.b5l82crcdyc3)        [5](#h.b5l82crcdyc3)
-
-[Hackathons](#h.4dbd0j256d4a)        [5](#h.4dbd0j256d4a)
-
-[Journals](#h.u2smbw9921wo)        [6](#h.u2smbw9921wo)
-
-[Funding & Grants](#h.tbulfcajpppu)        [6](#h.tbulfcajpppu)
-
-[Open-Learning Research Skills](#h.uxa7qc1wamc3)        [7](#h.uxa7qc1wamc3)
-
-[Statistics](#h.qzc9amez47s6)        [7](#h.qzc9amez47s6)
-
-[Courses](#h.d1iczf57jkek)        [7](#h.d1iczf57jkek)
-
-[Textbook with R companion](#h.w4mrud3rxdtp)        [7](#h.w4mrud3rxdtp)
-
-[Tutorials/Demos](#h.25jezl2m4o0t)        [7](#h.25jezl2m4o0t)
-
-[R](#h.7rn4xsz5f0l7)        [8](#h.7rn4xsz5f0l7)
-
-[Tutorials](#h.4qhffeao3w1s)        [8](#h.4qhffeao3w1s)
-
-[Textbooks](#h.7u90245cch5w)        [8](#h.7u90245cch5w)
-
-[Courses](#h.x3p835ibovq0)        [8](#h.x3p835ibovq0)
-
-What is open science and why do it?^([\[a\]](#cmnt1))
-=====================================================
+# What is open science and why do it?
 
 Check out [Easing Into Open Science: A Tutorial for Graduate Students](https://www.google.com/url?q=https://psyarxiv.com/vzjdp/&sa=D&ust=1596500749162000&usg=AOvVaw1Bb-XX-89RGgpUsVYiZvZI)
 
 Learning about open science
 ===========================
 
-Blogs^([\[b\]](#cmnt2))
+Blogs
 -----------------------
 
 -   Center for Open Science: [https://cos.io/blog/](https://www.google.com/url?q=https://cos.io/blog/&sa=D&ust=1596500749162000&usg=AOvVaw3uJDhefB1mUKm3se6viTG3)
@@ -85,60 +29,26 @@ Courses
 -------
 
 -   Stanford Courses
-
-&nbsp;
-
--   CHPR 206: Meta-research: Appraising Research Findings, Bias, and Meta-analysis
-
-&nbsp;
-
--   Instructor: J[ohn Ioannidis](https://www.google.com/url?q=https://www.google.com/search?sxsrf%3DALeKk01eOlKD3O1FbqlHV8USln1mBnVqnQ:1585943292138%26q%3Djohn%2Bioannidis%26spell%3D1%26sa%3DX%26ved%3D2ahUKEwjA9r6Ug83oAhWUqp4KHQR-AQgQkeECKAB6BAgVECc&sa=D&ust=1596500749167000&usg=AOvVaw2qyxSZe5ii4olBvpdCPGGX)
-
-&nbsp;
-
--   PSYCH 251: Statistical Methods for Behavioral and Social Sciences
-
-&nbsp;
-
--   Instructor: Mike Frank
--   Link to older version of class: [https://web.stanford.edu/class/psych254/](https://www.google.com/url?q=https://web.stanford.edu/class/psych254/&sa=D&ust=1596500749167000&usg=AOvVaw0r511xAEOwLTXj2udmQTj7)
-
-&nbsp;
-
+    -   CHPR 206: Meta-research: Appraising Research Findings, Bias, and Meta-analysis
+        -   Instructor: [John Ioannidis](https://www.google.com/url?q=https://www.google.com/search?sxsrf%3DALeKk01eOlKD3O1FbqlHV8USln1mBnVqnQ:1585943292138%26q%3Djohn%2Bioannidis%26spell%3D1%26sa%3DX%26ved%3D2ahUKEwjA9r6Ug83oAhWUqp4KHQR-AQgQkeECKAB6BAgVECc&sa=D&ust=1596500749167000&usg=AOvVaw2qyxSZe5ii4olBvpdCPGGX)
+    -   PSYCH 251: Statistical Methods for Behavioral and Social Sciences
+        -   Instructor: Mike Frank
+        -   Link to older version of class: [https://web.stanford.edu/class/psych254/](https://www.google.com/url?q=https://web.stanford.edu/class/psych254/&sa=D&ust=1596500749167000&usg=AOvVaw0r511xAEOwLTXj2udmQTj7)
 -   HRP 264: Foundations of Statistical and Scientific Inference
-
-&nbsp;
-
--   Instructor: Steven Goodman
-
-&nbsp;
-
+    -   Instructor: Steven Goodman
 -   MED73N: Scientific Method and Bias
-
-&nbsp;
-
--   Instructor: John Ioannidis
-
-&nbsp;
+    -   Instructor: John Ioannidis
 
 -   External Courses
+    -   List of open science/reproducibility syllabi: [https://osf.io/vkhbt/wiki/home/](https://www.google.com/url?q=https://osf.io/vkhbt/wiki/home/&sa=D&ust=1596500749168000&usg=AOvVaw2F3n8G9of2kTl5eNE59SM6)
+    -   Neuro summer workshop at University of Washington:  [https://neurohackademy.org](https://www.google.com/url?q=https://neurohackademy.org/&sa=D&ust=1596500749168000&usg=AOvVaw0_oXCRMuvWNVZJSEXwVQlb)
+    -   Daniel Lakens’ Coursera courses:
+        -   [https://www.coursera.org/learn/statistical-inferences](https://www.google.com/url?q=https://www.coursera.org/learn/statistical-inferences&sa=D&ust=1596500749169000&usg=AOvVaw3TLih9DP0MjPkcGIGKGdha)
+        -   [https://www.coursera.org/learn/improving-statistical-questions](https://www.google.com/url?q=https://www.coursera.org/learn/improving-statistical-questions&sa=D&ust=1596500749169000&usg=AOvVaw0DzZL7xz7vCyknIQSM2pHe)
 
-&nbsp;
+-   [Karl Broman tutorials on reproducible research:](https://kbroman.org/pages/tutorials) 
 
--   List of open science/reproducibility syllabi: [https://osf.io/vkhbt/wiki/home/](https://www.google.com/url?q=https://osf.io/vkhbt/wiki/home/&sa=D&ust=1596500749168000&usg=AOvVaw2F3n8G9of2kTl5eNE59SM6)
--   Neuro summer workshop at University of Washington:  [https://neurohackademy.org](https://www.google.com/url?q=https://neurohackademy.org/&sa=D&ust=1596500749168000&usg=AOvVaw0_oXCRMuvWNVZJSEXwVQlb)
--   Daniel Lakens’ Coursera courses:
-
-&nbsp;
-
--   [https://www.coursera.org/learn/statistical-inferences](https://www.google.com/url?q=https://www.coursera.org/learn/statistical-inferences&sa=D&ust=1596500749169000&usg=AOvVaw3TLih9DP0MjPkcGIGKGdha)
--   [https://www.coursera.org/learn/improving-statistical-questions](https://www.google.com/url?q=https://www.coursera.org/learn/improving-statistical-questions&sa=D&ust=1596500749169000&usg=AOvVaw0DzZL7xz7vCyknIQSM2pHe)
-
-&nbsp;
-
--   Karl Broman tutorials on reproducible research: [https://kbroman.org/pages/tutorials](https://www.google.com/url?q=https://kbroman.org/pages/tutorials&sa=D&ust=1596500749169000&usg=AOvVaw3IvdMQWDT0zMMeAnzGS3kD) 
-
-People/Twitter Handles^([\[c\]](#cmnt3))
+People/Twitter Handles
 ----------------------------------------
 
 -   Andrew Gelman: @StatModeling
@@ -161,7 +71,7 @@ People/Twitter Handles^([\[c\]](#cmnt3))
 -   Tal Yarkoni: @talyarkoni
 -   Uri Simonsohn: @uri_sohn
 
-Podcasts^([\[d\]](#cmnt4))
+Podcasts
 --------------------------
 
 -   Everything Hertz: [https://everythinghertz.com/](https://www.google.com/url?q=https://everythinghertz.com/&sa=D&ust=1596500749172000&usg=AOvVaw2nWYsaStG3iMR5Fu2C31tF)
@@ -175,9 +85,9 @@ Podcasts^([\[d\]](#cmnt4))
 
         
 
-\*Not devoted to open science, but have relevant episodes
+\*Not devoted solely to open science, but have relevant episodes
 
-Relevant papers
+Foundational papers
 ---------------
 
 -   Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716. [https://doi.org/10.1126/science.aac4716](https://www.google.com/url?q=https://doi.org/10.1126/science.aac4716&sa=D&ust=1596500749176000&usg=AOvVaw1DZLKbHrAKyfKIFs_9M9dB)
@@ -222,19 +132,19 @@ Initiatives/Collaborations
 Organizations/Centers/Labs
 --------------------------
 
+-   Stanford METRICS: [https://metrics.stanford.edu/](https://www.google.com/url?q=https://metrics.stanford.edu/&sa=D&ust=1596500749187000&usg=AOvVaw1b76VmdxeUeozMYs-Emrko)
+-   Stanford Center for Reproducible Neuroscience: [https://reproducibility.stanford.edu/](https://www.google.com/url?q=https://reproducibility.stanford.edu/&sa=D&ust=1596500749188000&usg=AOvVaw08p3np8Nmk9-vbGk2ImnV5)
 -   BITSS: [https://www.bitss.org/](https://www.google.com/url?q=https://www.bitss.org/&sa=D&ust=1596500749186000&usg=AOvVaw35Y7mzQMBRSRP9eQ2ts3Bu)
 -   Center for Open Science: [https://cos.io/](https://www.google.com/url?q=https://cos.io/&sa=D&ust=1596500749186000&usg=AOvVaw3JCdhY1ocDq4ASAA6P3OOp)
 -   Credibility Lab: [https://credlab.wharton.upenn.edu/](https://www.google.com/url?q=https://credlab.wharton.upenn.edu/&sa=D&ust=1596500749187000&usg=AOvVaw0YqvROdpRCtM3QHcCl-oiu)
 -   Research on Research Institute: [http://researchonresearch.org/](https://www.google.com/url?q=http://researchonresearch.org/&sa=D&ust=1596500749187000&usg=AOvVaw3kfQfOk8Mmc5I8LPXlGp1-)
--   Stanford METRICS: [https://metrics.stanford.edu/](https://www.google.com/url?q=https://metrics.stanford.edu/&sa=D&ust=1596500749187000&usg=AOvVaw1b76VmdxeUeozMYs-Emrko)
--   Stanford Reproducibility: [https://reproducibility.stanford.edu/](https://www.google.com/url?q=https://reproducibility.stanford.edu/&sa=D&ust=1596500749188000&usg=AOvVaw08p3np8Nmk9-vbGk2ImnV5)
 
 Societies/Conferences
 ---------------------
 
--   Organization of Human Brain Mapping (OHBM) [https://humanbrainmapping.org](https://www.google.com/url?q=https://humanbrainmapping.org&sa=D&ust=1596500749188000&usg=AOvVaw1CLpdG82AU3fmB9VLFnRS8)
 -   Metascience Symposium: [https://www.metascience2019.org/](https://www.google.com/url?q=https://www.metascience2019.org/&sa=D&ust=1596500749188000&usg=AOvVaw1aFqiVdJGo9pJWznLTBnik)
 -   Society for Improving Psychological Science (SIPS): [https://improvingpsych.org/](https://www.google.com/url?q=https://improvingpsych.org/&sa=D&ust=1596500749189000&usg=AOvVaw0lvK84oqPBphdJe_Jz3sBZ)
+-   Organization of Human Brain Mapping (OHBM) [https://humanbrainmapping.org](https://www.google.com/url?q=https://humanbrainmapping.org&sa=D&ust=1596500749188000&usg=AOvVaw1CLpdG82AU3fmB9VLFnRS8)
 
 Hackathons
 ----------
@@ -257,95 +167,8 @@ Funding & Grants
 ----------------
 
 -   NSF: Open Science for Research Data: [https://nsf.gov/pubs/2020/nsf20068/nsf20068.jsp](https://www.google.com/url?q=https://nsf.gov/pubs/2020/nsf20068/nsf20068.jsp&sa=D&ust=1596500749192000&usg=AOvVaw2v_ZnXiikK_5Mt_3LqPyM7)
-
-&nbsp;
-
--   Posted March 27, 2020
-
-&nbsp;
+    -   Posted March 27, 2020
 
 -   List of funding types offered through the NSF’s Science of Science and Innovation Policy: [https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=501084](https://www.google.com/url?q=https://www.nsf.gov/funding/pgm_summ.jsp?pims_id%3D501084&sa=D&ust=1596500749192000&usg=AOvVaw33_Cmovh-zr3QGRw3VF_OA)
 
 ------------------------------------------------------------------------
-
-O^([\[e\]](#cmnt5))pen-Learning Research Skills 
-===============================================
-
-A culture of open-science means equal access to learning, which enables anyone to do better modern science.
-
-Statistics
-----------
-
-Generally listed from easy to difficult: All are interactive in R, unless specified
-
-### Courses
-
-[Probability and Statistics](https://www.google.com/url?q=https://www.edx.org/course/statistics-and-r&sa=D&ust=1596500749194000&usg=AOvVaw2NjPT14L1Oj-jLLCxS-zQS) 
-
--   Exploratory Data Analysis
--   Producing Data
--   Probability
--   Inference
-
-[Advanced Statistics](https://www.google.com/url?q=https://www.edx.org/course/statistical-learning&sa=D&ust=1596500749195000&usg=AOvVaw3cudAPr6LDwnpnM9VMCix6)
-
--   logistic regression and linear discriminant analysis
--   cross-validation and the bootstrap, model selection and regularization methods (ridge and lasso)
--   nonlinear models, splines and generalized additive models
--   tree-based methods, random forests and boosting
--   support-vector machines.
--   Some unsupervised learning methods are discussed: principal components and clustering (k-means and hierarchical).
-
-### Textbook with R companion
-
-[Statistical thinking for the 21st century](https://www.google.com/url?q=https://statsthinking21.org&sa=D&ust=1596500749195000&usg=AOvVaw178kNGPIpLy6ChIIvL_8yI) by Russ Poldrack, “Brings to bear the approaches that are increasingly used in real statistical practice in the 21st century.”
-
-### Tutorials/Demos
-
-1-2 hour tutorials
-
--   Null hypothesis linear models and linear mixed effects models in R: [Tutorial 1](https://www.google.com/url?q=http://www.bodowinter.com/tutorial/bw_LME_tutorial1.pdf&sa=D&ust=1596500749196000&usg=AOvVaw2aXWhh4mr7gayDNqDSG_CA)
--   Null hypothesis linear mixed effects analyses in R: [Tutorial 2](https://www.google.com/url?q=http://www.bodowinter.com/tutorial/bw_LME_tutorial2.pdf&sa=D&ust=1596500749196000&usg=AOvVaw1Vkh-9HbkW2-hWRCCysRSE)
-
-Short video demos from Katie Corker’s stats & methods course: [https://osf.io/r48mp/](https://www.google.com/url?q=https://osf.io/r48mp/&sa=D&ust=1596500749197000&usg=AOvVaw3YrWNapJmb4eb28slALO-s)
-
-R
--
-
-[Datasets](https://www.google.com/url?q=https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html&sa=D&ust=1596500749197000&usg=AOvVaw1BcvurCbxmuRgsJ0qfD5r4) to be accompanied with any R learning
-
-[Stanford Library R Resources](https://www.google.com/url?q=https://library.stanford.edu/projects/r/resources-workshops-consultations-tutorials-and-more&sa=D&ust=1596500749198000&usg=AOvVaw078z_bYu6VPxkBKaDBT99n) - many of these don’t require Stanford affiliation!
-
-### Tutorials
-
-[Brief RA R Tutorial](https://www.google.com/url?q=https://drive.google.com/open?id%3D1N9H_oC3x0OXvUBqPfI8VO-mBDAsAGBqc&sa=D&ust=1596500749198000&usg=AOvVaw1LIJX34tHicCpTqcPEbLCE) is a tutorial created by Camilla Griffiths and Juan Ospina to introduce RAs to RStudio and basic arithmetic and data wrangling functions.
-
-### Textbooks
-
-[R for Data Science](https://www.google.com/url?q=https://r4ds.had.co.nz/&sa=D&ust=1596500749199000&usg=AOvVaw2ELRcDJdtDEWuZN4Wbf2Iy) is written by the guy who also co-teaches the Data challenge lab, and it is a primary reading source for the DCL. This teaches tidyR.
-
-[R Markdown: The Definitive Guide](https://www.google.com/url?q=https://bookdown.org/yihui/rmarkdown/&sa=D&ust=1596500749199000&usg=AOvVaw0UzZbnD7eoIIRbM9CH5qE7)
-
-### Courses
-
-[Swirl](https://www.google.com/url?q=https://swirlstats.com/&sa=D&ust=1596500749200000&usg=AOvVaw1AsgI-rjrBOGaXBdk2Gwe6) is a package in R that starts with the basics and walks you through each lesson, however this goes all the way through Exploratory Data Analysis and Inference!
-
-Run the code:
-
-install.packages(“swirl”)
-
-library(swirl)
-
-The[ ](https://www.google.com/url?q=https://dcl-2019-04.github.io/curriculum/&sa=D&ust=1596500749200000&usg=AOvVaw3DWwhAyqMPZU6GPiUJZT_U)[R Data Challenge Lab](https://www.google.com/url?q=https://dcl-2019-04.github.io/curriculum/&sa=D&ust=1596500749200000&usg=AOvVaw3DWwhAyqMPZU6GPiUJZT_U) is an intensive tidyR course at Stanford - and they post all their course materials online!
-
-[How to use Spatial Data](https://www.google.com/url?q=https://cengel.github.io/R-spatial/&sa=D&ust=1596500749201000&usg=AOvVaw0U3PrnRioELDC1y7_YW0-e)
-
-[\[a\]](#cmnt_ref1)Add brief intro section explaining what open science is and why we should care about it
-
-[\[b\]](#cmnt_ref2)Give more details about who these people are
-
-[\[c\]](#cmnt_ref3)Give more detail about how these people are
-
-[\[d\]](#cmnt_ref4)Would be nice to have a description here too
-
-[\[e\]](#cmnt_ref5)Should this be folded into the skills section that I think we were creating at one point?
