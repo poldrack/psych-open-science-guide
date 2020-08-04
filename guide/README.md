@@ -56,14 +56,16 @@ Thanks goes to these wonderful people who contributed to the development of this
     <td align="center"><a href="https://github.com/eriksantoro"><img src="https://avatars0.githubusercontent.com/u/5883689?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Erik Santoro</b></sub></a><br /><a href="#content-eriksantoro" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/henrymj"><img src="https://avatars3.githubusercontent.com/u/55153240?v=4?s=100" width="100px;" alt=""/><br /><sub><b>henrymj</b></sub></a><br /><a href="#content-henrymj" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/oesteban"><img src="https://avatars2.githubusercontent.com/u/598470?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oscar Esteban</b></sub></a><br /><a href="#content-oesteban" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/mckenziephagen"><img src="https://avatars3.githubusercontent.com/u/35019015?v=4?s=100" width="100px;" alt=""/><br /><sub><b>McKenzie Paige Hagen</b></sub></a><br /><a href="#content-mckenziephagen" title="Content">🖋</a></td>
   </tr>
   <tr>
+    <td align="center"><a href="https://github.com/mckenziephagen"><img src="https://avatars3.githubusercontent.com/u/35019015?v=4?s=100" width="100px;" alt=""/><br /><sub><b>McKenzie Paige Hagen</b></sub></a><br /><a href="#content-mckenziephagen" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/bissettp"><img src="https://avatars0.githubusercontent.com/u/9681335?v=4?s=100" width="100px;" alt=""/><br /><sub><b>bissettp</b></sub></a><br /><a href="#content-bissettp" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/MatildeVaghi"><img src="https://avatars3.githubusercontent.com/u/26165236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MatildeVaghi</b></sub></a><br /><a href="#content-MatildeVaghi" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/franklin-feingold"><img src="https://avatars1.githubusercontent.com/u/35307458?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Franklin Feingold</b></sub></a><br /><a href="#content-franklin-feingold" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/ghuckins"><img src="https://avatars1.githubusercontent.com/u/14180467?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ghuckins</b></sub></a><br /><a href="#content-ghuckins" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/waltersjonathon"><img src="https://avatars2.githubusercontent.com/u/22361402?v=4?s=100" width="100px;" alt=""/><br /><sub><b>waltersjonathon</b></sub></a><br /><a href="#content-waltersjonathon" title="Content">🖋</a></td>
+  </tr>
+  <tr>
     <td align="center"><a href="https://github.com/shashankbansal6"><img src="https://avatars1.githubusercontent.com/u/17326877?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shashank</b></sub></a><br /><a href="#content-shashankbansal6" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/ihandleyminer"><img src="https://avatars3.githubusercontent.com/u/43686319?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ihandleyminer</b></sub></a><br /><a href="#content-ihandleyminer" title="Content">🖋</a></td>
   </tr>
