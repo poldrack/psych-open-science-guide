@@ -1,0 +1,559 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Code sharing · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="3_datasharing.html" />
+    
+    
+    <link rel="prev" href="1_preregistration.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1_preregistration.html">
+            
+                <a href="1_preregistration.html">
+            
+                    
+                    Pre-registration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="2_codesharing.html">
+            
+                <a href="2_codesharing.html">
+            
+                    
+                    Code sharing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="3_datasharing.html">
+            
+                <a href="3_datasharing.html">
+            
+                    
+                    Data sharing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="4_reproducibleanalysis.html">
+            
+                <a href="4_reproducibleanalysis.html">
+            
+                    
+                    Reproducible analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="5_reproduciblemanuscripts.html">
+            
+                <a href="5_reproduciblemanuscripts.html">
+            
+                    
+                    Reproducible manuscripts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="culture.html">
+            
+                <a href="culture.html">
+            
+                    
+                    Joining the culture of open science
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="basicskills.html">
+            
+                <a href="basicskills.html">
+            
+                    
+                    Basic skills for reproducible research
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Code sharing</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="code-sharing">Code Sharing</h1>
+<h2 id="why-share-code">Why share code?</h2>
+<blockquote>
+<p>An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures. <a href="https://www.google.com/url?q=https://statweb.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf&amp;sa=D&amp;ust=1596213792946000&amp;usg=AOvVaw3xtTF6L7SbwQRVvpCB0zaT" target="_blank">Buckheit &amp; Donoho (1995)</a></p>
+</blockquote>
+<p>There is no doubt that science can be hard, and science can be slow. After months and months or years of working on a project, it can be very tempting to just finish it already. When the alternative is to keep working, just to make your code readable and a little more accessible, the choice seems clear. However, there are many solid reasons why you should share your code.</p>
+<ol>
+<li><em>Sharing your code improves reproducibility.</em> If someone reads your code and is surprised by the results, they can take your code and immediately run it on your or other data, insteading of having to take the time to estimate your code from scratch using the manuscript, potentially introducing misinterpretations or bugs resulting in different results for non interesting reasons. Please see the <a href="https://www.google.com/url?q=https://docs.google.com/document/d/1xQywZPrNDLkGPlsCVhCKT5yWBD-Rko0fGk2pjH_eCng/edit%23heading%3Dh.ls8jlrwpy9vb&amp;sa=D&amp;ust=1596213792947000&amp;usg=AOvVaw3m9og6tI0rICUwNEwYsc_v" target="_blank">reproducible analyses</a> section for a larger overview of this case.</li>
+<li><em>Your code makes things transparent.</em> It makes many choices explicit that are normally implicit or nonexistent in published manuscripts (How did you clean the data? How did you implement the model? Are there any idiosyncratic choices that went unmentioned previously? Are there assumptions which may not be supported by the literature?).</li>
+<li><em>Online code supports collaboration.</em> You are a busy scientist, and in the case that someone wants to reuse/repurpose/extend your code, there can be a large start up cost of time and energy for both you and the potential collaborator to find time to share code and go over how to use it. Making your code available online, organized with READMEs and a license can decrease the overhead on getting a potential collaborator started, speeding up the scientific process.</li>
+<li><em>More eyes on a project can catch more errors.</em> Errors are bound to happen, whether they come in the form of typos, misordered lines, accidental assumptions, or more insidious forms. Many are caught, but not all. By sharing your code online and making it easy for others to work with, you&apos;re increasing your chances that the code is reliably doing what it is supposed to be doing.</li>
+<li><em>Creating shareable code from the beginning can actually save you time.</em> Using versioning and other habits of shareable coding can prevent irreparably breaking code, and can help you keep track of the changes you&#x2019;ve made in the process of creating the code. The most salient example of this occurs when you finally have time to return to project that was put on the back burner months ago (or need to dive back into your code to make adjustments appeasing reviewer #2) - a disheartening amount of time can be lost reading your old code just trying to figure out  what was I doing? What is that variable and where does it go? When your code has been prepared in a shareable way, you can quickly return to proficiency in using it, making your projects speed up, and making reviewer #2 much happier.</li>
+</ol>
+<p>Many researchers are worried about sharing their code, for various reasons.  However, the sharing of code is becoming increasingly common and even expected in many scientific fields.  As Nick Barnes said in his outstanding piece, &#x201C;<a href="https://www.google.com/url?q=https://www.nature.com/articles/467753a&amp;sa=D&amp;ust=1596213792948000&amp;usg=AOvVaw1J4eDgqpK1dnJg11j9XihF" target="_blank">Publish your computer code: it is good enough</a>&#x201D;:</p>
+<blockquote>
+<p>That the code is a little raw is one of the main reasons scientists give for not sharing it with others. Yet, software in all trades is written to be good enough for the job intended. So if your code is good enough to do the job, then it is good enough to release &#x2014; and releasing it will help your research and your field.</p>
+</blockquote>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>The steps to getting started below assume some basic skills, which are presented in more detail in the Basic Skills section of the guide:</p>
+<ul>
+<li>Using the command line shell</li>
+<li>Understanding file systems</li>
+<li>Understanding version control using git</li>
+</ul>
+<p>In addition, see the section on Reproducible Analysis for suggestions on how to write and organize your code and data in a way that enhances reproducibility.</p>
+<h2 id="getting-started-with-code-sharing">Getting started with code sharing</h2>
+<h3 id="step-1-set-up-git-and-github">Step 1: Set up git and Github</h3>
+<p>Git is currently the most popular version control system, and it allows one to easily share code via github.com, which is the most popular online git repository system.</p>
+<ul>
+<li>Install git on your local computer: <a href="https://www.google.com/url?q=https://git-scm.com/downloads&amp;sa=D&amp;ust=1596213792950000&amp;usg=AOvVaw14vI3VGNP53JK910BeFgpR" target="_blank">https://git-scm.com/downloads</a></li>
+<li>Create an account on Github: <a href="https://www.google.com/url?q=https://github.com/&amp;sa=D&amp;ust=1596213792951000&amp;usg=AOvVaw24cyY-NlYfJJux3AojI4EP" target="_blank">https://github.com/</a></li>
+<li>It will make your life much easier if you set up an SSH key for your local computer and add it to your Github account: This way, you won&#x2019;t need to enter your github password every time you push code to the repository.  See <a href="https://www.google.com/url?q=https://dev.to/idrisrampurawala/configuring-ssh-for-git-2of1&amp;sa=D&amp;ust=1596213792951000&amp;usg=AOvVaw3yRSRKoznD6SFs15aqL2VF" target="_blank">this article</a> for more.</li>
+</ul>
+<h3 id="step-2-choose-a-license-for-your-code">Step 2: Choose a license for your code</h3>
+<p>Specifying a license for your code allows you to stipulate how others can re-use the code. In general, you should select the most permissive license possible --- that is, the license that gives the greatest possible freedom for others to reuse the code.</p>
+<ul>
+<li>MIT License is a good default choice as it allows people to do almost anything with your code, which will maximize its potential reuse</li>
+<li>If you are going to be collaborating with an existing code base, then it&#x2019;s best to select the license that they are already using</li>
+<li>If you need help determining which license is most appropriate for your particular situation, see <a href="https://www.google.com/url?q=https://choosealicense.com/&amp;sa=D&amp;ust=1596213792952000&amp;usg=AOvVaw0ytGFb6uBLYYJn-FH2u9Ij" target="_blank">https://choosealicense.com/</a></li>
+<li>Preventing commercial reuse might sound like a good idea, but in most cases it&#x2019;s not: <a href="https://www.google.com/url?q=https://freedomdefined.org/Licenses/NC&amp;sa=D&amp;ust=1596213792952000&amp;usg=AOvVaw019rwVoDeChEpV1BJi4jkK" target="_blank">https://freedomdefined.org/Licenses/NC</a></li>
+</ul>
+<h3 id="step-3-create-a-new-repository-on-github-and-clone-it-to-your-computers">Step 3: Create a new repository on Github, and clone it to your computers</h3>
+<ul>
+<li>Create a new repository from your Github page (using the menu at the top right with the + sign)</li>
+</ul>
+<p align="center"><img width="30%" src="images/new_repo.png"></p>
+
+<ul>
+<li>Complete the form to create the new repo, including selecting your license and creating a README file</li>
+</ul>
+<p align="center"><img width="60%" src="images/create_new_repo.png"></p>
+
+<ul>
+<li>Once you create the repository, you will be taken to the main page for the repository.  Obtain the link to your repository under the Code tab, and copy it.</li>
+</ul>
+<p align="center"><img width="60%" src="images/clone_repo.png"></p>
+
+<ul>
+<li>On your local computer, clone the github repository using:  <code>git clone \&lt;link copied from github page\&gt;</code></li>
+<li>This will create a new directory on your computer with the same name as your github project.</li>
+<li>Note: Some editors, such as RStudio and Visual Studio Code, allow one to directly connect to github within the editor; see below for more details.</li>
+</ul>
+<h3 id="step-4-organize-your-code">Step 4: Organize your code</h3>
+<p>The main goal of organizing your code is to make it clear to you and to others where to find the different parts of your project.  See the additional guidance in the section on Reproducible Analysis for how to write code that is clear and readable.</p>
+<p>Regardless of the particular scheme that you use to organize and name your files, you should use the same scheme for all of your projects.  This will make it easier for you to find things and remember what you&apos;ve done in the future.  Different languages have different conventions about how to structure the code; the most important thing is that you follow common conventions when they exist, and that you are consistent in your own work.</p>
+<p>Some researchers include data within their code directory; see the section on Data Sharing for more on the issue of how to organize and share data.</p>
+<p>For example, if you were creating a new project called study-1 and decided to include the data in the same directory as the code, you might structure the directory as follows, following to the <a href="https://www.google.com/url?q=https://docs.google.com/document/d/1u8o5jnWk0Iqp_J06PTu5NjBfVsdoPbBhstht6W0fFp0/edit%23heading%3Dh.1f1h1ilgqcg&amp;sa=D&amp;ust=1596213792955000&amp;usg=AOvVaw3JK-wAbCxGN_foxsPOKgqf" target="_blank">Psych-DS</a> and <a href="https://www.google.com/url?q=https://www.projecttier.org/tier-protocol/specifications/%23overview-of-the-documentation&amp;sa=D&amp;ust=1596213792955000&amp;usg=AOvVaw2iNQ9eY88GzwLnu989lNKx" target="_blank">Project Tier</a> frameworks:</p>
+<p align="center"><img width="60%" src="images/tree.png"></p>
+
+
+<h3 id="step-5-commit-your-code-to-the-local-repository">Step 5: Commit your code to the local repository</h3>
+<p>As you write your code, commit it to the repository. First, you need to add it to the staging area:</p>
+<ul>
+<li><code>git add \&lt;filename\&gt;</code></li>
+</ul>
+<p>Then you commit it, providing a message that describes the changes you have made.</p>
+<ul>
+<li><code>git commit -m &#x201D;\&lt;a message describing the commit\&gt;&#x201D;</code></li>
+</ul>
+<p>You should commit your code regularly.  For example, any time you add a new function or a new section to your code, you should commit. The commit history allows you to look back and see what you have done, and also allows you to reverse changes that you have made.</p>
+<h3 id="step-6-push-your-changes-to-github">Step 6: Push your changes to Github</h3>
+<p>To push your changes back to the repository on Github, use the following command:</p>
+<ul>
+<li><code>git push origin master</code></li>
+</ul>
+<p>This tells git to push the changes that you have committed to the repository on github (which by default is labeled as origin), into the branch called master (don&#x2019;t worry about branches just yet).  </p>
+<h4 id="step-7-push-your-code-to-the-repository">Step 7: Push your code to the repository</h4>
+<ul>
+<li><p>You will first need to pull the files that were created when the repository was created, such as the License file:</p>
+<ul>
+<li><code>git pull origin master</code></li>
+</ul>
+</li>
+<li><p>You can then push your files to the remote repository:</p>
+<ul>
+<li><code>git push origin master</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="when-you-are-ready-to-publish-your-work">When you are ready to publish your work:</h2>
+<h3 id="step-1-create-a-release">Step 1: Create a release</h3>
+<p>When you are ready to save a fixed version of the code (for example, when you submit a paper), you can create a release.  See <a href="https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository\#creating-a-release" target="_blank">the github guide to creating a release</a> for instructions on how to do this.</p>
+<h3 id="step-2-create-a-citable-identifier-for-your-release">Step 2: Create a citable identifier for your release</h3>
+<p>In order to make your code citable, it is useful to have a digital object identifier (DOI) for your code. You can create these easily by linking your github repository to Zenodo.org. Then, any time a release is created on github, it will be deposited to Zenodo and a new DOI will be created. See <a href="https://guides.github.com/activities/citable-code/" target="_blank">the github guide to citeable code</a> for instructions on how to set this up.  This has the benefit of allowing one to cite a specific version of the code used at a particular point in the project (e.g. upon submission of the manuscript), which enhances reproducibility.</p>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h3 id="what-is-a-repository">What is a &#x201C;repository&#x201D;?</h3>
+<p>By &#x201C;repository&#x201D; we mean a folder that is dedicated to a specific project, containing both the data and code for that project, which is under version control (e.g. using git).  </p>
+<ul>
+<li>It&#x2019;s generally best practice to place all of these within a folder on your filesystem, so that they can be separated out from other kinds of documents and you can easily find them (such as &#x201C;Dropbox/code&#x201D;).  </li>
+<li>It&#x2019;s also a good idea to place them within a location that will be backed up by whatever cloud service you use (Dropbox, Google Drive, Box, etc), so you have an extra backup in addition to your remote code repository</li>
+</ul>
+<h3 id="what-is-a-license-and-how-should-i-choose-one-for-my-project">What is a license, and how should I choose one for my project?</h3>
+<p>Software licenses describe the rights and responsibilities of users of your code from two perspectives: developers and end-users. An end-user is anybody who uses any software that includes your code. A developer is somebody who writes additional code, either by modifying your code or by including some portion of your code in a larger project.</p>
+<p>The software license is generally stored in full in the base directory of the repository, either in a LICENSE or COPYING file.</p>
+<p>Assuming you would like your code to be reused, you will likely prefer a <a href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Free_and_open-source_software&amp;sa=D&amp;ust=1596213792962000&amp;usg=AOvVaw2enLEt-WXh1MuktvmbVZnF" target="_blank">free or open-source software</a> license, any of which will grant broad permissions to copy, reuse and remix your code in the context of other projects. A useful resource for finding the right license for your code is <a href="https://www.google.com/url?q=https://choosealicense.com/&amp;sa=D&amp;ust=1596213792962000&amp;usg=AOvVaw284wE8jGYg-P029EzGxBCU" target="_blank">ChooseALicense.com</a>.</p>
+<p>Apart from the specific terms of each license, the most significant thing to consider is license compatibility, or the ability to combine code released under different licenses. There are extensive discussions over licensing and what is the best license for sharing code, but in practice the license to choose is the common license among the community where your code fits best. For example, the MIT and Apache 2 licenses are very common in the Neuroimaging in Python (Nipy) community, making these pragmatic choices for neuroimaging tools written in Python. If you are writing code that fits into a community where the GPL is prevalent, the Free Software Foundation maintains a <a href="https://www.google.com/url?q=https://www.gnu.org/licenses/license-list.html&amp;sa=D&amp;ust=1596213792963000&amp;usg=AOvVaw0JBaz-70na-8SmSZjE3vOL" target="_blank">list of licenses</a> and their compatibility.</p>
+<p>Less common for software but increasingly common for textual content like documentation are the <a href="https://www.google.com/url?q=https://creativecommons.org/&amp;sa=D&amp;ust=1596213792963000&amp;usg=AOvVaw0Pi0ITqsg9Uv-xiJyI9Yjz" target="_blank">Creative Commons</a> family of licenses. They also provide a tool for <a href="https://www.google.com/url?q=https://creativecommons.org/choose/&amp;sa=D&amp;ust=1596213792963000&amp;usg=AOvVaw2CArom0FbN8ySAHwViGD8i" target="_blank">selecting a license</a>.</p>
+<p>Note that there is very little case law on open-source licenses. Licenses are mostly a statement of principles, and all of the baroque behavior around them, such as avoiding mixing &#x201C;incompatible&#x201D; licenses, has little to no legal basis.</p>
+<h3 id="should-i-include-a-non-commercial-limitation-in-my-license">Should I include a non-commercial limitation in my license?</h3>
+<p>Many open licenses include a non-commercial clause, such as that in the Creative Commons <a href="https://www.google.com/url?q=https://creativecommons.org/licenses/by-nc/4.0/legalcode&amp;sa=D&amp;ust=1596213792964000&amp;usg=AOvVaw332OADBzkD7_6C6jaTV2KU" target="_blank">NonCommercial suite of licenses</a>:</p>
+<p>NonCommercial means not primarily intended for or directed towards commercial advantage or monetary compensation. For purposes of this Public License, the exchange of the Licensed Material for other material subject to Copyright and Similar Rights by digital file-sharing or similar means is NonCommercial provided there is no payment of monetary compensation in connection with the exchange.</p>
+<p>The intent of such clauses is to prevent private companies from exploiting the labor of the author(s) as an alternative to hiring an author or purchasing the content. This in turn makes the prospect of contributing free labor to a project more appealing by making it less likely that the contributors&#x2019; work will be repurposed in this way.</p>
+<p>It is, however, unclear whether a non-commercial license prevents a for-profit company from using the material in any capacity, or if the restriction applies to processes that lead to commercial activity, or more strictly as a component of a product to be sold. This ambiguity can lead to for-profit entities avoiding any software that might contain such a provision, to avoid legal exposure.</p>
+<p>The use of these licenses can thus reduce the adoption of a particular tool within a significant segment of the scientific community, working against goals of standardization, and thus reproducibility.</p>
+<h3 id="what-is-a-branch-and-how-can-i-use-them">What is a &#x201C;branch&#x201D; and how can I use them?</h3>
+<p>A branch is a chain of git commits, which represents the evolution of a repository. Each repository will have a canonical branch, usually called &#x201C;master&#x201D;. By looking at &#x201C;master&#x201D; at any given time, you can see the current state of the repository and the chain of commits that produced this state. Other branches may be used as an organizational tool by separating chains of commits according to particular tasks.</p>
+<p>When developing, it is frequently useful to make commits before they are ready to be included in the &#x201C;official history&#x201D;. For example, when fixing a bug, a common pattern is to create a new branch, write a test that demonstrates the bug, and then fix the bug:</p>
+<ol>
+<li>Retrieve the latest state of the repository from the server and create a branch based on the latest commit on master. The &#x201C;origin&#x201D; remote is used here, but if contributing to somebody else&#x2019;s repository, consider using &#x201C;upstream&#x201D; (see the next section to set up upstream).<ul>
+<li><code>git fetch origin</code></li>
+<li><code>git switch -C fix-bugXYZ origin/master</code></li>
+</ul>
+</li>
+<li>Create a new test, and verify that the tests fail. This is a bit more free-form.</li>
+<li>Commit the changes and push to the server. This announces to collaborators what you&#x2019;re working on. If your server has continuous integration tests, it will simplify evaluation. This is also when to open a pull request (see next section). The -u flag ensures that future calls to git push/git pull will associate the local fix-bugXYZ branch and the remote origin/fix-bugXYZ:<ul>
+<li><code>git add path/to/test</code></li>
+<li><code>git commit -m &#x201C;TEST: Reproduce bug XYZ; tests fail&#x201D;</code></li>
+<li><code>git push -u origin fix-bugXYZ</code></li>
+</ul>
+</li>
+<li>Resolve the bug, and verify that the tests pass.</li>
+<li>Commit and push the changes. Since we used the -u flag above, we can simply use git push here:<ul>
+<li><code>git commit -m &#x201C;FIX: Make ABC change to fix bug XYZ; tests pass&#x201D;</code></li>
+<li><code>git push</code></li>
+</ul>
+</li>
+</ol>
+<p>Pushing to a remote branch allows collaborators to inspect the changes. If you&#x2019;re using automatic testing on the remote, the test failure and resolution become easily verifiable prior to inclusion in the master branch.</p>
+<p>The same principle applies for new features or other modifications. This is also useful for more exploratory changes that may never be included in the master branch, and makes explicit the process of resolving conflicts, if two developers are working on different components simultaneously.</p>
+<h3 id="what-is-a-pull-request-and-how-can-i-use-them-to-collaborate">What is a &#x201C;pull request&#x201D; and how can I use them to collaborate?</h3>
+<p>A pull request is a way to request that code from a particular branch or fork be integrated (&#x201C;pulled&#x201D;) into another branch.  A common model for collaborative development would be as follows.  Let&#x2019;s say that one researcher (A) has developed a project called analysisXYZ, and another researcher (B) wants to add a new feature to that project.  The steps would be:</p>
+<ol>
+<li>Researcher B would create a fork of this project, which is basically a copy of the project that lives separately in Researcher B&#x2019;s github account, and clone this fork onto their local computer.</li>
+<li>In order to be able to keep the fork up to date with the original repository, Researcher B would create a new remote in their local version of the fork, usually called &#x201C;upstream&#x201D;:<ul>
+<li><code>git remote add upstream \&lt;link to original repo\&gt;</code></li>
+</ul>
+</li>
+<li>Researcher B would modify the code in their fork to add the new feature, commit the changes.</li>
+<li>Prior to making any changes, the upstream remote should be fetched to ensure that changes are made to the latest state, reducing the chance for conflict:<ul>
+<li><code>git fetch upstream</code></li>
+</ul>
+</li>
+<li>Changes should almost always be made on a new branch, diverging from the master branch on the upstream remote. Working on the master branch is strongly discouraged. It is good practice to use a short but descriptive branch names, for example, fix-bugXYZ.<ul>
+<li><code>git switch -C fix-bugXYZ upstream/master</code></li>
+</ul>
+</li>
+<li>Researcher B pushes their changes back to the github repository of their fork (remote origin), specifying the branch (for example, fix-bugXYZ):<ul>
+<li><code>git push -u origin fix-bugXYZ</code></li>
+</ul>
+</li>
+<li>Researcher B goes to the github page for their fork, selects the pull requests tab, and creates a new pull request, which will encompass all of the changes that have been committed.  The pull request description should be as detailed as possible.</li>
+<li>Researcher A reviews the pull request, and makes suggestions for changes.  Once they are satisfied with the request, they merge the request, which integrates the changes into the master branch on the original repo.</li>
+</ol>
+<h3 id="how-can-i-push-an-existing-repository-on-my-computer-to-github">How can I push an existing repository on my computer to github?</h3>
+<p>Your github repository is treated as a remote repository by your local computer.  When you clone a repository from github, the remote is automatically generated and given the name origin.  Sometimes you might wish to add a remote for an existing repository on your computer, as when you have an existing local git repo and you wish to link it to a new repository on github.</p>
+<ul>
+<li>Within your code directory, add a remote repository, which we will call origin:<ul>
+<li><code>git remote add origin \&lt;link to your repo\&gt;</code></li>
+</ul>
+</li>
+<li>You can obtain the link to the repo from the green button marked &#x201C;Clone or download&#x201D; on your Github repository page. Be sure that is says &#x201C;Clone with SSH&#x201D;; if not, then first click the &#x201C;Use SSH&#x201D; button in the window.  The link should look like <code>&#x201C;&lt;git@github.com&gt;:\&lt;your name\&gt;/\&lt;repository name\&gt;.git&#x201D;</code></li>
+</ul>
+<h3 id="should-i-share-my-data-in-the-same-repository-with-my-code">Should I share my data in the same repository with my code?</h3>
+<p>If one&#x2019;s data are relatively small it is common to share them along with the code within the same repository.  However, if the data are relatively large (say tens of megabytes or larger) then one would usually store and share them separately from the code.  See the section on Data Sharing for more details on how to share data.</p>
+<h3 id="how-can-i-share-my-entire-software-environment">How can I share my entire software environment?</h3>
+<p>The environment refers to the full set of software (including libraries and other dependencies, sometimes including the operating system) that are used when the code is executed.  See the section on <a href="4_reproducibleanalysis.html">Reproducible Analysis</a> for more on why sharing environments is important.</p>
+<p><a href="https://www.google.com/url?q=https://www.anaconda.com/&amp;sa=D&amp;ust=1596213792971000&amp;usg=AOvVaw2WYGIMHbe2aV5yrzaFvjRw" target="_blank">Anaconda</a> is a package management for Python and R that allows one to create multiple &#x201C;virtual environments&#x201D; that are easy to switch between. Thus, for example, if you wanted to build a specific project using a particular older version of a software library, you could build a virtual environment including that version, while still being able to use the newer version within a different virtual environment.  The <a href="https://www.google.com/url?q=https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html&amp;sa=D&amp;ust=1596213792971000&amp;usg=AOvVaw2IMX9rEtn1vSOX6kNcwJtl" target="_blank">Anaconda documentation on managing environments</a> provides detailed information about how to export and share details about a virtual environment.</p>
+<p><a href="https://www.google.com/url?q=https://docs.docker.com/&amp;sa=D&amp;ust=1596213792972000&amp;usg=AOvVaw3WWtcNOMIQ8PxpYYjmz_aa" target="_blank">Docker</a> is a system for generating a container that defines all of the software dependencies necessary to execute a particular program.  The contents of the container are defined using a Dockerfile, which can be shared to allow others to recreate the container exactly. In addition to sharing the Dockerfile, it is also possible to share the entire container using the <a href="https://www.google.com/url?q=https://hub.docker.com/&amp;sa=D&amp;ust=1596213792972000&amp;usg=AOvVaw1EPG7aecNQhyf1NWTo1_-0" target="_blank">DockerHub</a> web site. The section on Reproducible Analysis provides much more detail on using Docker.  </p>
+<h3 id="how-can-i-use-git-within-my-code-editor">How can I use git within my code editor?</h3>
+<ul>
+<li><p>RStudio:</p>
+<ul>
+<li><a href="https://cfss.uchicago.edu/setup/git-with-rstudio/" target="_blank">Using Git within RStudio</a></li>
+<li><a href="https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN" target="_blank">Using Version Control with RStudio</a></li>
+</ul>
+</li>
+<li><p>Visual Studio Code</p>
+<ul>
+<li><a href="https://code.visualstudio.com/docs/editor/versioncontrol" target="_blank">Using git with VS Code</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="background-resources">Background Resources:</h2>
+<h3 id="on-code-sharing">On code sharing:</h3>
+<ul>
+<li><a href="https://www.google.com/url?q=https://www.nature.com/articles/467753a&amp;sa=D&amp;ust=1596213792974000&amp;usg=AOvVaw0u6eAaKegYpbZBS5elRxvr" target="_blank">Publish your computer code: It is good enough.</a></li>
+<li><a href="https://www.google.com/url?q=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6386137/&amp;sa=D&amp;ust=1596213792975000&amp;usg=AOvVaw17BU4xS3FqnSicyeR7A52v" target="_blank">Towards standard practices for sharing computer code and programs in neuroscience</a></li>
+<li></li>
+</ul>
+<h3 id="on-licensing-and-freeopen-source-software">On licensing and Free/Open Source Software:</h3>
+<ul>
+<li><a href="https://www.google.com/url?q=https://opensource.org/history&amp;sa=D&amp;ust=1596213792975000&amp;usg=AOvVaw2e69-qFXa2U6PlELxQpkRn" target="_blank">History of the Open Source Initiative</a>. Website.</li>
+<li>Morozov, E. 2013. <a href="https://www.google.com/url?q=https://thebaffler.com/salvos/the-meme-hustler&amp;sa=D&amp;ust=1596213792975000&amp;usg=AOvVaw1h6FEyEPX9NmkPaLfFYGyp" target="_blank">The Meme Hustler</a>. The Baffler.</li>
+<li>Klabnik, S. 2019. <a href="https://www.google.com/url?q=https://words.steveklabnik.com/the-culture-war-at-the-heart-of-open-source&amp;sa=D&amp;ust=1596213792976000&amp;usg=AOvVaw3NAQPpOeVt1sY8TbGSDlKy" target="_blank">The Culture War at the Heart of Open Source</a>. Blog.</li>
+<li><a href="https://www.google.com/url?q=https://freedomdefined.org/Licenses/NC&amp;sa=D&amp;ust=1596213792976000&amp;usg=AOvVaw27qMpTlKm88uJu98h1yxcn" target="_blank">The case for Free use: reasons not to use a Creative Commons -NC license</a>. FreedomDefined.org (wiki).</li>
+</ul>
+<h4 id="on-version-control">On version control:</h4>
+<ul>
+<li><a href="https://www.google.com/url?q=https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control&amp;sa=D&amp;ust=1596213792976000&amp;usg=AOvVaw3OGJL91wNZ3t7keNiY56HN" target="_blank">What is version control?</a></li>
+<li><a href="https://www.google.com/url?q=https://help.github.com/en/github/getting-started-with-github/quickstart&amp;sa=D&amp;ust=1596213792977000&amp;usg=AOvVaw1eR5C1BS6Vtne6-Wxl-Klq" target="_blank">GitHub&#x2019;s quickstart guide</a> - a walkthrough of setting up git, creating a repo</li>
+<li><a href="https://www.google.com/url?q=https://kbroman.org/github_tutorial/pages/first_time.html&amp;sa=D&amp;ust=1596213792977000&amp;usg=AOvVaw1ic8OJlDStBJwZWCmDEQfp" target="_blank">&#x201C;Your first time with git and github&#x201D;</a> - an elaborated tutorial on setting up git on your local and connecting your git account to github using ssh keys for a streamlined process</li>
+<li><a href="https://www.google.com/url?q=https://chris.beams.io/posts/git-commit/&amp;sa=D&amp;ust=1596213792977000&amp;usg=AOvVaw0zW2FeU6o7IHco8ynXpYH4" target="_blank">Best practices or git commit messages</a></li>
+<li><a href="https://www.google.com/url?q=https://stackshare.io/stackups/bitbucket-vs-github-vs-gitlab&amp;sa=D&amp;ust=1596213792978000&amp;usg=AOvVaw11-0fhBiz5Be36wTmN6miO" target="_blank">GitHub vs GitLab vs BitBucket</a></li>
+<li><a href="https://www.google.com/url?q=https://www.atlassian.com/git/tutorials/comparing-workflows%23!workflow-gitflow&amp;sa=D&amp;ust=1596213792978000&amp;usg=AOvVaw2UH7MFzplElZkCVkufBCbm" target="_blank">BitBucket&#x2019;s guide to git workflows</a></li>
+<li><a href="https://www.google.com/url?q=https://git-lfs.github.com/&amp;sa=D&amp;ust=1596213792978000&amp;usg=AOvVaw29I031PIN_JqXxhOFZ6cZb" target="_blank">Git large file storage</a></li>
+<li><a href="https://www.google.com/url?q=https://www.datree.io/resources/github-best-practices&amp;sa=D&amp;ust=1596213792978000&amp;usg=AOvVaw0MG8jydq6yyGzjZ14RVrsR" target="_blank">Top GitHub best practices guide for developers</a></li>
+</ul>
+<h3 id="guides-and-templates-for-project-organization">Guides and templates for project organization</h3>
+<ul>
+<li>Python<ul>
+<li><a href="https://www.google.com/url?q=https://github.com/uwescience/shablona&amp;sa=D&amp;ust=1596213792979000&amp;usg=AOvVaw0ybYY5n-u3HVW9d97D1719" target="_blank">Shablona</a> - A template for scientific Python projects</li>
+<li><a href="https://www.google.com/url?q=https://packaging.python.org/tutorials/packaging-projects/&amp;sa=D&amp;ust=1596213792979000&amp;usg=AOvVaw3-52TX6yTrUNRuPS9H5Fs-" target="_blank">Packaging Python Projects</a></li>
+</ul>
+</li>
+<li>R<ul>
+<li><a href="https://www.google.com/url?q=http://swcarpentry.github.io/r-novice-inflammation/08-making-packages-R/index.html&amp;sa=D&amp;ust=1596213792980000&amp;usg=AOvVaw2_BtmKPnLyIa5phsPKQLcV" target="_blank">Software Carpentry: Making Packages with R</a></li>
+</ul>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1_preregistration.html" class="navigation navigation-prev " aria-label="Previous page: Pre-registration">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="3_datasharing.html" class="navigation navigation-next " aria-label="Next page: Data sharing">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Code sharing","level":"1.3","depth":1,"next":{"title":"Data sharing","level":"1.4","depth":1,"path":"3_datasharing.md","ref":"3_datasharing.md","articles":[]},"previous":{"title":"Pre-registration","level":"1.2","depth":1,"path":"1_preregistration.md","ref":"1_preregistration.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"2_codesharing.md","mtime":"2020-08-04T20:34:40.239Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-04T20:35:02.886Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

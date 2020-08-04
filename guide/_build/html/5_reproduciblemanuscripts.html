@@ -1,0 +1,382 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Reproducible Manuscripts &#8212; My Jupyter Book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/mystnb.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Joining the Culture of Open Science" href="culture.html" />
+    <link rel="prev" title="Reproducible data analysis" href="4_reproducibleanalysis.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">My Jupyter Book</h1>
+  
+</a>
+</div>
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="README.html">
+   A guide to open science for psychologists
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="1_preregistration.html">
+   Pre-registration
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2_codesharing.html">
+   Code Sharing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3_datasharing.html">
+   Data sharing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="4_reproducibleanalysis.html">
+   Reproducible data analysis
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Reproducible Manuscripts
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="culture.html">
+   Joining the Culture of Open Science
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="basicskills.html">
+   Basic Skills for Reproducible Research
+  </a>
+ </li>
+</ul>
+
+</nav>
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/5_reproduciblemanuscripts.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+    
+</div>
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> On this page
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prerequisites">
+   Prerequisites
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#getting-started">
+   Getting started
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#advanced-topic-containerizing-and-automating-your-reproducible-manuscript">
+   Advanced topic: Containerizing and automating your reproducible manuscript
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#frequently-asked-questions">
+   Frequently Asked Questions
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-is-literate-programming-and-how-does-it-relate-to-reproducible-manuscripts">
+     What is “literate programming” and how does it relate to reproducible manuscripts?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-can-i-include-citations-in-my-reproducible-manuscript">
+     How can I include citations in my reproducible manuscript?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#resources">
+     Resources
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="reproducible-manuscripts">
+<h1>Reproducible Manuscripts<a class="headerlink" href="#reproducible-manuscripts" title="Permalink to this headline">¶</a></h1>
+<p>Traditional manuscripts include text and result figures and tables that are produced by analysis code and data that are separate from the manuscript itself. The goal of “reproducible manuscripts”, as the name implies, is to publish in a format that allows for ease in re-running the original analyses accurately. This allows one to more conclusively identify the provenance of any published results and test their reproducibility, as well as apply the same analyses to new data.</p>
+<p>More specifically: to accomplish this goal, we want to share a file or set of files that can allow anyone to reproduce the entire manuscript (including text, figures, and numerical results) using the same data and code as the original authors. Thus, a reproducible manuscript inherently implements aspects of a reproducible analysis, though full reproducibility also requires the use of a reproducible analysis platform, as outlined in the Reproducible Analysis section.</p>
+<div class="section" id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Markdown</p>
+<ul>
+<li><p>The most popular systems for producing reproducible manuscripts require familiarity with the Markdown system for text formatting.  Markdown is also used extensively on Github (e.g. for the formatting of README files and comments), so learning it will pay many dividends.  Fortunately, it’s very simple to learn.</p>
+<ul>
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://guides.github.com/features/mastering-markdown/&amp;sa=D&amp;ust=1596500103472000&amp;usg=AOvVaw3g02iKBXLsflKuh-Dw0SOP">Github Guide to Mastering Markdown</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="getting-started">
+<h2>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>Generate your analysis code using an appropriate format for a reproducible manuscript. The manuscript should incorporate all code necessary to generate the figures, tables, or numerical results into a single file, using the best practices outlined in the section on Reproducible Analysis.</p>
+<ul class="simple">
+<li><p>The most commonly used tool for reproducible manuscripts is RMarkdown, generally used within the RStudio environment.</p>
+<ul>
+<li><p>RMarkdown can be installed from within the R environment: install.packages(‘RMarkdown’)</p></li>
+<li><p>It is possible to include Python code chunks within an RMarkdown file, using the <a class="reference external" href="https://www.google.com/url?q=https://rstudio.github.io/reticulate/articles/r_markdown.html&amp;sa=D&amp;ust=1596500103473000&amp;usg=AOvVaw1mRGYRqu48Rp3bpjOkkFfO">reticulate</a> library.  However, this is unlikely to be a satisfying development experience for the Python programmer, since RStudio does not provide the usual tools that one would expect of a Python development environment.</p></li>
+</ul>
+</li>
+<li><p>Jupyter notebooks can also be used to generate a document that includes a mixture of code and markdown, which can then be exported to a format suitable for publication.</p>
+<ul>
+<li><p>Jupyter is missing some useful features of RMarkdown, such as the ability to insert variables within the markdown and have their value inserted in the text.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>The code should be organized into clearly labeled sections, such that each section generates a specific table, figure, or numerical result.  Rather than incorporating the entirety of the code within your manuscript document, you can define functions in separate files that can be imported into the manuscript, as long as they are shared alongside the manuscript.</p></li>
+<li><p>In some cases, the entire analysis workflow cannot be included in the paper due to its complexity (for example, when it involves execution on a high-performance computing system). In these cases, it is common to rely upon intermediate data files derived from earlier steps in the analysis. The provenance of these intermediate files must be made clear in the manuscript and those earlier analyses should be provided in a way that can be reproduced separately.</p></li>
+</ol>
+</div>
+<div class="section" id="advanced-topic-containerizing-and-automating-your-reproducible-manuscript">
+<h2>Advanced topic: Containerizing and automating your reproducible manuscript<a class="headerlink" href="#advanced-topic-containerizing-and-automating-your-reproducible-manuscript" title="Permalink to this headline">¶</a></h2>
+<p>Once you have generated a reproducible manuscript, a next step is to containerize the manuscript and automate its execution.</p>
+<p><em>TBD</em></p>
+</div>
+<div class="section" id="frequently-asked-questions">
+<h2>Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="what-is-literate-programming-and-how-does-it-relate-to-reproducible-manuscripts">
+<h3>What is “literate programming” and how does it relate to reproducible manuscripts?<a class="headerlink" href="#what-is-literate-programming-and-how-does-it-relate-to-reproducible-manuscripts" title="Permalink to this headline">¶</a></h3>
+<p>The idea of a reproducible manuscript derives from the concept of literate programming that was introduced by Donald Knuth (<a class="reference external" href="https://www.google.com/url?q=http://www.literateprogramming.com/knuthweb.pdf&amp;sa=D&amp;ust=1596500103474000&amp;usg=AOvVaw0kgDSLAxNoOeICXK7CeK0b">paper</a>). In general, literate programming is a method for writing programming logic in a human language with code snippets and macros. The document follows the flow of human logic (step-wise process moving through analyses) incorporating code for each step. Literate programs are essentially explanations of code (with code incorporated) to be read by humans.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.google.com/url?q=http://www.literateprogramming.com/&amp;sa=D&amp;ust=1596500103474000&amp;usg=AOvVaw102KZlhOKXbaGQgT6nvPvp">Literate programming resources</a> (includes the history and software tools)</p></li>
+</ul>
+</div>
+<div class="section" id="how-can-i-include-citations-in-my-reproducible-manuscript">
+<h3>How can I include citations in my reproducible manuscript?<a class="headerlink" href="#how-can-i-include-citations-in-my-reproducible-manuscript" title="Permalink to this headline">¶</a></h3>
+<p>RMarkdown:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html&amp;sa=D&amp;ust=1596500103475000&amp;usg=AOvVaw3Nv4FI-EqDVh6qF2YspUme">Bibliographies and citations in RMarkdown</a></p></li>
+</ul>
+<p>Jupyter notebooks:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%2520Notebook%2520Users%2520Manual.ipynb%235.-Bibliographic-Support&amp;sa=D&amp;ust=1596500103476000&amp;usg=AOvVaw2eYMwya58f1cr5NG3Rff9K">Bibliographic support in Jupyter Notebooks</a></p></li>
+<li><p>This requires the use the use of BibTex to create bibliographies.</p></li>
+<li><p>There are free reference managers available for management of BibTex bibliographies:</p>
+<ul>
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://bibdesk.sourceforge.io/&amp;sa=D&amp;ust=1596500103476000&amp;usg=AOvVaw2K8TgDFBHyRbmGWZo4ScbO">BibDesk (Mac OS)</a></p></li>
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://www.jabref.org/&amp;sa=D&amp;ust=1596500103476000&amp;usg=AOvVaw0LdYoJxvkLF79TPsUvpiB8">JabRef (Mac/Windows/Linux)</a></p></li>
+</ul>
+</li>
+<li><p>One can also generate BibTex bibliographies using existing reference manager tools:</p>
+<ul>
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://libguides.mit.edu/cite-write/bibtex&amp;sa=D&amp;ust=1596500103477000&amp;usg=AOvVaw0h1zeEXeN62RqZ_9MIVhUT">MIT Guide to Citation Management and Writing Tools: LaTeX and BibTeX</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="resources">
+<h3>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h3>
+<p>RMarkdown:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf&amp;sa=D&amp;ust=1596500103477000&amp;usg=AOvVaw0xwJO1f-hLwfdwQ5BMul9f">RMarkdown Cheat Sheet</a></p></li>
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://elifesciences.org/labs/cad57bcf/composing-reproducible-manuscripts-using-r-markdown&amp;sa=D&amp;ust=1596500103478000&amp;usg=AOvVaw0gE0_oUfr2AjE1u_AGTS9x">Composing reproducible manuscripts using R Markdown</a></p></li>
+</ul>
+<p>Jupyter:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://reproducible-science-curriculum.github.io/publication-RR-Jupyter/index.html&amp;sa=D&amp;ust=1596500103478000&amp;usg=AOvVaw2v7JqTejUafjjUAQu36e2h">Sharing and Publishing Jupyter Notebooks</a></p></li>
+</ul>
+<p>Other tools:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://stenci.la/&amp;sa=D&amp;ust=1596500103478000&amp;usg=AOvVaw10a1lCmK_oz7DSNCWgJen5">Stenci.la</a> - an emerging platform for writing reproducible manuscripts, but not yet publicly available</p></li>
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://ctan.org/pkg/noweb?lang%3Den&amp;sa=D&amp;ust=1596500103479000&amp;usg=AOvVaw20hM-ezUT1TfLCiKntvE8U">Noweb</a> - a language-independent tool for literate programming</p></li>
+<li><p><a class="reference external" href="https://www.google.com/url?q=https://crsh.github.io/papaja_man/&amp;sa=D&amp;ust=1596500103479000&amp;usg=AOvVaw07TagehxaD1v4tNeohHxGt">Papaja</a> - an R package for producing manuscripts in APA format</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="4_reproducibleanalysis.html" title="previous page">Reproducible data analysis</a>
+    <a class='right-next' id="next-link" href="culture.html" title="next page">Joining the Culture of Open Science</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+  </body>
+</html>

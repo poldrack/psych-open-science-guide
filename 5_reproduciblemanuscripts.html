@@ -1,0 +1,396 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Reproducible manuscripts · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="culture.html" />
+    
+    
+    <link rel="prev" href="4_reproducibleanalysis.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1_preregistration.html">
+            
+                <a href="1_preregistration.html">
+            
+                    
+                    Pre-registration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="2_codesharing.html">
+            
+                <a href="2_codesharing.html">
+            
+                    
+                    Code sharing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="3_datasharing.html">
+            
+                <a href="3_datasharing.html">
+            
+                    
+                    Data sharing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="4_reproducibleanalysis.html">
+            
+                <a href="4_reproducibleanalysis.html">
+            
+                    
+                    Reproducible analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="5_reproduciblemanuscripts.html">
+            
+                <a href="5_reproduciblemanuscripts.html">
+            
+                    
+                    Reproducible manuscripts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="culture.html">
+            
+                <a href="culture.html">
+            
+                    
+                    Joining the culture of open science
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="basicskills.html">
+            
+                <a href="basicskills.html">
+            
+                    
+                    Basic skills for reproducible research
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Reproducible manuscripts</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="reproducible-manuscripts">Reproducible Manuscripts</h1>
+<p>Traditional manuscripts include text and result figures and tables that are produced by analysis code and data that are separate from the manuscript itself. The goal of &#x201C;reproducible manuscripts&#x201D;, as the name implies, is to publish in a format that allows for ease in re-running the original analyses accurately. This allows one to more conclusively identify the provenance of any published results and test their reproducibility, as well as apply the same analyses to new data.</p>
+<p>More specifically: to accomplish this goal, we want to share a file or set of files that can allow anyone to reproduce the entire manuscript (including text, figures, and numerical results) using the same data and code as the original authors. Thus, a reproducible manuscript inherently implements aspects of a reproducible analysis, though full reproducibility also requires the use of a reproducible analysis platform, as outlined in the Reproducible Analysis section.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Markdown<ul>
+<li>The most popular systems for producing reproducible manuscripts require familiarity with the Markdown system for text formatting.  Markdown is also used extensively on Github (e.g. for the formatting of README files and comments), so learning it will pay many dividends.  Fortunately, it&#x2019;s very simple to learn.<ul>
+<li><a href="https://www.google.com/url?q=https://guides.github.com/features/mastering-markdown/&amp;sa=D&amp;ust=1596500103472000&amp;usg=AOvVaw3g02iKBXLsflKuh-Dw0SOP" target="_blank">Github Guide to Mastering Markdown</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="getting-started">Getting started</h2>
+<ol>
+<li>Generate your analysis code using an appropriate format for a reproducible manuscript. The manuscript should incorporate all code necessary to generate the figures, tables, or numerical results into a single file, using the best practices outlined in the section on Reproducible Analysis.<ul>
+<li>The most commonly used tool for reproducible manuscripts is RMarkdown, generally used within the RStudio environment.  <ul>
+<li>RMarkdown can be installed from within the R environment: install.packages(&apos;RMarkdown&apos;)</li>
+<li>It is possible to include Python code chunks within an RMarkdown file, using the <a href="https://www.google.com/url?q=https://rstudio.github.io/reticulate/articles/r_markdown.html&amp;sa=D&amp;ust=1596500103473000&amp;usg=AOvVaw1mRGYRqu48Rp3bpjOkkFfO" target="_blank">reticulate</a> library.  However, this is unlikely to be a satisfying development experience for the Python programmer, since RStudio does not provide the usual tools that one would expect of a Python development environment.</li>
+</ul>
+</li>
+<li>Jupyter notebooks can also be used to generate a document that includes a mixture of code and markdown, which can then be exported to a format suitable for publication.  <ul>
+<li>Jupyter is missing some useful features of RMarkdown, such as the ability to insert variables within the markdown and have their value inserted in the text.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The code should be organized into clearly labeled sections, such that each section generates a specific table, figure, or numerical result.  Rather than incorporating the entirety of the code within your manuscript document, you can define functions in separate files that can be imported into the manuscript, as long as they are shared alongside the manuscript.  </li>
+<li>In some cases, the entire analysis workflow cannot be included in the paper due to its complexity (for example, when it involves execution on a high-performance computing system). In these cases, it is common to rely upon intermediate data files derived from earlier steps in the analysis. The provenance of these intermediate files must be made clear in the manuscript and those earlier analyses should be provided in a way that can be reproduced separately.</li>
+</ol>
+<h2 id="advanced-topic-containerizing-and-automating-your-reproducible-manuscript">Advanced topic: Containerizing and automating your reproducible manuscript</h2>
+<p>Once you have generated a reproducible manuscript, a next step is to containerize the manuscript and automate its execution.</p>
+<p><em>TBD</em></p>
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h3 id="what-is-literate-programming-and-how-does-it-relate-to-reproducible-manuscripts">What is &#x201C;literate programming&#x201D; and how does it relate to reproducible manuscripts?</h3>
+<p>The idea of a reproducible manuscript derives from the concept of literate programming that was introduced by Donald Knuth (<a href="https://www.google.com/url?q=http://www.literateprogramming.com/knuthweb.pdf&amp;sa=D&amp;ust=1596500103474000&amp;usg=AOvVaw0kgDSLAxNoOeICXK7CeK0b" target="_blank">paper</a>). In general, literate programming is a method for writing programming logic in a human language with code snippets and macros. The document follows the flow of human logic (step-wise process moving through analyses) incorporating code for each step. Literate programs are essentially explanations of code (with code incorporated) to be read by humans.</p>
+<ul>
+<li><a href="https://www.google.com/url?q=http://www.literateprogramming.com/&amp;sa=D&amp;ust=1596500103474000&amp;usg=AOvVaw102KZlhOKXbaGQgT6nvPvp" target="_blank">Literate programming resources</a> (includes the history and software tools)</li>
+</ul>
+<h3 id="how-can-i-include-citations-in-my-reproducible-manuscript">How can I include citations in my reproducible manuscript?</h3>
+<p>RMarkdown:</p>
+<ul>
+<li><a href="https://www.google.com/url?q=https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html&amp;sa=D&amp;ust=1596500103475000&amp;usg=AOvVaw3Nv4FI-EqDVh6qF2YspUme" target="_blank">Bibliographies and citations in RMarkdown</a></li>
+</ul>
+<p>Jupyter notebooks:</p>
+<ul>
+<li><a href="https://www.google.com/url?q=https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%2520Notebook%2520Users%2520Manual.ipynb%235.-Bibliographic-Support&amp;sa=D&amp;ust=1596500103476000&amp;usg=AOvVaw2eYMwya58f1cr5NG3Rff9K" target="_blank">Bibliographic support in Jupyter Notebooks</a></li>
+<li>This requires the use the use of BibTex to create bibliographies.  </li>
+<li>There are free reference managers available for management of BibTex bibliographies:<ul>
+<li><a href="https://www.google.com/url?q=https://bibdesk.sourceforge.io/&amp;sa=D&amp;ust=1596500103476000&amp;usg=AOvVaw2K8TgDFBHyRbmGWZo4ScbO" target="_blank">BibDesk (Mac OS)</a></li>
+<li><a href="https://www.google.com/url?q=https://www.jabref.org/&amp;sa=D&amp;ust=1596500103476000&amp;usg=AOvVaw0LdYoJxvkLF79TPsUvpiB8" target="_blank">JabRef (Mac/Windows/Linux)</a></li>
+</ul>
+</li>
+<li>One can also generate BibTex bibliographies using existing reference manager tools:<ul>
+<li><a href="https://www.google.com/url?q=https://libguides.mit.edu/cite-write/bibtex&amp;sa=D&amp;ust=1596500103477000&amp;usg=AOvVaw0h1zeEXeN62RqZ_9MIVhUT" target="_blank">MIT Guide to Citation Management and Writing Tools: LaTeX and BibTeX</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="resources">Resources</h3>
+<p>RMarkdown:</p>
+<ul>
+<li><a href="https://www.google.com/url?q=https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf&amp;sa=D&amp;ust=1596500103477000&amp;usg=AOvVaw0xwJO1f-hLwfdwQ5BMul9f" target="_blank">RMarkdown Cheat Sheet</a></li>
+<li><a href="https://www.google.com/url?q=https://elifesciences.org/labs/cad57bcf/composing-reproducible-manuscripts-using-r-markdown&amp;sa=D&amp;ust=1596500103478000&amp;usg=AOvVaw0gE0_oUfr2AjE1u_AGTS9x" target="_blank">Composing reproducible manuscripts using R Markdown</a></li>
+</ul>
+<p>Jupyter:</p>
+<ul>
+<li><a href="https://www.google.com/url?q=https://reproducible-science-curriculum.github.io/publication-RR-Jupyter/index.html&amp;sa=D&amp;ust=1596500103478000&amp;usg=AOvVaw2v7JqTejUafjjUAQu36e2h" target="_blank">Sharing and Publishing Jupyter Notebooks</a></li>
+</ul>
+<p>Other tools:</p>
+<ul>
+<li><a href="https://www.google.com/url?q=https://stenci.la/&amp;sa=D&amp;ust=1596500103478000&amp;usg=AOvVaw10a1lCmK_oz7DSNCWgJen5" target="_blank">Stenci.la</a> - an emerging platform for writing reproducible manuscripts, but not yet publicly available</li>
+<li><p><a href="https://www.google.com/url?q=https://ctan.org/pkg/noweb?lang%3Den&amp;sa=D&amp;ust=1596500103479000&amp;usg=AOvVaw20hM-ezUT1TfLCiKntvE8U" target="_blank">Noweb</a> - a language-independent tool for literate programming</p>
+</li>
+<li><p><a href="https://www.google.com/url?q=https://crsh.github.io/papaja_man/&amp;sa=D&amp;ust=1596500103479000&amp;usg=AOvVaw07TagehxaD1v4tNeohHxGt" target="_blank">Papaja</a> - an R package for producing manuscripts in APA format</p>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="4_reproducibleanalysis.html" class="navigation navigation-prev " aria-label="Previous page: Reproducible analysis">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="culture.html" class="navigation navigation-next " aria-label="Next page: Joining the culture of open science">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Reproducible manuscripts","level":"1.6","depth":1,"next":{"title":"Joining the culture of open science","level":"1.7","depth":1,"path":"culture.md","ref":"culture.md","articles":[]},"previous":{"title":"Reproducible analysis","level":"1.5","depth":1,"path":"4_reproducibleanalysis.md","ref":"4_reproducibleanalysis.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"5_reproduciblemanuscripts.md","mtime":"2020-08-04T20:34:40.243Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-04T20:35:02.886Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
