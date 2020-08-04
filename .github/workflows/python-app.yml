@@ -30,9 +30,9 @@ jobs:
       run: |
         jb build ./guide
     - name: Publish generated content to GitHub Pages
-        uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
-        with:
-          dir: guide
-          branch: gh-pages
-          token: ${{ secrets.ACCESS_TOKEN }}
+      uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
+      with:
+        dir: guide
+        branch: gh-pages
+        token: ${{ secrets.ACCESS_TOKEN }}
 
