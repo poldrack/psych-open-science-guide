@@ -32,7 +32,7 @@ jobs:
     - name: Publish generated content to GitHub Pages
       uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
       with:
-        source_dir: guide
+        source_dir: guide/_build/html
         branch: gh-pages
         token: ${{ secrets.ACCESS_TOKEN }}
 
