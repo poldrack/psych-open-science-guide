@@ -1,0 +1,11 @@
+# Book settings
+title: Stanford Psychology Guide to Doing Open Science
+author: The Stanford Psychology Department Open Science Community
+copyright: "2020"  # Copyright year to be placed in the footer
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/poldrack/psych-open-science-guide/
+  path_to_book: guide  
+html:
+  use_repository_button: true
+  use_issues_button: true  # Whether to add an "open an issue" button
