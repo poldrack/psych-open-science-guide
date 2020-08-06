@@ -9,3 +9,4 @@ repository:
 html:
   use_repository_button: true
   use_issues_button: true  # Whether to add an "open an issue" button
+  use_edit_page_button: true
