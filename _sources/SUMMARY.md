@@ -7,3 +7,4 @@
 * [Reproducible manuscripts](5_reproduciblemanuscripts.md)
 * [Joining the culture of open science](culture.md)
 * [Basic skills for reproducible research](basicskills.md)
+* [Examples](examples.md)
