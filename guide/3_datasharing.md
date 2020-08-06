@@ -91,7 +91,7 @@ See [here](https://www.google.com/url?q=https://www.openaire.eu/how-to-make-your
 ### Step 3: Determine the most appropriate repository
 
 -   It is best to choose a repository that follows the FAIR principles
--   The repository should provide a persistent identifier for the data (such as a digital object identifier [DOI] or permanent URL [PURL])
+-   The repository should provide a persistent identifier for the data (such as a digital object identifier [DOI] or permanent URL [PURL]).  The identifiers are meant to remain stable over time, making them findable and citable.
     -   The persistent identifier is provided by the repository when the data are deposited
 -   The repository should provide the ability to denote specific versions of the data
     -   This allows the user of the data to specify a particular version used for a particular analysis, and allows the data owner to update the dataset (e.g. to fix problems that are identified or add additional metadata or derived data)
