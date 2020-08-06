@@ -1,6 +1,6 @@
 # psych-open-science-guide
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This is a work in progress!
@@ -32,6 +32,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/shashankbansal6"><img src="https://avatars1.githubusercontent.com/u/17326877?v=4" width="100px;" alt=""/><br /><sub><b>Shashank</b></sub></a><br /><a href="#content-shashankbansal6" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/ihandleyminer"><img src="https://avatars3.githubusercontent.com/u/43686319?v=4" width="100px;" alt=""/><br /><sub><b>ihandleyminer</b></sub></a><br /><a href="#content-ihandleyminer" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/masaba"><img src="https://avatars2.githubusercontent.com/u/9289517?v=4" width="100px;" alt=""/><br /><sub><b>masaba</b></sub></a><br /><a href="#content-masaba" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Cionkito"><img src="https://avatars3.githubusercontent.com/u/43985138?v=4" width="100px;" alt=""/><br /><sub><b>Alex Cionca</b></sub></a><br /><a href="#content-cionkito" title="Content">🖋</a></td>
   </tr>
 </table>
 
