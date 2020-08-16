@@ -38,6 +38,7 @@ It's best to use the repository that is most common in one's particular field of
 
 - [Open Science Framework](https://osf.io/) - the most broadly applicable across social sciences
 - [AsPredicted.org](https://aspredicted.org/) - Primarily used within psychology, provides a simple form to ease registration
+- [PreReg in Psychology](https://prereg-psych.org) - Psychology-specific repository, can be entered for free-of-charge data collection via the Leibniz Institute for Psychology Information
 - [AEA Registry](http://www.socialscienceregistry.org) - Primarily used within economics
 - [EGAP](https://egap.org/registry/) (Political Science mainly) 
 - [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/home) (Medicine / Public Health mainly)  
