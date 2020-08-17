@@ -210,6 +210,16 @@ Docker allows one to generate a system with a single environment that can be reu
 ### General
 
 [Ten Simple Rules for Reproducible Computational Research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)
+
+### Coding practices
+
+- [The Art of Readable Code, by Dustin Boswell and Trevor Foucher](https://learning.oreilly.com/library/view/the-art-of/9781449318482/)
+    - A relatively simple introduction to good practices for writing code
+- [Code Complete (2nd Edition), by Steve McConnell](https://learning.oreilly.com/library/view/code-complete-second/0735619670/)
+- [Clean Code: A Handbook of Agile Software Craftsmanship, by Robert Martin](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/)
+- [Refactoring, by Martin Fowler](https://martinfowler.com/books/refactoring.html)
+
+
 ### Provenance
 
 -   [Provenance tracking](https://www.google.com/url?q=https://rrcns.readthedocs.io/en/latest/provenance_tracking.html&sa=D&ust=1596473422958000&usg=AOvVaw2kEZ0x5dGFBzd4FIOfms84)
