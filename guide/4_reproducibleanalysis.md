@@ -235,3 +235,11 @@ Docker allows one to generate a system with a single environment that can be reu
 ### Tools:
 
 -   [NeuroDocker](https://www.google.com/url?q=https://github.com/ReproNim/neurodocker&sa=D&ust=1596473422959000&usg=AOvVaw0XcWncZZwUYdCi3CZqF8Sj) simplifies the creation of Docker/Singularity recipes
+
+
+### Language-specific resources
+
+#### Python
+
+- [How to make mistakes in Python](https://pythonizame.s3.amazonaws.com/media/Book/how-make-mistakes-python/file/ac5a809e-b019-11e6-ba9c-040196293901.pdf) - an overview of common anti-patterns
+- [Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/)
